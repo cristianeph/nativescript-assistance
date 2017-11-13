@@ -1,0 +1,14 @@
+<StackLayout class="normal-wrapper">
+    <TextField class="input input-border" hint="Ingrese su correo"
+               keyboardType="email"
+               autocorrect="false"
+               autocapitalizationType="none"
+               [(ngModel)]="user.email">
+    </TextField>
+    <TextField hint="Ingrese su contraseña"
+               secure="true"
+               [(ngModel)]="user.password">
+    </TextField>
+    <Button class="btn-blue" text="Ingresar" (tap)="login()"></Button>
+    <Button class="btn-aqua" text="Registrase" (tap)="register()"></Button>
+</StackLayout>

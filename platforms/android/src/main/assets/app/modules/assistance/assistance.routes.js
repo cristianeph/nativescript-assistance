@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var pending_component_1 = require("./pending/pending.component");
+exports.AssistanceRoutes = [
+    {
+        path: '',
+        component: pending_component_1.PendingComponent
+    }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXNzaXN0YW5jZS5yb3V0ZXMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJhc3Npc3RhbmNlLnJvdXRlcy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUNBLGlFQUE2RDtBQUVoRCxRQUFBLGdCQUFnQixHQUFXO0lBQ3BDO1FBQ0ksSUFBSSxFQUFFLEVBQUU7UUFDUixTQUFTLEVBQUUsb0NBQWdCO0tBQzlCO0NBQ0osQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvdXRlcyB9IGZyb20gJ0Bhbmd1bGFyL3JvdXRlcic7XG5pbXBvcnQge1BlbmRpbmdDb21wb25lbnR9IGZyb20gXCIuL3BlbmRpbmcvcGVuZGluZy5jb21wb25lbnRcIjtcblxuZXhwb3J0IGNvbnN0IEFzc2lzdGFuY2VSb3V0ZXM6IFJvdXRlcyA9IFtcbiAgICB7XG4gICAgICAgIHBhdGg6ICcnLFxuICAgICAgICBjb21wb25lbnQ6IFBlbmRpbmdDb21wb25lbnRcbiAgICB9XG5dO1xuIl19

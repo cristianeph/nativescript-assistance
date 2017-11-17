@@ -9,11 +9,11 @@ import {ActivatedRoute} from "@angular/router";
 })
 export class WaitingComponent implements OnInit {
     type: number;
-    titleMessage: string;
+    title: string;
     constructor(private route: ActivatedRoute) {
+        this.title = 'Espere un momento...';
         this.route.params.subscribe(params => {
             this.type = +params['id'];
-            this.titleMessage = 'Contactando a central...'
         });
     }
 

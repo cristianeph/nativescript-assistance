@@ -1,7 +1,8 @@
-<ActionBar title="Solicitar Ayuda">
-    <!--<NavigationButton text="Salir" position="right" android.systemIcon="ic_menu_close_clear_cancel"></NavigationButton>-->
+<!--<ActionBar title="Solicitar Ayuda">
+    &lt;!&ndash;<NavigationButton text="Salir" position="right" android.systemIcon="ic_menu_close_clear_cancel"></NavigationButton>&ndash;&gt;
     <ActionItem android.systemIcon="ic_menu_close_clear_cancel" text="Salir" position="right"></ActionItem>
-</ActionBar>
+</ActionBar>-->
+<app-header [title]="titleMessage" cancel="true"></app-header>
 <TabView>
     <StackLayout *tabItem="{title: 'Grúa'}">
         <!--<Image class="preview-action-image" src="~/images/crane-truck.png" stretch="aspectFit"></Image>-->

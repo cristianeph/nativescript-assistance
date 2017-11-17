@@ -8,6 +8,7 @@ import {LoginComponent} from "./login/login.component";
 import {RegisterComponent} from "./register/register.component";
 import {NativeScriptFormsModule} from "nativescript-angular";
 import {NativeScriptUISideDrawerModule} from "nativescript-pro-ui/sidedrawer/angular";
+import {HeaderComponent} from "./modules/shared/header/header.component";
 
 @NgModule({
     bootstrap: [
@@ -22,7 +23,8 @@ import {NativeScriptUISideDrawerModule} from "nativescript-pro-ui/sidedrawer/ang
     declarations: [
         AppComponent,
         LoginComponent,
-        RegisterComponent
+        RegisterComponent,
+        HeaderComponent
     ],
     providers: [
         {provide: NgModuleFactoryLoader, useClass: NSModuleFactoryLoader}

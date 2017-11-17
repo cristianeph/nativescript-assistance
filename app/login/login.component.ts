@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {User} from "../shared/classes/user.class";
+import {User} from "../classes/user.class";
 import {Router} from "@angular/router";
 import {Page} from "tns-core-modules/ui/page";
 

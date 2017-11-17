@@ -1,6 +1,7 @@
-<ActionBar [title]="titleMessage">
+<!--<ActionBar [title]="titleMessage">
     <ActionItem android.systemIcon="ic_menu_close_clear_cancel" text="Salir" position="right"></ActionItem>
-</ActionBar>
+</ActionBar>-->
+<app-header [title]="title"></app-header>
 <StackLayout>
     <Label class="text-primary" text="En breve confirmaremos su solicitud"></Label>
     <Image *ngIf="type === 1" class="preview-action-image" src="~/images/crane-truck.png" width="150"></Image>

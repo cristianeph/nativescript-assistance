@@ -4,30 +4,38 @@ import {NSModuleFactoryLoader} from "nativescript-angular/router";
 
 import {AppRoutingModule} from "./app-routing.module";
 import {AppComponent} from "./app.component";
-import {LoginComponent} from "./login/login.component";
-import {RegisterComponent} from "./register/register.component";
 import {NativeScriptFormsModule} from "nativescript-angular";
 import {NativeScriptUISideDrawerModule} from "nativescript-pro-ui/sidedrawer/angular";
-import {HeaderComponent} from "./modules/shared/header/header.component";
+import {SharedModule} from "./modules/shared/shared.module";
+import {LoginService} from "./objects/services/login.service";
+import {BusService} from "./objects/services/bus.service";
+
+import {LoginComponent} from "./login/login.component";
+import {RegisterComponent} from "./register/register.component";
+import {RecoveryComponent} from "./recovery/recovery.component";
+import {TrackingService} from "./objects/services/tracking.service";
 
 @NgModule({
     bootstrap: [
         AppComponent
     ],
     imports: [
+        AppRoutingModule,
         NativeScriptModule,
         NativeScriptFormsModule,
-        AppRoutingModule,
-        NativeScriptUISideDrawerModule
+        NativeScriptUISideDrawerModule,
+        SharedModule
     ],
     declarations: [
         AppComponent,
         LoginComponent,
         RegisterComponent,
-        HeaderComponent
+        RecoveryComponent
     ],
     providers: [
-        {provide: NgModuleFactoryLoader, useClass: NSModuleFactoryLoader}
+        TrackingService,
+        LoginService,
+        BusService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

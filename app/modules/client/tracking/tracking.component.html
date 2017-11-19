@@ -1,0 +1,45 @@
+<app-header [title]="title"></app-header>
+<Page (loaded)="pageLoaded()" (unloaded)="pageUnloaded()">
+    <StackLayout>
+        <GridLayout class="list-group" rows="auto" columns="80 , *">
+            <Image class="list-item-image" row="0" col="0"
+                   src="https://pbs.twimg.com/profile_images/839721704163155970/LI_TRk1z_400x400.jpg"
+                   stretch="aspectFit" width="50"></Image>
+            <StackLayout class="list-group-item" row="0" col="1" orientation="vertical">
+                <Label class="list-group-item-heading" text="Perez, Robert"></Label>
+                <Label text="10 / 10"></Label>
+                <Label>
+                    <FormattedString>
+                        <Span text="&#xe9d9;" fontFamily="icomoon" color="gold"></Span>
+                        <Span text="&#xe9d9;" fontFamily="icomoon" color="gold"></Span>
+                        <Span text="&#xe9d9;" fontFamily="icomoon" color="gold"></Span>
+                        <Span text="&#xe9d9;" fontFamily="icomoon" color="gold"></Span>
+                        <Span text="&#xe9d9;" fontFamily="icomoon" color="gold"></Span>
+                    </FormattedString>
+                </Label>
+            </StackLayout>
+        </GridLayout>
+        <StackLayout>
+            <Label class="text-primary" text="Su asistencia ya llegó?"></Label>
+            <Button class="btn-forestgreen" text="Si ya llegó!"></Button>
+        </StackLayout>
+        <StackLayout class="segmented-bar">
+            <Label>
+                <FormattedString>
+                    <Span text="Recorrido del conductor "></Span>
+                    <Span text="&#xe948;" fontFamily="icomoon"></Span>
+                </FormattedString>
+            </Label>
+        </StackLayout>
+        <GridLayout row="*">
+            <ListView [items]="list">
+                <ng-template let-item="item">
+                    <StackLayout class="list-group-item" row="0" col="1" orientation="vertical">
+                        <Label class="list-group-item-heading" [text]="item.address"></Label>
+                        <Label [text]="item.left + 'mins.'"></Label>
+                    </StackLayout>
+                </ng-template>
+            </ListView>
+        </GridLayout>
+    </StackLayout>
+</Page>

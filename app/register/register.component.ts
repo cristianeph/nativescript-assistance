@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {User} from "../classes/user.class";
+import {User} from "../objects/classes/user.class";
 
 @Component({
     moduleId: module.id,

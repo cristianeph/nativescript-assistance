@@ -2,19 +2,19 @@
     &lt;!&ndash;<NavigationButton text="Salir" position="right" android.systemIcon="ic_menu_close_clear_cancel"></NavigationButton>&ndash;&gt;
     <ActionItem android.systemIcon="ic_menu_close_clear_cancel" text="Salir" position="right"></ActionItem>
 </ActionBar>-->
-<app-header [title]="titleMessage" cancel="true"></app-header>
+<app-header [title]="title"></app-header>
 <TabView>
     <StackLayout *tabItem="{title: 'Grúa'}">
         <!--<Image class="preview-action-image" src="~/images/crane-truck.png" stretch="aspectFit"></Image>-->
-        <Image class="preview-action-image" src="~/images/crane-truck.png" width="150"></Image>
-        <Button class="btn-blue" text="Solicitar Grúa" (tap)="requestCrane()"></Button>
+        <Image class="preview-action-image" src="~/assets/images/crane-truck.png" width="150"></Image>
+        <Button class="btn-forestgreen" text="Solicitar Grúa" (tap)="requestCrane()"></Button>
     </StackLayout>
     <StackLayout *tabItem="{title: 'Mecánico'}">
-        <Image class="preview-action-image" src="~/images/automobile-with-wrench.png" width="150"></Image>
-        <Button class="btn-blue" text="Solicitar Mecánico" (tap)="requestMechanic()"></Button>
+        <Image class="preview-action-image" src="~/assets/images/automobile-with-wrench.png" width="150"></Image>
+        <Button class="btn-forestgreen" text="Solicitar Mecánico" (tap)="requestMechanic()"></Button>
     </StackLayout>
     <StackLayout *tabItem="{title: 'Llámanos'}">
-        <Image class="preview-action-image" src="~/images/woman-with-headset.png" width="150"></Image>
-        <Button class="btn-blue" text="Llama a nuestra Central" (tap)="requestCall()"></Button>
+        <Image class="preview-action-image" src="~/assets/images/woman-with-headset.png" width="150"></Image>
+        <Button class="btn-forestgreen" text="Llama a nuestra Central" (tap)="requestCall()"></Button>
     </StackLayout>
 </TabView>

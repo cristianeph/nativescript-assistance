@@ -11,7 +11,7 @@ export class ReportComponent implements OnInit {
     title: string;
 
     constructor(private router: Router) {
-        this.title = 'Solicitar Asistencia';
+        this.title = 'Solicite asistencia';
     }
 
     ngOnInit() {

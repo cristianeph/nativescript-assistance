@@ -1,18 +1,20 @@
 import {NgModule} from "@angular/core";
 import {Routes} from "@angular/router";
 import {NativeScriptRouterModule} from "nativescript-angular/router";
-import {LoginComponent} from "./login/login.component";
-import {RegisterComponent} from "./register/register.component";
 import {NativeScriptModule} from "nativescript-angular/nativescript.module";
 import {NativeScriptFormsModule} from "nativescript-angular";
 import {NativeScriptHttpModule} from "nativescript-angular/http";
 
+import {LoginComponent} from "./login/login.component";
+import {RegisterComponent} from "./register/register.component";
+import {RecoveryComponent} from "./recovery/recovery.component";
+
 const routes: Routes = [
-    {path: "", component: LoginComponent},
+    {path: "", redirectTo: 'login', pathMatch: 'full'},
     {path: "login", component: LoginComponent},
     {path: "register", component: RegisterComponent},
+    {path: "forgot", component: RecoveryComponent},
     {path: "client", loadChildren: () => require("./modules/client/client.module")["ClientModule"]}
-    /*{ path: "client", loadChildren: 'app/modules/client/client.module#ClientModule'}*/
 
 ];
 

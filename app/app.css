@@ -13,14 +13,65 @@ refer to http://docs.nativescript.org/ui/theme.
 .normal-wrapper {
     margin: 10;
 }
+
+.text-danger {
+    color: orange;
+}
+
+.btn-lightgreen {
+    background-color: lightgreen;
+}
+
+.btn-forestgreen {
+    background-color: forestgreen;
+}
+
 .btn-blue {
     background-color: dodgerblue;
 }
+
 .btn-aqua {
     background-color: aqua;
 }
+
+.btn-transparent {
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 1;
+    /*border: 0 solid transparent;*/
+    /*box-shadow: none;*/
+}
+
+.segmented-bar {
+    margin: 10 0;
+    padding: 10;
+    background-color: lightgreen;
+}
+
 .text-primary {
     width: 100%;
     margin: 10;
     text-align: center;
+}
+
+.list-group-item {
+    /*vertical-align: top;*/
+    /*orientation: vertical;*/
+    /*height: 100%;*/
+    padding: 10;
+}
+
+.list-item-image {
+    margin-left: 10;
+}
+
+.list-group-item-btn {
+    text-align: center;
+    padding: 10;
+    margin: 10;
+    border-radius: 5 5;
+}
+
+.list-group-item-heading {
+    font-weight: bold;
 }

@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {User} from "../classes/user.class";
+import {User} from "../objects/classes/user.class";
 import {Router} from "@angular/router";
 import {Page} from "tns-core-modules/ui/page";
 
@@ -11,10 +11,11 @@ import {Page} from "tns-core-modules/ui/page";
 })
 export class LoginComponent implements OnInit {
     user: User;
-
+    title: string;
     constructor(private router: Router,
                 private page: Page) {
         this.user = new User();
+        this.title = 'Bienvenido'
     }
 
     ngOnInit(): void {
@@ -23,13 +24,17 @@ export class LoginComponent implements OnInit {
 
     login() {
         if (this.user.email && this.user.password) {
-            this.router.navigate(["/client/report"],).then(() => {
+            this.router.navigate(["/client/report"]).then(() => {
                 this.page.actionBarHidden = false;
             });
         }
     }
 
     register() {
+        this.router.navigate(["/register"]);
+    }
+
+    forgot() {
         this.router.navigate(["/register"]);
     }
 

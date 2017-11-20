@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {TrackingService} from "../../../objects/services/tracking.service";
-import {Tracking} from "../../../objects/classes/tracking.class";
+import {TrackingService} from "../../../shared/services/tracking.service";
+import {Tracking} from "../../../shared/classes/tracking.class";
 import * as app from "tns-core-modules/application";
 import * as platform from "tns-core-modules/platform";
 
@@ -23,14 +23,12 @@ export class TrackingComponent implements OnInit {
     }
 
     pageLoaded() {
-        console.log('Page loadeeeed!!');
         if (app.android) {
             app.android.on(app.AndroidApplication.activityBackPressedEvent, this.refuseBack);
         }
     }
 
     pageUnloaded() {
-        console.log('Page Unloadeeeed!!');
         if (app.android) {
             app.android.off(app.AndroidApplication.activityBackPressedEvent, this.refuseBack);
         }

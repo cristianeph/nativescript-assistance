@@ -5,5 +5,9 @@ export const AdminRoutes: Routes = [
     {
         path: '',
         component: ValidateComponent
-    }
+    },
+    {
+        path: 'validate',
+        component: ValidateComponent
+    },
 ];

@@ -139,7 +139,7 @@
     <color name="transparent">#00000000</color>
     <color name="view_feedback_item_comments_background">#C8FFFFFF</color>
     <color name="view_feedback_item_text_color">#FF838383</color>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -745,8 +745,8 @@
     <string name="title_activity_send_feedback">Send feedback</string>
     <string name="title_activity_view_feedback">Your feedback</string>
     <string name="title_activity_view_item_feedback">Edit feedback</string>
-    <string name="trial_message">To get access to the latest updates across Android suite and Progress\' dedicated support please purchase a commercial license now.</string>
-    <string name="trial_message_caption">Telerik UI for Android by Progress Trial</string>
+    <string name="trial_message">To get access to the latest updates across Android suite and Telerik\'s dedicated support please purchase a commercial license now.</string>
+    <string name="trial_message_caption">Telerik UI for Android Trial</string>
     <string name="view_feedback_desc">"See what's happening with the feedback you've already sent us."</string>
     <string name="view_feedback_tab_all">ALL</string>
     <string name="view_feedback_tab_open">OPEN</string>

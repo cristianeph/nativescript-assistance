@@ -2,21 +2,70 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
+var login_service_1 = require("../../../shared/services/login.service");
+var assistance_service_1 = require("../../../shared/services/assistance.service");
+var assistance_class_1 = require("../../../shared/classes/assistance.class");
+var worker_service_1 = require("../../../shared/services/worker.service");
+var customer_service_1 = require("../../../shared/services/customer.service");
+var assistance_type_class_1 = require("../../../shared/classes/assistance-type.class");
+var dialogs_1 = require("ui/dialogs");
 var ReportComponent = (function () {
-    function ReportComponent(router) {
+    function ReportComponent(router, loginService, assistanceService, workerService, customerService) {
         this.router = router;
+        this.loginService = loginService;
+        this.assistanceService = assistanceService;
+        this.workerService = workerService;
+        this.customerService = customerService;
         this.title = 'Solicite asistencia';
     }
     ReportComponent.prototype.ngOnInit = function () {
     };
-    ReportComponent.prototype.requestCrane = function () {
-        this.router.navigate(['/client/waiting', 1]);
+    ReportComponent.prototype.getCustomerInfo = function () {
+        var _this = this;
+        console.log('You are already loged => ', JSON.stringify(this.loginService.getUser()));
+        this.user = this.loginService.getUser();
+        this.customerService.find(this.user.id).subscribe(function (data) {
+            if (data) {
+                console.log('Customer info => ', JSON.stringify(data));
+                _this.customerService.setCustomer(data);
+            }
+        }, function (errors) {
+            console.log('Error');
+            console.log(errors);
+            console.log(errors.status);
+        });
     };
-    ReportComponent.prototype.requestMechanic = function () {
-        this.router.navigate(['/client/waiting', 2]);
+    ReportComponent.prototype.pageLoaded = function () {
+        this.getCustomerInfo();
     };
-    ReportComponent.prototype.requestCall = function () {
-        this.router.navigate(['/client/waiting', 3]);
+    ReportComponent.prototype.requestAssitance = function (type) {
+        var _this = this;
+        var options = {
+            message: "Esta seguro que desea hacer la solicitud?",
+            title: "Necesita ayuda?",
+            okButtonText: "Si",
+            cancelButtonText: "No",
+            neutralButtonText: "Cancelar"
+        };
+        dialogs_1.confirm(options).then(function (result) {
+            if (result === true) {
+                _this.registryAssistance(type);
+            }
+        });
+    };
+    ReportComponent.prototype.registryAssistance = function (type) {
+        var _this = this;
+        var assistance = new assistance_class_1.Assistance(null, null, 'test address', 'test address reference', new assistance_type_class_1.AssistanceType(type, null), null, this.customerService.getCustomer(), null, '');
+        console.log('Parsed data => ', JSON.stringify(assistance));
+        this.assistanceService.register(assistance).subscribe(function (data) {
+            console.log('Assistance has been created => ', JSON.stringify(data));
+            _this.assistanceService.setAssistance(data);
+            _this.router.navigate(['/client/waiting', type]);
+        }, function (errors) {
+            console.log('Error');
+            console.log(errors);
+            console.log(errors.status);
+        });
     };
     ReportComponent = __decorate([
         core_1.Component({
@@ -25,9 +74,12 @@ var ReportComponent = (function () {
             templateUrl: './report.component.html',
             styleUrls: ['./report.component.css']
         }),
-        __metadata("design:paramtypes", [router_1.Router])
+        __metadata("design:paramtypes", [router_1.Router,
+            login_service_1.LoginService,
+            assistance_service_1.AssistanceService,
+            worker_service_1.WorkerService,
+            customer_service_1.CustomerService])
     ], ReportComponent);
     return ReportComponent;
 }());
 exports.ReportComponent = ReportComponent;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicmVwb3J0LmNvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInJlcG9ydC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxzQ0FBZ0Q7QUFDaEQsMENBQXVDO0FBUXZDO0lBR0kseUJBQW9CLE1BQWM7UUFBZCxXQUFNLEdBQU4sTUFBTSxDQUFRO1FBQzlCLElBQUksQ0FBQyxLQUFLLEdBQUcscUJBQXFCLENBQUM7SUFDdkMsQ0FBQztJQUVELGtDQUFRLEdBQVI7SUFDQSxDQUFDO0lBRUQsc0NBQVksR0FBWjtRQUNJLElBQUksQ0FBQyxNQUFNLENBQUMsUUFBUSxDQUFDLENBQUMsaUJBQWlCLEVBQUUsQ0FBQyxDQUFDLENBQUMsQ0FBQztJQUNqRCxDQUFDO0lBRUQseUNBQWUsR0FBZjtRQUNJLElBQUksQ0FBQyxNQUFNLENBQUMsUUFBUSxDQUFDLENBQUMsaUJBQWlCLEVBQUUsQ0FBQyxDQUFDLENBQUMsQ0FBQztJQUNqRCxDQUFDO0lBRUQscUNBQVcsR0FBWDtRQUNJLElBQUksQ0FBQyxNQUFNLENBQUMsUUFBUSxDQUFDLENBQUMsaUJBQWlCLEVBQUUsQ0FBQyxDQUFDLENBQUMsQ0FBQztJQUNqRCxDQUFDO0lBcEJRLGVBQWU7UUFOM0IsZ0JBQVMsQ0FBQztZQUNQLFFBQVEsRUFBRSxNQUFNLENBQUMsRUFBRTtZQUNuQixRQUFRLEVBQUUsWUFBWTtZQUN0QixXQUFXLEVBQUUseUJBQXlCO1lBQ3RDLFNBQVMsRUFBRSxDQUFDLHdCQUF3QixDQUFDO1NBQ3hDLENBQUM7eUNBSThCLGVBQU07T0FIekIsZUFBZSxDQXNCM0I7SUFBRCxzQkFBQztDQUFBLEFBdEJELElBc0JDO0FBdEJZLDBDQUFlIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnQsIE9uSW5pdH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQge1JvdXRlcn0gZnJvbSBcIkBhbmd1bGFyL3JvdXRlclwiO1xuXG5AQ29tcG9uZW50KHtcbiAgICBtb2R1bGVJZDogbW9kdWxlLmlkLFxuICAgIHNlbGVjdG9yOiAnYXBwLXJlcG9ydCcsXG4gICAgdGVtcGxhdGVVcmw6ICcuL3JlcG9ydC5jb21wb25lbnQuaHRtbCcsXG4gICAgc3R5bGVVcmxzOiBbJy4vcmVwb3J0LmNvbXBvbmVudC5jc3MnXVxufSlcbmV4cG9ydCBjbGFzcyBSZXBvcnRDb21wb25lbnQgaW1wbGVtZW50cyBPbkluaXQge1xuICAgIHRpdGxlOiBzdHJpbmc7XG5cbiAgICBjb25zdHJ1Y3Rvcihwcml2YXRlIHJvdXRlcjogUm91dGVyKSB7XG4gICAgICAgIHRoaXMudGl0bGUgPSAnU29saWNpdGUgYXNpc3RlbmNpYSc7XG4gICAgfVxuXG4gICAgbmdPbkluaXQoKSB7XG4gICAgfVxuXG4gICAgcmVxdWVzdENyYW5lKCkge1xuICAgICAgICB0aGlzLnJvdXRlci5uYXZpZ2F0ZShbJy9jbGllbnQvd2FpdGluZycsIDFdKTtcbiAgICB9XG5cbiAgICByZXF1ZXN0TWVjaGFuaWMoKSB7XG4gICAgICAgIHRoaXMucm91dGVyLm5hdmlnYXRlKFsnL2NsaWVudC93YWl0aW5nJywgMl0pO1xuICAgIH1cblxuICAgIHJlcXVlc3RDYWxsKCkge1xuICAgICAgICB0aGlzLnJvdXRlci5uYXZpZ2F0ZShbJy9jbGllbnQvd2FpdGluZycsIDNdKTtcbiAgICB9XG5cbn1cbiJdfQ==

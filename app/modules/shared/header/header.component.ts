@@ -1,6 +1,4 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {LoginService} from "../../../objects/services/login.service";
-import {BusService} from "../../../objects/services/bus.service";
 import {Router} from "@angular/router";
 import {confirm} from "ui/dialogs";
 
@@ -29,7 +27,6 @@ export class HeaderComponent implements OnInit {
     }
 
     exit() {
-        console.log('EXxxxIT!!! =qweqweqwewq');
         let options = {
             message: "Esta seguro que desea salir?",
             title: "Quiero salir",

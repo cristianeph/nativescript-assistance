@@ -2,87 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf676a6d-4520-49e8-98a2-f401b181d5c6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo-isotipo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/icomoon.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/objects/classes/tracking.class.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/objects/interfaces/message.interface.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/shared/classes/user.class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tools/assets/appTemplate-android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tools/assets/appTemplate-ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tools/assets/marketplace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tools/assets/thumbnail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/classes/user.class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/classes/user.class.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/images/automobile-with-wrench.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/images/automobile-with-wrench.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/images/crane-truck.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/images/crane-truck.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/images/woman-with-headset.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/images/woman-with-headset.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/user.class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/tools/assets/appTemplate-android.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/tools/assets/appTemplate-ios.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/tools/assets/marketplace.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/tools/assets/thumbnail.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/classes/user.class.js" afterPath="$PROJECT_DIR$/app/objects/classes/user.class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/classes/user.class.ts" afterPath="$PROJECT_DIR$/app/objects/classes/user.class.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/automobile-with-wrench.png" afterPath="$PROJECT_DIR$/app/assets/images/automobile-with-wrench.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/automobile-with-wrench.svg" afterPath="$PROJECT_DIR$/app/assets/images/automobile-with-wrench.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/crane-truck.png" afterPath="$PROJECT_DIR$/app/assets/images/crane-truck.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/crane-truck.svg" afterPath="$PROJECT_DIR$/app/assets/images/crane-truck.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/woman-with-headset.png" afterPath="$PROJECT_DIR$/app/assets/images/woman-with-headset.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/woman-with-headset.svg" afterPath="$PROJECT_DIR$/app/assets/images/woman-with-headset.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-mech.mwb" afterPath="$PROJECT_DIR$/model-mech.mwb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/tsconfig_roots.xml" afterPath="$PROJECT_DIR$/.idea/libraries/tsconfig_roots.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-routing.module.js" afterPath="$PROJECT_DIR$/app/app-routing.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/app/app-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.css" afterPath="$PROJECT_DIR$/app/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.js" afterPath="$PROJECT_DIR$/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.module.ts" afterPath="$PROJECT_DIR$/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login/login.component.html" afterPath="$PROJECT_DIR$/app/login/login.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login/login.component.js" afterPath="$PROJECT_DIR$/app/login/login.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login/login.component.ts" afterPath="$PROJECT_DIR$/app/login/login.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/client.module.js" afterPath="$PROJECT_DIR$/app/modules/client/client.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/client.module.ts" afterPath="$PROJECT_DIR$/app/modules/client/client.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/client.routes.js" afterPath="$PROJECT_DIR$/app/modules/client/client.routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/client.routes.ts" afterPath="$PROJECT_DIR$/app/modules/client/client.routes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/report/report.component.html" afterPath="$PROJECT_DIR$/app/modules/client/report/report.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/report/report.component.js" afterPath="$PROJECT_DIR$/app/modules/client/report/report.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/report/report.component.ts" afterPath="$PROJECT_DIR$/app/modules/client/report/report.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/waiting/waiting.component.html" afterPath="$PROJECT_DIR$/app/modules/client/waiting/waiting.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/waiting/waiting.component.js" afterPath="$PROJECT_DIR$/app/modules/client/waiting/waiting.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/waiting/waiting.component.ts" afterPath="$PROJECT_DIR$/app/modules/client/waiting/waiting.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/shared/header/header.component.html" afterPath="$PROJECT_DIR$/app/modules/shared/header/header.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/shared/header/header.component.js" afterPath="$PROJECT_DIR$/app/modules/shared/header/header.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/shared/header/header.component.ts" afterPath="$PROJECT_DIR$/app/modules/shared/header/header.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/register/register.component.js" afterPath="$PROJECT_DIR$/app/register/register.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/register/register.component.ts" afterPath="$PROJECT_DIR$/app/register/register.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.nsprepareinfo" afterPath="$PROJECT_DIR$/platforms/android/.nsprepareinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app-routing.module.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app-routing.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.css" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.module.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.module.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/login/login.component.html" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/login/login.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/login/login.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/login/login.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/login/login.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/login/login.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.module.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.module.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.routes.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.routes.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/client.routes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.html" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/waiting/waiting.component.html" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/waiting/waiting.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/waiting/waiting.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/waiting/waiting.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/waiting/waiting.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/waiting/waiting.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/shared/header/header.component.html" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/shared/header/header.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/shared/header/header.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/shared/header/header.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/shared/header/header.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/shared/header/header.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/register/register.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/register/register.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/register/register.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/register/register.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -95,40 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tracking.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/modules/client/tracking/tracking.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/login/login.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tracking.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/modules/client/tracking/tracking.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -292,25 +179,24 @@
       <workItem from="1510537148055" duration="308000" />
       <workItem from="1510957181446" duration="1957000" />
       <workItem from="1511048003510" duration="7789000" />
-      <workItem from="1511113321656" duration="5550000" />
+      <workItem from="1511113321656" duration="5641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32048000" />
+    <option name="totallyTimeSpent" value="32139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="778" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26793557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26793557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -658,13 +544,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/client/tracking/tracking.component.ts">
+    <entry file="file://$PROJECT_DIR$/app/modules/client/tracking/tracking.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,11 +560,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/modules/client/tracking/tracking.component.html">
+    <entry file="file://$PROJECT_DIR$/app/modules/client/tracking/tracking.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="54" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="54" />
-          <folding />
+        <state relative-caret-position="302">
+          <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

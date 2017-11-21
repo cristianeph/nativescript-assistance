@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "754439197862",
+    "firebase_url": "https://assistance-fc.firebaseio.com",
+    "project_id": "assistance-fc",
+    "storage_bucket": "assistance-fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754439197862:android:1934e4ad7b40771e",
+        "android_client_info": {
+          "package_name": "com.tns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754439197862-e3e1br21bc63buevarr1ga0vc42e8qm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD_3bC-lIX_DZ6yFkeL2fJQG2w8TMcai4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

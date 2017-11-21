@@ -94,6 +94,11 @@
 /home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/directives/platform-filters.js
 /home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/file-system/ns-file-system.js
 /home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/common/detached-loader.js
+/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-push-notifications/postinstall.js
+/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-push-notifications/preuninstall.js
+/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-push-notifications/push-plugin.js
+/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-push-notifications/hooks/before-prepare.js
+/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-push-notifications/hooks/utils.js
 /home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-pro-ui/scripts/eula-prompt.js
 /home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/utils/types.js

@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/shade_bottom.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/List-2017.1.1030-dev-release/res/drawable/shade_bottom.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/dataform_number_picker_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/dataform_number_picker_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/autocomplete_focusable_bg.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/autocomplete_focusable_bg.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/token_default.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/token_default.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_invalid_icon.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_invalid_icon.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/selectable_item_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/List-2017.1.1030-dev-release/res/drawable/selectable_item_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/notification_bg_low.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/token_selected.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/token_selected.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/shade_corner.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/List-2017.1.1030-dev-release/res/drawable/shade_corner.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/shade_right.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/List-2017.1.1030-dev-release/res/drawable/shade_right.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/tab_view_popup_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Primitives-2017.1.1030-dev-release/res/drawable/tab_view_popup_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/events_popup_bg.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/events_popup_bg.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/notification_bg.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/notification_icon_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_valid_icon.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_valid_icon.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/hamburger.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Primitives-2017.1.1030-dev-release/res/drawable/hamburger.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_vector_test.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_invalid_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_invalid_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_segment_unchecked.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_segment_unchecked.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/autocomplete_default_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/autocomplete_default_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/token_text_color.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/token_text_color.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_segment_item.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_segment_item.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/token_bg.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/token_bg.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_segment_checked.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_segment_checked.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_list_item_states.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_list_item_states.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/pressable_item_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/List-2017.1.1030-dev-release/res/drawable/pressable_item_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/data_form_valid_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Input-2017.1.1030-dev-release/res/drawable/data_form_valid_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/gingerbread_background.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/List-2017.1.1030-dev-release/res/drawable/gingerbread_background.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/drawable/abc_ic_menu_overflow_material.xml"
+    }
+]

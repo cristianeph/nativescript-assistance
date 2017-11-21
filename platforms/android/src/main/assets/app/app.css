@@ -18,6 +18,11 @@ refer to http://docs.nativescript.org/ui/theme.
     color: orange;
 }
 
+.btn-icon {
+    font-family: 'icomoon';
+    margin: 10;
+}
+
 .btn-lightgreen {
     background-color: lightgreen;
 }

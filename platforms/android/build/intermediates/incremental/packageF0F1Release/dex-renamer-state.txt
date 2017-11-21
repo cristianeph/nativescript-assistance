@@ -1,0 +1,4 @@
+#Mon Nov 20 21:49:26 PET 2017
+base.0=/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/transforms/dex/F0F1/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/transforms/dex/F0F1/release/folders/1000/1f/main/classes.dex

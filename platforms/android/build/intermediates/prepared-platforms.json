@@ -9,7 +9,6 @@
     "@angular/router": true,
     "nativescript-angular": true,
     "nativescript-pro-ui": true,
-    "nativescript-theme-core": true,
     "reflect-metadata": true,
     "rxjs": true,
     "tns-core-modules": true,

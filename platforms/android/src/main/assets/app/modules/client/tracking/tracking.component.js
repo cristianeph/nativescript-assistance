@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var tracking_service_1 = require("../../../objects/services/tracking.service");
+var tracking_service_1 = require("../../../shared/services/tracking.service");
 var app = require("tns-core-modules/application");
 var TrackingComponent = (function () {
     function TrackingComponent(trackingService) {
@@ -12,13 +12,11 @@ var TrackingComponent = (function () {
         this.list = this.trackingService.getItems();
     };
     TrackingComponent.prototype.pageLoaded = function () {
-        console.log('Page loadeeeed!!');
         if (app.android) {
             app.android.on(app.AndroidApplication.activityBackPressedEvent, this.refuseBack);
         }
     };
     TrackingComponent.prototype.pageUnloaded = function () {
-        console.log('Page Unloadeeeed!!');
         if (app.android) {
             app.android.off(app.AndroidApplication.activityBackPressedEvent, this.refuseBack);
         }

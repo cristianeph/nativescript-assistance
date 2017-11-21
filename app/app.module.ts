@@ -1,19 +1,24 @@
-import {NgModule, NgModuleFactoryLoader, NO_ERRORS_SCHEMA} from "@angular/core";
+import {NgModule, NO_ERRORS_SCHEMA} from "@angular/core";
 import {NativeScriptModule} from "nativescript-angular/nativescript.module";
-import {NSModuleFactoryLoader} from "nativescript-angular/router";
 
 import {AppRoutingModule} from "./app-routing.module";
 import {AppComponent} from "./app.component";
 import {NativeScriptFormsModule} from "nativescript-angular";
 import {NativeScriptUISideDrawerModule} from "nativescript-pro-ui/sidedrawer/angular";
 import {SharedModule} from "./modules/shared/shared.module";
-import {LoginService} from "./objects/services/login.service";
-import {BusService} from "./objects/services/bus.service";
+import {BusService} from "./shared/services/bus.service";
 
-import {LoginComponent} from "./login/login.component";
-import {RegisterComponent} from "./register/register.component";
-import {RecoveryComponent} from "./recovery/recovery.component";
-import {TrackingService} from "./objects/services/tracking.service";
+import {RegisterComponent} from "./shared/components/register/register.component";
+import {RecoveryComponent} from "./shared/components/recovery/recovery.component";
+import {NativeScriptHttpModule} from "nativescript-angular/http";
+
+import {LoginComponent} from "./shared/components/login/login.component";
+
+import {AssistanceService} from "./shared/services/assistance.service";
+import {CustomerService} from "./shared/services/customer.service";
+import {LoginService} from "./shared/services/login.service";
+import {TrackingService} from "./shared/services/tracking.service";
+import {WorkerService} from "./shared/services/worker.service";
 
 @NgModule({
     bootstrap: [
@@ -24,6 +29,7 @@ import {TrackingService} from "./objects/services/tracking.service";
         NativeScriptModule,
         NativeScriptFormsModule,
         NativeScriptUISideDrawerModule,
+        NativeScriptHttpModule,
         SharedModule
     ],
     declarations: [
@@ -35,7 +41,11 @@ import {TrackingService} from "./objects/services/tracking.service";
     providers: [
         TrackingService,
         LoginService,
-        BusService
+        BusService,
+        AssistanceService,
+        WorkerService,
+        CustomerService,
+        LoginService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

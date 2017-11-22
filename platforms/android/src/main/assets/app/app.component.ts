@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import {Component} from "@angular/core";
 import * as PushNotifications from "nativescript-push-notifications";
 
 @Component({
@@ -7,9 +7,9 @@ import * as PushNotifications from "nativescript-push-notifications";
 })
 export class AppComponent {
 
-    public constructor() {
+    constructor() {
         let settings = {
-            senderID: "AAAAr6gUlKY:APA91bFjzfjeDESu6P2rts6fvaLIr1A-KOx-w_u_VTNfTVqNC16JPwPNXNJp2FT1qclRI3VHGH_xsTLAa0p01hh3Nz2UemnD6-BZFMiriC2IPGFsMSaC2HMWOi8-dPQSR-NiRIyXkNY5",
+            senderID: "754439197862",
             badge: true,
             sound: true,
             alert: true,
@@ -37,7 +37,6 @@ export class AppComponent {
                 console.log("DATA: " + JSON.stringify(data));
             },
             notificationCallbackAndroid: (message, data, notification) => {
-                console.log("Recibiendo notificacion => :::");
                 console.log("MESSAGE: " + JSON.stringify(message));
                 console.log("DATA: " + JSON.stringify(data));
                 console.log("NOTIFICATION: " + JSON.stringify(notification));

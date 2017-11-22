@@ -2,7 +2,7 @@ package com.tns;
 
 import android.app.Application;
 
-public class NativeScriptApplication extends Application {
+public class NativeScriptApplication extends android.app.Application {
 
     private static NativeScriptApplication thiz;
 

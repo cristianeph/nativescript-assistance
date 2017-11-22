@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:754439197862:android:1934e4ad7b40771e",
+        "mobilesdk_app_id": "1:754439197862:android:ce043c29cccc5da0",
         "android_client_info": {
-          "package_name": "com.tns"
+          "package_name": "org.nativescript.Assistance"
         }
       },
       "oauth_client": [

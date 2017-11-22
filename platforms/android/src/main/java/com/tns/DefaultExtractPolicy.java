@@ -70,7 +70,7 @@ public class DefaultExtractPolicy implements ExtractPolicy {
             int code = packageInfo.versionCode;
             long updateTime = packageInfo.lastUpdateTime;
             return String.valueOf(updateTime) + "-" + String.valueOf(code);
-        } catch (NameNotFoundException e) {
+        } catch (PackageManager.NameNotFoundException e) {
             logger.write("Error while getting current assets thumb");
             e.printStackTrace();
         }

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/icon.png",
+        "source": "/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/background.png",
+        "source": "/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/res/drawable-xxxhdpi/background.png"
+    },
+    {
+        "merged": "/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/build/intermediates/res/merged/F0F1F2/debug/drawable-xxxhdpi/logo.png",
+        "source": "/home/cperalta/Documentos/workspace-tns/tns-assistance/platforms/android/src/main/res/drawable-xxxhdpi/logo.png"
+    }
+]

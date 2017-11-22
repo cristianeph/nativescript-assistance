@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">754439197862-e3e1br21bc63buevarr1ga0vc42e8qm8.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://assistance-fc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">754439197862</string>
+    <string name="google_api_key" translatable="false">AIzaSyCD_3bC-lIX_DZ6yFkeL2fJQG2w8TMcai4</string>
+    <string name="google_app_id" translatable="false">1:754439197862:android:ce043c29cccc5da0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCD_3bC-lIX_DZ6yFkeL2fJQG2w8TMcai4</string>
+    <string name="google_storage_bucket" translatable="false">assistance-fc.appspot.com</string>
+    <string name="project_id" translatable="false">assistance-fc</string>
+</resources>

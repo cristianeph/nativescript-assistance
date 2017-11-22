@@ -1,7 +1,7 @@
 android {
 	productFlavors {
-		"nativescript-pro-ui" {
-			dimension "nativescript-pro-ui"
+		"F2" {
+			dimension "nativescriptproui"
 		}
 	}
 }

@@ -1,0 +1,68 @@
+{
+  "_from": "nativescript-push-notifications",
+  "_id": "nativescript-push-notifications@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-qFo9eqqvq0DmRO4/ppTi+9WPCpU=",
+  "_location": "/nativescript-push-notifications",
+  "_phantomChildren": {
+    "glob": "6.0.4",
+    "mkdirp": "0.5.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-push-notifications",
+    "name": "nativescript-push-notifications",
+    "escapedName": "nativescript-push-notifications",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-push-notifications/-/nativescript-push-notifications-0.1.5.tgz",
+  "_shasum": "a85a3d7aaaafab40e644ee3fa694e2fbd58f0a95",
+  "_spec": "nativescript-push-notifications",
+  "_where": "/home/cperalta/Documentos/workspace-tns/tns-assistance",
+  "author": {
+    "name": "NativeScript Team"
+  },
+  "bugs": {
+    "url": "https://github.com/NativeScript/push-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "nativescript-hook": "0.2.1"
+  },
+  "deprecated": false,
+  "description": "The code for the Push Plugin for NativeScript.",
+  "homepage": "https://github.com/NativeScript/push-plugin#readme",
+  "license": "Apache-2.0",
+  "main": "push-plugin",
+  "name": "nativescript-push-notifications",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    },
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "hooks/before-prepare.js",
+        "inject": true
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NativeScript/push-plugin.git"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js"
+  },
+  "typings": "./definitions.d.ts",
+  "version": "0.1.5"
+}

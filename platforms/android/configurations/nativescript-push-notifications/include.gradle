@@ -4,8 +4,8 @@ android {
     }
 
     productFlavors {
-        "nativescript-push-notifications" {
-            dimension "nativescript-push-notifications"
+        "F1" {
+            dimension "nativescriptpushnotifications"
         }
     }
 }

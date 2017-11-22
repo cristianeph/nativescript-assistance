@@ -1,5 +1,6 @@
 import {Component} from "@angular/core";
 import * as PushNotifications from "nativescript-push-notifications";
+import * as app from 'application';
 
 @Component({
     selector: "ns-app",
@@ -47,6 +48,15 @@ export class AppComponent {
             PushNotifications.onMessageReceived(settings.notificationCallbackAndroid);
         }, error => {
             console.log(error);
+        });
+        app.on(app.resumeEvent, args => {
+            if(args.android) {
+                let intent = (args.android).getIntent();
+                let extras = intent.getExtras();
+                console.log('TEST =>', JSON.stringify(extras));
+                console.log('TEST =>', extras.get("test"));
+                console.log('TEST =>', extras.get("testdata"));
+            }
         });
     }
 

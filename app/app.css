@@ -11,7 +11,11 @@ refer to http://docs.nativescript.org/ui/theme.
 */
 /*@import 'nativescript-theme-core/css/core.light.css';*/
 .normal-wrapper {
-    margin: 10;
+    margin: 20;
+}
+
+.input-lucid {
+    background-color: white;
 }
 
 .text-danger {

@@ -1,0 +1,8 @@
+.login-page {
+    background-image: url("~/assets/images/main-photo.jpg");
+    background-size: cover;
+}
+
+.input-lucid {
+    margin-bottom: 10;
+}

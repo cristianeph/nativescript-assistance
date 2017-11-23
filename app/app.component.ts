@@ -38,7 +38,7 @@ export class AppComponent {
                 console.log("DATA: " + JSON.stringify(data));
             },
             notificationCallbackAndroid: (message, data, notification) => {
-                console.log("MESSAGE: " + JSON.stringify(message));
+                /*console.log("MESSAGE: " + JSON.stringify(message));*/
                 console.log("DATA: " + JSON.stringify(data));
                 console.log("NOTIFICATION: " + JSON.stringify(notification));
             }
@@ -47,13 +47,15 @@ export class AppComponent {
             console.log("REGISTRATION ID: " + JSON.stringify(data));
             PushNotifications.onMessageReceived(settings.notificationCallbackAndroid);
         }, error => {
+            console.log("ERROR")
             console.log(error);
         });
         app.on(app.resumeEvent, args => {
+            console.log("Saltando desde background");
             if(args.android) {
                 let intent = (args.android).getIntent();
                 let extras = intent.getExtras();
-                console.log('TEST =>', JSON.stringify(extras));
+                /*console.log('TEST =>', JSON.stringify(extras));*/
                 console.log('TEST =>', extras.get("test"));
                 console.log('TEST =>', extras.get("testdata"));
             }

@@ -1,22 +1,22 @@
-<Page>
+<Page class="login-page">
     <StackLayout>
         <StackLayout class="normal-wrapper">
             <Image class="preview-action-image" src="~/assets/images/logo-isotipo.png" width="150"></Image>
-            <TextField class="input input-border" hint="Ingrese su correo"
+            <TextField class="input-lucid" hint="Ingrese su correo"
                        keyboardType="email"
                        autocorrect="false"
                        autocapitalizationType="none"
                        [(ngModel)]="user.email">
             </TextField>
-            <TextField hint="Ingrese su contraseña"
+            <TextField class="input-lucid" hint="Ingrese su contraseña"
                        secure="true"
                        [(ngModel)]="user.password">
             </TextField>
         </StackLayout>
-        <StackLayout *ngIf="loginErrors === true" class="normal-wrapper">
+        <StackLayout class="normal-wrapper" *ngIf="loginErrors === true">
             <Label class="text-danger" text="Los datos ingresados son inválidos, intente nuevamente"></Label>
         </StackLayout>
-        <StackLayout>
+        <StackLayout class="normal-wrapper">
             <Button class="btn-forestgreen" text="Ingresar" (tap)="login()"></Button>
             <Button class="btn-lightgreen" text="Registrase" (tap)="register()"></Button>
             <Button class="btn-transparent text-danger" text="Se olvidó la contraseña?" (tap)="forgot()"></Button>

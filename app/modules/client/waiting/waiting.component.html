@@ -1,10 +1,15 @@
 <!--<ActionBar [title]="titleMessage">
     <ActionItem android.systemIcon="ic_menu_close_clear_cancel" text="Salir" position="right"></ActionItem>
 </ActionBar>-->
-<app-header [title]="title"></app-header>
-<StackLayout>
-    <Label class="text-primary" text="En breve confirmaremos su solicitud"></Label>
-    <Image *ngIf="type === 1" class="preview-action-image" src="~/assets/images/crane-truck.png" width="150"></Image>
-    <Image *ngIf="type === 2" class="preview-action-image" src="~/assets/images/automobile-with-wrench.png" width="150"></Image>
-    <Image *ngIf="type === 3" class="preview-action-image" src="~/assets/images/woman-with-headset.png" width="150"></Image>
-</StackLayout>
+<Page>
+    <app-header [title]="title"></app-header>
+    <StackLayout>
+        <Label class="text-primary" text="En breve confirmaremos su solicitud"></Label>
+        <Image *ngIf="type === 1" class="preview-action-image" src="~/assets/images/crane-truck.png"
+               width="150"></Image>
+        <Image *ngIf="type === 2" class="preview-action-image" src="~/assets/images/automobile-with-wrench.png"
+               width="150"></Image>
+        <Image *ngIf="type === 3" class="preview-action-image" src="~/assets/images/woman-with-headset.png"
+               width="150"></Image>
+    </StackLayout>
+</Page>

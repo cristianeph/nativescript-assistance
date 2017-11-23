@@ -19,6 +19,7 @@ import {CustomerService} from "./shared/services/customer.service";
 import {LoginService} from "./shared/services/login.service";
 import {TrackingService} from "./shared/services/tracking.service";
 import {WorkerService} from "./shared/services/worker.service";
+import {UserService} from "./shared/services/user.service";
 
 @NgModule({
     bootstrap: [
@@ -45,7 +46,8 @@ import {WorkerService} from "./shared/services/worker.service";
         AssistanceService,
         WorkerService,
         CustomerService,
-        LoginService
+        LoginService,
+        UserService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

@@ -21,8 +21,14 @@ export class LoginComponent implements OnInit {
         this.title = 'Bienvenido';
     }
 
-    ngOnInit(): void {
+    ngOnInit() {
+    }
+
+    pageLoaded() {
         this.page.actionBarHidden = true;
+        this.router.navigate(["/client/tracking", 1]).then(() => {
+            this.page.actionBarHidden = false;
+        });
     }
 
     login() {

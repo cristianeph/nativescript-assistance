@@ -27,12 +27,17 @@ refer to http://docs.nativescript.org/ui/theme.
     margin: 10;
 }
 
+.btn-whitesmoke {
+    background-color: whitesmoke;
+}
+
 .btn-lightgreen {
     background-color: lightgreen;
 }
 
 .btn-forestgreen {
     background-color: forestgreen;
+    color: white;
 }
 
 .btn-blue {
@@ -79,6 +84,14 @@ refer to http://docs.nativescript.org/ui/theme.
     padding: 10;
     margin: 10;
     border-radius: 5 5;
+}
+
+.list-group-item-btn-icon {
+    text-align: center;
+    border-radius: 150;
+    height: 40;
+    margin: 0 5 0 10;
+    font-size: 23;
 }
 
 .list-group-item-heading {

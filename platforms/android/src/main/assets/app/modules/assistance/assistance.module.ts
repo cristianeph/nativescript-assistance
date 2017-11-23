@@ -5,8 +5,10 @@ import {NativeScriptFormsModule} from 'nativescript-angular/forms';
 import {NativeScriptRouterModule} from 'nativescript-angular';
 
 import {AssistanceRoutes} from './assistance.routes';
-import {PendingComponent} from "./pending/pending.component";
 import {SharedModule} from "../shared/shared.module";
+
+import {PendingComponent} from "./pending/pending.component";
+import {AssistComponent} from "./assist/assist.component";
 
 @NgModule({
     imports: [
@@ -16,7 +18,8 @@ import {SharedModule} from "../shared/shared.module";
         SharedModule
     ],
     declarations: [
-        PendingComponent
+        PendingComponent,
+        AssistComponent
     ],
     schemas: [
         NO_ERRORS_SCHEMA

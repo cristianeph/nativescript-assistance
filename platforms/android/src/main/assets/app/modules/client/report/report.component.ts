@@ -30,6 +30,10 @@ export class ReportComponent implements OnInit {
     ngOnInit() {
     }
 
+    pageLoaded() {
+        this.getCustomerInfo();
+    }
+
     getCustomerInfo() {
         console.log('You are already loged => ', JSON.stringify(this.loginService.getUser()));
         this.user = this.loginService.getUser();
@@ -48,10 +52,6 @@ export class ReportComponent implements OnInit {
         );
     }
 
-    pageLoaded() {
-        this.getCustomerInfo();
-    }
-
     requestAssitance(type: number) {
         let options = {
             message: "Esta seguro que desea hacer la solicitud?",
@@ -68,6 +68,7 @@ export class ReportComponent implements OnInit {
     }
 
     registryAssistance(type: number) {
+        console.log('El cliente que registrara la incidencia es => ', JSON.stringify(this.customerService.getCustomer()));
         const assistance = new Assistance(
             null,
             null,

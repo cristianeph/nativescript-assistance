@@ -6,6 +6,7 @@ export class Customer {
     active: boolean;
     user: User;
     spend: number;
+    fcm: string;
     constructor(id: number,
                 stars: number,
                 active: boolean,

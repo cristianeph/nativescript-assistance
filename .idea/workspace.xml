@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91372acd-7998-4441-87fc-1aedc1087534" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/shared/classes/firebase-data.class.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/shared/classes/firebase-notification.class.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/shared/classes/firebase-post.class.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js" afterPath="$PROJECT_DIR$/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.ts" afterPath="$PROJECT_DIR$/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/report/report.component.js" afterPath="$PROJECT_DIR$/app/modules/client/report/report.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/report/report.component.ts" afterPath="$PROJECT_DIR$/app/modules/client/report/report.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/classes/customer.class.js" afterPath="$PROJECT_DIR$/app/shared/classes/customer.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/classes/customer.class.ts" afterPath="$PROJECT_DIR$/app/shared/classes/customer.class.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/classes/user.class.js" afterPath="$PROJECT_DIR$/app/shared/classes/user.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/login/login.component.js" afterPath="$PROJECT_DIR$/app/shared/components/login/login.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/login/login.component.ts" afterPath="$PROJECT_DIR$/app/shared/components/login/login.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/register/register.component.js" afterPath="$PROJECT_DIR$/app/shared/components/register/register.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/register/register.component.ts" afterPath="$PROJECT_DIR$/app/shared/components/register/register.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/services/customer.service.js" afterPath="$PROJECT_DIR$/app/shared/services/customer.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/services/customer.service.ts" afterPath="$PROJECT_DIR$/app/shared/services/customer.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.nsprepareinfo" afterPath="$PROJECT_DIR$/platforms/android/.nsprepareinfo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/user.class.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/user.class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,17 +46,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/shared/components/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/shared/services/customer.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/modules/client/report/report.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="828">
+              <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="18">
+              <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.post</find>
+      <find>&quot;local-token&quot;</find>
+      <find>token</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +118,17 @@
       <list>
         <option value="$PROJECT_DIR$/app/app.module.ts" />
         <option value="$PROJECT_DIR$/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/shared/services/firebase.service.ts" />
+        <option value="$PROJECT_DIR$/app/shared/classes/FirebaseNotification.ts" />
+        <option value="$PROJECT_DIR$/app/shared/classes/firebase-data.class.ts" />
+        <option value="$PROJECT_DIR$/app/shared/classes/firebase.class.ts" />
+        <option value="$PROJECT_DIR$/app/shared/services/customer.service.ts" />
+        <option value="$PROJECT_DIR$/app/shared/components/register/register.component.ts" />
+        <option value="$PROJECT_DIR$/app/modules/client/report/report.component.ts" />
+        <option value="$PROJECT_DIR$/app/shared/classes/customer.class.ts" />
+        <option value="$PROJECT_DIR$/app/shared/classes/user.class.ts" />
         <option value="$PROJECT_DIR$/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/app/shared/components/login/login.component.ts" />
       </list>
     </option>
   </component>
@@ -46,11 +138,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="y" value="-11" />
-    <option name="width" value="1442" />
-    <option name="height" value="912" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="24" />
+    <option name="width" value="1440" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -81,6 +172,47 @@
               <item name="Assistance" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Assistance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assistance" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assistance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assistance" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assistance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assistance" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assistance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assistance" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assistance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assistance" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assistance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Assistance" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -92,10 +224,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/shared/services" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/shared/services" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/App_Resources/Android" />
       <recent name="$PROJECT_DIR$/app" />
@@ -123,31 +259,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511547395245</updated>
-      <workItem from="1511547399871" duration="3227000" />
+      <workItem from="1511547399871" duration="9795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3227000" />
+    <option name="totallyTimeSpent" value="9795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1442" height="912" extended-state="6" />
+    <frame x="0" y="24" width="1440" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3303226" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34270415" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -187,6 +324,13 @@
         <option value="$PROJECT_DIR$/app/app.component.js" />
         <option value="$PROJECT_DIR$/app/app-routing.module.js" />
         <option value="$PROJECT_DIR$/platforms/android/src/main/assets/app/app-routing.module.js" />
+        <option value="$PROJECT_DIR$/app/shared/classes/firebase-post.class.js" />
+        <option value="$PROJECT_DIR$/app/shared/classes/firebase-notification.class.js" />
+        <option value="$PROJECT_DIR$/app/shared/classes/firebase-data.class.js" />
+        <option value="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/firebase-post.class.js" />
+        <option value="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/firebase-notification.class.js" />
+        <option value="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/firebase-data.class.js" />
+        <option value="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/firebase.service.js" />
       </list>
     </option>
   </component>
@@ -224,14 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -256,11 +392,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/classes/firebase-notification.class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/classes/firebase-data.class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/classes/firebase-post.class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#67#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/services/firebase.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/components/register/register.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="74" lean-forward="false" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/services/bus.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/services/login.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/classes/customer.class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19217" column="10" lean-forward="false" selection-start-line="19217" selection-start-column="10" selection-end-line="19217" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/classes/user.class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/services/customer.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/modules/client/report/report.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="18">
+          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shared/components/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

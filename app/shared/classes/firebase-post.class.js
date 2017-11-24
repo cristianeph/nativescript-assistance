@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var FirebasePost = (function () {
+    function FirebasePost() {
+    }
+    return FirebasePost;
+}());
+exports.FirebasePost = FirebasePost;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZmlyZWJhc2UtcG9zdC5jbGFzcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImZpcmViYXNlLXBvc3QuY2xhc3MudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFHQTtJQUFBO0lBSUEsQ0FBQztJQUFELG1CQUFDO0FBQUQsQ0FBQyxBQUpELElBSUM7QUFKWSxvQ0FBWSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7RmlyZWJhc2VOb3RpZmljYXRpb259IGZyb20gXCIuL2ZpcmViYXNlLW5vdGlmaWNhdGlvbi5jbGFzc1wiO1xuaW1wb3J0IHtGaXJlYmFzZURhdGF9IGZyb20gXCIuL2ZpcmViYXNlLWRhdGEuY2xhc3NcIjtcblxuZXhwb3J0IGNsYXNzIEZpcmViYXNlUG9zdCB7XG4gICAgdG86IFN0cmluZztcbiAgICBub3RpZmljYXRpb246IEZpcmViYXNlTm90aWZpY2F0aW9uO1xuICAgIGRhdGE6IEZpcmViYXNlRGF0YTtcbn0iXX0=

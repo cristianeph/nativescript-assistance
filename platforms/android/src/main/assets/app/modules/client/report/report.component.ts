@@ -50,9 +50,7 @@ export class ReportComponent implements OnInit {
                 }
             },
             errors => {
-                console.log('Error');
-                console.log(errors);
-                console.log(errors.status);
+                console.log('Error', errors, errors.status);
             }
         );
     }

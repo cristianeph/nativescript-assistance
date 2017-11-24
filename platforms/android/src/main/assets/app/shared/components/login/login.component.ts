@@ -3,6 +3,16 @@ import {User} from "../../classes/user.class";
 import {Router} from "@angular/router";
 import {Page} from "tns-core-modules/ui/page";
 import {LoginService} from "../../services/login.service";
+import {BusService} from "../../services/bus.service";
+import {Customer} from "../../classes/customer.class";
+import {Worker} from "../../classes/worker.class";
+import {
+    getString,
+    setString,
+    hasKey,
+    remove,
+    clear
+} from "application-settings";
 
 @Component({
     moduleId: module.id,
@@ -10,38 +20,44 @@ import {LoginService} from "../../services/login.service";
     templateUrl: './login.component.html',
     styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
     user: User;
     title: string;
+    worker: Worker;
+    customer: Customer;
     loginErrors: boolean;
+    firebaseToken: string;
+
     constructor(private router: Router,
                 private page: Page,
-                private loginService: LoginService) {
+                private loginService: LoginService,
+                private busService: BusService) {
         this.user = new User(null, '', '', null, null, '', '', null);
         this.title = 'Bienvenido';
     }
 
-    ngOnInit() {
-    }
-
     pageLoaded() {
+        this.obtainToken();
         this.page.actionBarHidden = true;
         /*this.router.navigate(["/client/tracking", 1]).then(() => {
             this.page.actionBarHidden = false;
         });*/
     }
 
+    obtainToken() {
+        getString("user-token");
+    }
+
     login() {
         if (this.user.email && this.user.password) {
             console.log('requesting login ...');
-            this.loginService.login(new User(null, this.user.email, this.user.password, null, null, '', '', null)).subscribe(
+            this.loginService.login(this.user).subscribe(
                 data => {
                     if (data) {
                         console.log('Login successfull user id => ', data.id);
                         console.log('Login successfull user fullnames => ', data.firstnames, data.lastnames);
-                        this.loginService.setUser(
-                            new User(data.id, data.email, '', data.from, data.until, data.firstnames, data.lastnames, data.userType)
-                        );
+                        this.user = data;
+                        this.loginService.setUser(this.user);
                         if (data.userType.id === 1) { //ADMIN
                             this.router.navigate(["/admin/validate"]).then(() => {
                                 this.page.actionBarHidden = false;

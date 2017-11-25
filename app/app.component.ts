@@ -37,8 +37,7 @@ export class AppComponent {
                 persist: false,
                 onAuthStateChanged: (data: any) => {
                     console.log("FIREBASE => State => ", JSON.stringify(data))
-                    /*if (data.loggedIn) {
-                        BackendService.token = data.user.uid;
+                    /*if (data.loggedIn) { BackendService.token = data.user.uid;
                     } else {BackendService.token = "";}*/
                 }
             }).then(

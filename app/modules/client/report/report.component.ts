@@ -7,7 +7,15 @@ import {WorkerService} from "../../../shared/services/worker.service";
 import {CustomerService} from "../../../shared/services/customer.service";
 import {User} from "../../../shared/classes/user.class";
 import {AssistanceType} from "../../../shared/classes/assistance-type.class";
-import {confirm} from "ui/dialogs";
+import * as dialogs from "ui/dialogs";
+import {
+    getString,
+    setString,
+    hasKey,
+    remove,
+    clear
+} from "application-settings";
+
 /*import {
     isEnabled,
     enableLocationRequest,
@@ -45,8 +53,15 @@ export class ReportComponent implements OnInit {
         this.customerService.find(this.user.id).subscribe(
             data => {
                 if (data) {
-                    console.log('Customer info => ', JSON.stringify(data));
-                    this.customerService.setCustomer(data);
+                    let customer = data;
+                    customer.fcm = getString("user-token");
+                    console.log('Customer info => ', JSON.stringify(customer));
+                    this.customerService.setCustomer(customer);
+                    this.customerService.updateToken(customer).subscribe(
+                        data => {
+                            console.log('Customer token updated => ', JSON.stringify(data));
+                        }
+                    );
                 }
             },
             errors => {
@@ -63,21 +78,36 @@ export class ReportComponent implements OnInit {
             cancelButtonText: "No",
             neutralButtonText: "Cancelar"
         };
-        confirm(options).then((result: boolean) => {
+        let promptOptions = {
+            title: "Ingrese una referencia de su dirección",
+            message: "Detalle la referencia:",
+            cancelButtonText: "Cancelar",
+            okButtonText: "OK",
+            inputType: dialogs.inputType.text
+        };
+        dialogs.confirm(options).then((result: boolean) => {
             if (result === true) {
-                this.getCurrentLocation();
-                this.registryAssistance(type);
+                dialogs.prompt(promptOptions)
+                    .then((promptResult) => {
+                        if (promptResult.result) {
+                            console.log("Dialog result: ", promptResult.text);
+                            this.registryAssistance(type, promptResult.text);
+                        } else {
+                            console.log("Se cancelo la operacion")
+                        }
+                    });
             }
         });
     }
 
-    registryAssistance(type: number) {
+    registryAssistance(type: number, reference: string) {
+        console.log('El tipo de asistencia es =>  ', type);
         console.log('El cliente que registrara la incidencia es => ', JSON.stringify(this.customerService.getCustomer()));
         const assistance = new Assistance(
             null,
             null,
             'test address',
-            'test address reference',
+            reference,
             new AssistanceType(type, null),
             null,
             this.customerService.getCustomer(),

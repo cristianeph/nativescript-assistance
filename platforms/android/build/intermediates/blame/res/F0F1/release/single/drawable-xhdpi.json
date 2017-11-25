@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance-rebase/platforms/android/build/intermediates/res/merged/F0F1/release/drawable-xhdpi/logo.png",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance-rebase/platforms/android/src/main/res/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance-rebase/platforms/android/build/intermediates/res/merged/F0F1/release/drawable-xhdpi/background.png",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance-rebase/platforms/android/src/main/res/drawable-xhdpi/background.png"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance-rebase/platforms/android/build/intermediates/res/merged/F0F1/release/drawable-xhdpi/icon.png",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance-rebase/platforms/android/src/main/res/drawable-xhdpi/icon.png"
+    }
+]

@@ -11,7 +11,7 @@ export class RegisterComponent implements OnInit {
     newUser: User;
 
     constructor() {
-        this.newUser = new User(null, '', '', null, null, '', '', null, '');
+        this.newUser = new User(null, '', '', null, null, '', '', null);
     }
 
     ngOnInit() {

@@ -1,7 +1,12 @@
 <Page class="login-page" (loaded)="pageLoaded()">
     <StackLayout>
-        <StackLayout class="normal-wrapper">
+        <StackLayout>
             <Image class="preview-action-image" src="~/assets/images/logo-isotipo.png" width="150"></Image>
+        </StackLayout>
+        <StackLayout class="segmented-bar normal-wrapper" [visibility]="loginErrors ? 'visible' : 'hidden'">
+            <Label class="text-errors" text="Los datos ingresados no son válidos, intente nuevamente"></Label>
+        </StackLayout>
+        <StackLayout class="normal-wrapper">
             <TextField class="input-lucid" hint="Ingrese su correo"
                        keyboardType="email"
                        autocorrect="false"
@@ -12,9 +17,6 @@
                        secure="true"
                        [(ngModel)]="user.password">
             </TextField>
-        </StackLayout>
-        <StackLayout class="normal-wrapper" *ngIf="loginErrors === true">
-            <Label class="text-danger" text="Los datos ingresados son inválidos, intente nuevamente"></Label>
         </StackLayout>
         <StackLayout class="normal-wrapper">
             <Button class="btn-forestgreen" text="Ingresar" (tap)="login()"></Button>

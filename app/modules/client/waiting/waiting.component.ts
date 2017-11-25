@@ -16,9 +16,9 @@ export class WaitingComponent implements OnInit {
         this.route.params.subscribe(params => {
             this.type = +params['id'];
             console.log(this.type);
-            setTimeout(() => {
+            /*setTimeout(() => {
                 this.router.navigate(["/client/tracking", 1009]);
-            }, 4000)
+            }, 4000)*/
         });
     }
 

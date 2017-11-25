@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91372acd-7998-4441-87fc-1aedc1087534" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/shared/classes/firebase-data.class.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/shared/classes/firebase-notification.class.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/shared/classes/firebase-post.class.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js" afterPath="$PROJECT_DIR$/app/app.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.ts" afterPath="$PROJECT_DIR$/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/report/report.component.js" afterPath="$PROJECT_DIR$/app/modules/client/report/report.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/modules/client/report/report.component.ts" afterPath="$PROJECT_DIR$/app/modules/client/report/report.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/classes/customer.class.js" afterPath="$PROJECT_DIR$/app/shared/classes/customer.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/classes/customer.class.ts" afterPath="$PROJECT_DIR$/app/shared/classes/customer.class.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/classes/user.class.js" afterPath="$PROJECT_DIR$/app/shared/classes/user.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/login/login.component.js" afterPath="$PROJECT_DIR$/app/shared/components/login/login.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/login/login.component.ts" afterPath="$PROJECT_DIR$/app/shared/components/login/login.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/register/register.component.js" afterPath="$PROJECT_DIR$/app/shared/components/register/register.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/components/register/register.component.ts" afterPath="$PROJECT_DIR$/app/shared/components/register/register.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/services/customer.service.js" afterPath="$PROJECT_DIR$/app/shared/services/customer.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/shared/services/customer.service.ts" afterPath="$PROJECT_DIR$/app/shared/services/customer.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.nsprepareinfo" afterPath="$PROJECT_DIR$/platforms/android/.nsprepareinfo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/modules/client/report/report.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/customer.class.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/user.class.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/classes/user.class.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/login/login.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/components/register/register.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.js" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.ts" afterPath="$PROJECT_DIR$/platforms/android/src/main/assets/app/shared/services/customer.service.ts" />
-    </list>
+    <list default="true" id="91372acd-7998-4441-87fc-1aedc1087534" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/app/shared/components/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
-              <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+              <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -86,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
-              <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+              <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -259,16 +227,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511547395245</updated>
-      <workItem from="1511547399871" duration="9795000" />
+      <workItem from="1511547399871" duration="9857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9795000" />
+    <option name="totallyTimeSpent" value="9857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24982357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -278,7 +245,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34270415" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34270415" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -511,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -521,7 +488,7 @@
     <entry file="file://$PROJECT_DIR$/app/shared/components/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
-          <caret line="58" column="41" lean-forward="true" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+          <caret line="58" column="41" lean-forward="false" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>

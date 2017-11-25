@@ -16,6 +16,7 @@ import {SharedModule} from "./modules/shared/shared.module";
 import {LoginComponent} from "./shared/components/login/login.component";
 import {RegisterComponent} from "./shared/components/register/register.component";
 import {RecoveryComponent} from "./shared/components/recovery/recovery.component";
+import {FirebaseService} from "./shared/services/firebase.service";
 
 @NgModule({
     bootstrap: [AppComponent],
@@ -34,14 +35,14 @@ import {RecoveryComponent} from "./shared/components/recovery/recovery.component
         RecoveryComponent
     ],
     providers: [
-        TrackingService,
-        LoginService,
-        BusService,
         AssistanceService,
-        WorkerService,
+        BusService,
         CustomerService,
+        FirebaseService,
         LoginService,
-        UserService
+        TrackingService,
+        UserService,
+        WorkerService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

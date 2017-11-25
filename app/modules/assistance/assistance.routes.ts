@@ -12,7 +12,7 @@ export const AssistanceRoutes: Routes = [
         component: PendingComponent
     },
     {
-        path: 'assist/:clientid',
+        path: 'assist/:assistid',
         component: AssistComponent
     }
 ];

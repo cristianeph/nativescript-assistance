@@ -17,7 +17,7 @@ export class CustomerService {
     }
 
     updateToken(customer: Customer) {
-        return this.http.post(`${this.urlResource}/user/firebase`, customer).map(res => res.json());
+        return this.http.post(`${this.urlResource}/fcm`, customer).map(res => res.json());
     }
 
     setCustomer(customer: Customer) {

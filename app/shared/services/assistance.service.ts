@@ -10,9 +10,14 @@ export class AssistanceService {
 
     constructor(private http: Http) {
         this.urlResource = 'https://app.fastlinkperu.com:8443/services/api/v1/assistance';
+        //this.urlResource = 'http://192.168.31.120:8080/api/v1/assistance';
     }
 
     register(assistance: Assistance) {
+        return this.http.post(`${this.urlResource}`, assistance).map(res => res.json());
+    }
+
+    update(assistance: Assistance) {
         return this.http.post(`${this.urlResource}`, assistance).map(res => res.json());
     }
 

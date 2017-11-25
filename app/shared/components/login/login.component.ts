@@ -32,6 +32,7 @@ export class LoginComponent {
                 private page: Page,
                 private loginService: LoginService,
                 private busService: BusService) {
+        this.loginErrors = false;
         this.user = new User(null, '', '', null, null, '', '', null);
         this.title = 'Bienvenido';
     }
@@ -74,9 +75,11 @@ export class LoginComponent {
                     }
                 },
                 errors => {
-                    console.log('Error');
-                    console.log(errors);
-                    console.log(errors.status);
+                    console.log('Error', errors.status);
+                    if (errors.status === 404) {
+                        this.loginErrors = true;
+                        console.log('Errores => ', this.loginErrors)
+                    }
                 }
             );
         }

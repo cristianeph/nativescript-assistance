@@ -13,7 +13,11 @@ export class WorkerService {
     }
 
     find(id: number) {
-        return this.http.get(`${this.urlResource}/${id}`).map(res => res.json());
+        return this.http.get(`${this.urlResource}/user/${id}`).map(res => res.json());
+    }
+
+    updateToken(worker: Worker) {
+        return this.http.post(`${this.urlResource}/fcm`, worker).map(res => res.json());
     }
 
 }

@@ -1,12 +1,11 @@
 import {Component} from "@angular/core";
 import {BusService} from "./shared/services/bus.service";
-import {
-    getString,
-    setString,
-    hasKey,
-    remove,
-    clear
-} from "application-settings";
+import {ApplicationSettingsService} from "./shared/services/application-settings.service";
+import {LoginService} from "./shared/services/login.service";
+import {Router} from "@angular/router";
+import {FirebaseData} from "./shared/classes/firebase-data.class";
+import {FirebaseNotification} from "./shared/classes/firebase-notification.class";
+import {FirebasePost} from "./shared/classes/firebase-post.class";
 
 @Component({
     selector: "my-app",
@@ -14,7 +13,10 @@ import {
 
 })
 export class AppComponent {
-    constructor(private busService: BusService) {
+    constructor(private router: Router,
+                private busService: BusService,
+                private loginService: LoginService,
+                private appSettingsService: ApplicationSettingsService) {
         this.firebaseInit();
     }
 
@@ -29,16 +31,15 @@ export class AppComponent {
             firebase.init({
                 onPushTokenReceivedCallback: function(token) {
                     console.log("FIREBASE => Token => " + token);
-                    setString("user-token", token);
+                    that.appSettingsService.setToken(token);
                 },
                 onMessageReceivedCallback: function(message) {
                     console.log("FIREBASE => Message => ", JSON.stringify(message));
+                    that.validatePreviousLogin(message);
                 },
                 persist: false,
                 onAuthStateChanged: (data: any) => {
                     console.log("FIREBASE => State => ", JSON.stringify(data))
-                    /*if (data.loggedIn) { BackendService.token = data.user.uid;
-                    } else {BackendService.token = "";}*/
                 }
             }).then(
                 function (instance) {
@@ -52,11 +53,24 @@ export class AppComponent {
         }, 3000);
     }
 
+    validatePreviousLogin(message: FirebasePost) {
+        if (this.appSettingsService.isLogged()) {
+            let user = this.appSettingsService.getUser();
+            let assistance = this.appSettingsService.getAssistance();
+            this.loginService.setUser(user);
+            if (assistance != null) {
+                this.router.navigate(["/client/tracking", message.data.assistance]);
+            } else {
+                this.router.navigate(["/client/report"]);
+            }
+        }
+    }
+
     getToken() {
         let firebase = require("nativescript-plugin-firebase");
         firebase.getCurrentPushToken().then((token: string) => {
             console.log("FIREBASE => Current push token: " + token);
-            setString("user-token", token);
+            this.appSettingsService.setToken(token);
         });
     }
 }

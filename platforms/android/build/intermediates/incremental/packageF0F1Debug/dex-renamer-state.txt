@@ -1,0 +1,4 @@
+#Tue Nov 28 15:24:08 PET 2017
+base.0=/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/transforms/dex/F0F1/debug/folders/1000/1f/main/classes.dex

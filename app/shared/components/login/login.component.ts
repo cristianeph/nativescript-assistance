@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {User} from "../../classes/user.class";
 import {Router} from "@angular/router";
 import {Page} from "tns-core-modules/ui/page";
@@ -6,13 +6,8 @@ import {LoginService} from "../../services/login.service";
 import {BusService} from "../../services/bus.service";
 import {Customer} from "../../classes/customer.class";
 import {Worker} from "../../classes/worker.class";
-import {
-    getString,
-    setString,
-    hasKey,
-    remove,
-    clear
-} from "application-settings";
+
+import {ApplicationSettingsService} from "../../services/application-settings.service";
 
 @Component({
     moduleId: module.id,
@@ -30,35 +25,43 @@ export class LoginComponent {
 
     constructor(private router: Router,
                 private page: Page,
+                private busService: BusService,
                 private loginService: LoginService,
-                private busService: BusService) {
+                private appSettingsService: ApplicationSettingsService) {
         this.loginErrors = false;
         this.user = new User(null, '', '', null, null, '', '', null);
         this.title = 'Bienvenido';
     }
 
     pageLoaded() {
-        this.obtainToken();
         this.page.actionBarHidden = true;
+        this.appSettingsService.initSettings();
         /*this.router.navigate(["/client/tracking", 1]).then(() => {
             this.page.actionBarHidden = false;
         });*/
+        /*this.checkNotification();*/
     }
 
-    obtainToken() {
-        getString("user-token");
-    }
+    /*checkNotification() {
+        this.busService.subscribe("assistance-confirmation", (notification) => {
+            console.log("Notification incoming => ", JSON.stringify(notification));
+        })
+    }*/
 
     login() {
+        console.log('requesting login ...');
         if (this.user.email && this.user.password) {
-            console.log('requesting login ...');
             this.loginService.login(this.user).subscribe(
                 data => {
                     if (data) {
                         console.log('Login successfull user id => ', data.id);
                         console.log('Login successfull user fullnames => ', data.firstnames, data.lastnames);
                         this.user = data;
+                        this.appSettingsService.setLogged(true);
+                        this.appSettingsService.setUser(data);
                         this.loginService.setUser(this.user);
+                        /*setBoolean("user-login", true);*/
+                        /*setString("user-data", JSON.stringify(data));*/
                         if (data.userType.id === 1) { //ADMIN
                             this.router.navigate(["/admin/validate"]).then(() => {
                                 this.page.actionBarHidden = false;

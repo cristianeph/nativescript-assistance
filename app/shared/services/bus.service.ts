@@ -2,6 +2,8 @@ import {Injectable} from '@angular/core';
 import {Subject} from "rxjs/Subject";
 import {Message} from "../interfaces/message.interface";
 import {Subscription} from "rxjs/Subscription";
+import 'rxjs/add/operator/filter';
+import 'rxjs/add/operator/map';
 
 type MessageCallback = (payload: any) => void;
 

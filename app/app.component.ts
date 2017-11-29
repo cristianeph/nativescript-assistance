@@ -35,7 +35,8 @@ export class AppComponent {
                 },
                 onMessageReceivedCallback: function(message) {
                     console.log("FIREBASE => Message => ", JSON.stringify(message));
-                    that.validatePreviousLogin(message);
+                    /*that.validatePreviousLogin(message);*/
+                    that.busService.broadcast("central-notification", message);
                 },
                 persist: false,
                 onAuthStateChanged: (data: any) => {
@@ -51,19 +52,6 @@ export class AppComponent {
                 }
             );
         }, 3000);
-    }
-
-    validatePreviousLogin(message: FirebasePost) {
-        if (this.appSettingsService.isLogged()) {
-            let user = this.appSettingsService.getUser();
-            let assistance = this.appSettingsService.getAssistance();
-            this.loginService.setUser(user);
-            if (assistance != null) {
-                this.router.navigate(["/client/tracking", message.data.assistance]);
-            } else {
-                this.router.navigate(["/client/report"]);
-            }
-        }
     }
 
     getToken() {

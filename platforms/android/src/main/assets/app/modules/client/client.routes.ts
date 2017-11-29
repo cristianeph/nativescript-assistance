@@ -18,7 +18,7 @@ export const ClientRoutes: Routes = [
         component: WaitingComponent
     },
     {
-        path: 'tracking/:workerid',
+        path: 'tracking/:assistanceid',
         component: TrackingComponent
     }
 ];

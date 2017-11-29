@@ -8,6 +8,7 @@ import {Customer} from "../../classes/customer.class";
 import {Worker} from "../../classes/worker.class";
 
 import {ApplicationSettingsService} from "../../services/application-settings.service";
+import {FirebasePost} from "../../classes/firebase-post.class";
 
 @Component({
     moduleId: module.id,
@@ -39,27 +40,14 @@ export class LoginComponent {
         /*this.router.navigate(["/client/tracking", 1]).then(() => {
             this.page.actionBarHidden = false;
         });*/
-        this.checkNotification();
+        /*this.checkNotification();*/
     }
 
-    checkNotification() {
+    /*checkNotification() {
         this.busService.subscribe("assistance-confirmation", (notification) => {
             console.log("Notification incoming => ", JSON.stringify(notification));
         })
-    }
-
-    validatePreviousLogin() {
-        if (this.appSettingsService.isLogged()) {
-            let user = this.appSettingsService.getUser();
-            let assistance = this.appSettingsService.getAssistance();
-            this.loginService.setUser(user);
-            if (assistance != null) {
-                this.router.navigate(["/client/tracking", 1]);
-            } else {
-                this.router.navigate(["/client/report"]);
-            }
-        }
-    }
+    }*/
 
     login() {
         console.log('requesting login ...');
@@ -98,6 +86,26 @@ export class LoginComponent {
                     }
                 }
             );
+        }
+    }
+
+    checkNotification() {
+        this.busService.subscribe("central-notification", (message) => {
+            console.log("Notifcation recieved => message => ", JSON.stringify(message));
+            this.validatePreviousLogin(message);
+        });
+    }
+
+    validatePreviousLogin(message: FirebasePost) {
+        if (this.appSettingsService.isLogged()) {
+            let user = this.appSettingsService.getUser();
+            let assistance = this.appSettingsService.getAssistance();
+            this.loginService.setUser(user);
+            if (assistance != null) {
+                this.router.navigate(["/client/tracking", message.data.assistance]);
+            } else {
+                this.router.navigate(["/client/report"]);
+            }
         }
     }
 

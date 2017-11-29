@@ -3,7 +3,6 @@ import {NativeScriptModule} from "nativescript-angular/nativescript.module";
 
 import {AppComponent} from "./app.component";
 import {AppRoutingModule} from "./app-routing.module";
-import {NativeScriptFormsModule} from "nativescript-angular";
 import {NativeScriptHttpModule} from "nativescript-angular/http";
 import {TrackingService} from "./shared/services/tracking.service";
 import {LoginService} from "./shared/services/login.service";
@@ -18,12 +17,13 @@ import {RegisterComponent} from "./shared/components/register/register.component
 import {RecoveryComponent} from "./shared/components/recovery/recovery.component";
 import {FirebaseService} from "./shared/services/firebase.service";
 import {ApplicationSettingsService} from "./shared/services/application-settings.service";
+import {NativeScriptFormsModule} from "nativescript-angular/forms";
 
 @NgModule({
     bootstrap: [AppComponent],
     imports: [
-        NativeScriptModule,
         AppRoutingModule,
+        NativeScriptModule,
         NativeScriptFormsModule,
         /*NativeScriptUISideDrawerModule,*/
         NativeScriptHttpModule,

@@ -11,6 +11,10 @@ import {UserService} from "../../../shared/services/user.service";
 import {User} from "../../../shared/classes/user.class";
 import {LoginService} from "../../../shared/services/login.service";
 import {Worker} from "../../../shared/classes/worker.class";
+import {FirebasePost} from "../../../shared/classes/firebase-post.class";
+import {FirebaseData} from "../../../shared/classes/firebase-data.class";
+import {FirebaseService} from "../../../shared/services/firebase.service";
+import {FirebaseNotification} from "../../../shared/classes/firebase-notification.class";
 
 @Component({
     moduleId: module.id,
@@ -28,6 +32,7 @@ export class PendingComponent {
     constructor(private router: Router,
                 private page: Page,
                 private loginService: LoginService,
+                private firebaseService: FirebaseService,
                 private workerService: WorkerService,
                 private assistanceService: AssistanceService) {
         this.title = 'Trabajos pendientes de aceptar'
@@ -88,6 +93,26 @@ export class PendingComponent {
                 this.updateAssist(assistance);
             }
         });
+    }
+
+    sendConfirmation(assistance: Assistance) {
+        const firebaseConfirmation = new FirebasePost(
+            assistance.customer.fcm,
+            new FirebaseNotification(
+                "Listo, tu solicitud esta siendo atendida",
+                this.loginService.getUser().lastnames + ", " + this.loginService.getUser().firstnames + "será el que lo ayudará"
+            ),
+            new FirebaseData(assistance.customer.id, assistance.id, "ATENDIENDO")
+        );
+        this.firebaseService.sendNotification(firebaseConfirmation).subscribe(
+            data => {
+                if (data.success === 1) {
+                    console.log("Assistance send notification => SUCCESS => ", JSON.stringify(data));
+                } else {
+                    console.log("Assistance send notification => ERROR => ", JSON.stringify(data));
+                }
+            }
+        )
     }
 
     updateAssist(assistance: Assistance) {

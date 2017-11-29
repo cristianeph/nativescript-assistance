@@ -1,6 +1,11 @@
 import {Component} from "@angular/core";
 import {BusService} from "./shared/services/bus.service";
 import {ApplicationSettingsService} from "./shared/services/application-settings.service";
+import {LoginService} from "./shared/services/login.service";
+import {Router} from "@angular/router";
+import {FirebaseData} from "./shared/classes/firebase-data.class";
+import {FirebaseNotification} from "./shared/classes/firebase-notification.class";
+import {FirebasePost} from "./shared/classes/firebase-post.class";
 
 @Component({
     selector: "my-app",
@@ -8,7 +13,9 @@ import {ApplicationSettingsService} from "./shared/services/application-settings
 
 })
 export class AppComponent {
-    constructor(private busService: BusService,
+    constructor(private router: Router,
+                private busService: BusService,
+                private loginService: LoginService,
                 private appSettingsService: ApplicationSettingsService) {
         this.firebaseInit();
     }
@@ -28,9 +35,8 @@ export class AppComponent {
                 },
                 onMessageReceivedCallback: function(message) {
                     console.log("FIREBASE => Message => ", JSON.stringify(message));
-                    setTimeout(function() {
-                            that.busService.broadcast("assistance-confirmation", message);
-                    }, 3000);
+                    /*that.validatePreviousLogin(message);*/
+                    that.busService.broadcast("central-notification", message);
                 },
                 persist: false,
                 onAuthStateChanged: (data: any) => {

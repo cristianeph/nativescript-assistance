@@ -1,13 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
 import {confirm} from "ui/dialogs";
-import {
-    getString,
-    setString,
-    getBoolean,
-    setBoolean,
-    hasKey
-} from "application-settings";
+import {ApplicationSettingsService} from "../../../shared/services/application-settings.service";
 
 @Component({
     moduleId: module.id,
@@ -22,7 +16,8 @@ export class HeaderComponent implements OnInit {
     @Input() cancelIcon: string;
     @Input() cancelPosition: string;
 
-    constructor(private router: Router) {
+    constructor(private router: Router,
+                private appSettingsService: ApplicationSettingsService) {
         this.title = '';
         this.cancel = true;
         this.cancelText = 'Salir';
@@ -43,14 +38,10 @@ export class HeaderComponent implements OnInit {
         };
         confirm(options).then((result: boolean) => {
             if (result === true) {
-                this.destroyLogin();
+                this.appSettingsService.destroyLogin();
                 this.router.navigate(["/login"]);
             }
         });
-    }
-
-    destroyLogin() {
-        setString("user-data", null);
     }
 
 }

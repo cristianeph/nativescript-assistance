@@ -1,7 +1,7 @@
 <!--<ActionBar [title]="titleMessage">
     <ActionItem android.systemIcon="ic_menu_close_clear_cancel" text="Salir" position="right"></ActionItem>
 </ActionBar>-->
-<Page>
+<Page (loaded)="pageLoaded()">
     <app-header [title]="title"></app-header>
     <StackLayout>
         <StackLayout class="segmented-bar">

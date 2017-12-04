@@ -41,8 +41,8 @@ export class TrackingComponent {
         }
         this.list = this.trackingService.getItems()
         this.userWorker = new User(0, '', '', '', '', '', '', null);
-        /*this.userWorker.firstnames = '';
-        this.userWorker.lastnames = '';*/
+        this.userWorker.firstnames = '';
+        this.userWorker.lastnames = '';
     }
 
     pageUnloaded() {

@@ -1,27 +1,32 @@
 {
-  "_from": "nativescript-angular@~4.4.1",
+  "_args": [
+    [
+      "nativescript-angular@4.4.1",
+      "/Users/cristian/Documents/workspace-tns/Assistance"
+    ]
+  ],
+  "_from": "nativescript-angular@4.4.1",
   "_id": "nativescript-angular@4.4.1",
   "_inBundle": false,
   "_integrity": "sha1-eCRonQwtxoKL+xclmBqh9tlCCas=",
   "_location": "/nativescript-angular",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "nativescript-angular@~4.4.1",
+    "raw": "nativescript-angular@4.4.1",
     "name": "nativescript-angular",
     "escapedName": "nativescript-angular",
-    "rawSpec": "~4.4.1",
+    "rawSpec": "4.4.1",
     "saveSpec": null,
-    "fetchSpec": "~4.4.1"
+    "fetchSpec": "4.4.1"
   },
   "_requiredBy": [
-    "/nativescript-template-ng-tutorial"
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-angular/-/nativescript-angular-4.4.1.tgz",
-  "_shasum": "7824689d0c2dc6828bfb1725981aa1f6d94209ab",
-  "_spec": "nativescript-angular@~4.4.1",
-  "_where": "/home/cperalta/Documentos/workspace-tns/Assistance/node_modules/nativescript-template-ng-tutorial",
+  "_spec": "4.4.1",
+  "_where": "/Users/cristian/Documents/workspace-tns/Assistance",
   "author": {
     "name": "NativeScript Team"
   },
@@ -31,7 +36,6 @@
   "bugs": {
     "url": "https://github.com/NativeScript/nativescript-angular/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Hristo Deshev",
@@ -50,7 +54,6 @@
     "nativescript-intl": "^3.0.0",
     "reflect-metadata": "^0.1.8"
   },
-  "deprecated": false,
   "description": "An Angular renderer that lets you build mobile apps with NativeScript.",
   "devDependencies": {
     "@angular/animations": "~4.4.1",

@@ -40,13 +40,14 @@ export class LoginComponent {
         /*this.router.navigate(["/client/tracking", 1]).then(() => {
             this.page.actionBarHidden = false;
         });*/
-        /*this.checkNotification();*/
+        /*this.checkPreviousLogin();*/
     }
 
-    /*checkNotification() {
-        this.busService.subscribe("assistance-confirmation", (notification) => {
-            console.log("Notification incoming => ", JSON.stringify(notification));
-        })
+    /*checkPreviousLogin() {
+        console.log("Login => Checking => previous => ", this.appSettingsService.getLogged());
+        if (this.appSettingsService.getLogged() === true) {
+            this.redirectSuccess(this.user);
+        }
     }*/
 
     login() {
@@ -61,21 +62,7 @@ export class LoginComponent {
                         this.appSettingsService.setLogged(true);
                         this.appSettingsService.setUser(data);
                         this.loginService.setUser(this.user);
-                        /*setBoolean("user-login", true);*/
-                        /*setString("user-data", JSON.stringify(data));*/
-                        if (data.userType.id === 1) { //ADMIN
-                            this.router.navigate(["/admin/validate"]).then(() => {
-                                this.page.actionBarHidden = false;
-                            });
-                        } else if (data.userType.id === 2) { //WORKER
-                            this.router.navigate(["/assistance/pending"]).then(() => {
-                                this.page.actionBarHidden = false;
-                            });
-                        } else if (data.userType.id === 3) { //CLIENT
-                            this.router.navigate(["/client/report"]).then(() => {
-                                this.page.actionBarHidden = false;
-                            });
-                        }
+                        this.redirectSuccess(this.user);
                     }
                 },
                 errors => {
@@ -89,23 +76,19 @@ export class LoginComponent {
         }
     }
 
-    checkNotification() {
-        this.busService.subscribe("central-notification", (message) => {
-            console.log("Notifcation recieved => message => ", JSON.stringify(message));
-            this.validatePreviousLogin(message);
-        });
-    }
-
-    validatePreviousLogin(message: FirebasePost) {
-        if (this.appSettingsService.isLogged()) {
-            let user = this.appSettingsService.getUser();
-            let assistance = this.appSettingsService.getAssistance();
-            this.loginService.setUser(user);
-            if (assistance != null) {
-                this.router.navigate(["/client/tracking", message.data.assistance]);
-            } else {
-                this.router.navigate(["/client/report"]);
-            }
+    redirectSuccess(user: User) {
+        if (user.userType.id === 1) { //ADMIN
+            this.router.navigate(["/admin/validate"]).then(() => {
+                this.page.actionBarHidden = false;
+            });
+        } else if (user.userType.id === 2) { //WORKER
+            this.router.navigate(["/assistance/pending"]).then(() => {
+                this.page.actionBarHidden = false;
+            });
+        } else if (user.userType.id === 3) { //CLIENT
+            this.router.navigate(["/client/report"]).then(() => {
+                this.page.actionBarHidden = false;
+            });
         }
     }
 

@@ -3,7 +3,6 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 var style_properties_1 = require("../../styling/style-properties");
-var debug_1 = require("../../../utils/debug");
 var view_base_1 = require("../view-base");
 var gestures_1 = require("../../gestures");
 __export(require("../../styling/style-properties"));
@@ -751,20 +750,6 @@ var ViewCommon = (function (_super) {
             this._localAnimations.forEach(function (a) { return _this._removeAnimation(a); });
         }
         _super.prototype.resetNativeView.call(this);
-    };
-    ViewCommon.prototype.toString = function () {
-        var str = this.typeName;
-        if (this.id) {
-            str += "<" + this.id + ">";
-        }
-        else {
-            str += "(" + this._domId + ")";
-        }
-        var source = debug_1.Source.get(this);
-        if (source) {
-            str += "@" + source + ";";
-        }
-        return str;
     };
     ViewCommon.prototype._setNativeViewFrame = function (nativeView, frame) {
     };

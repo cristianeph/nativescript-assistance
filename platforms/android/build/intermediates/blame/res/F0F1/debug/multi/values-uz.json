@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/incremental/mergeF0F1DebugResources/merged.dir/values-uz/values-uz.xml",
+        "outputFile": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/incremental/mergeF0F1DebugResources/merged.dir/values-uz/values-uz.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 205
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 313
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 436
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 540
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 654
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 740
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 851
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 967
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1047
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1126
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1210
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1319
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1426
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1527
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1635
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1740
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1847
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1971
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2070
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2177
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -391,7 +391,7 @@
                     "endOffset": 2359
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -410,7 +410,7 @@
                     "endOffset": 2490
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -429,7 +429,7 @@
                     "endOffset": 2601
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -448,7 +448,7 @@
                     "endOffset": 2805
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -467,7 +467,7 @@
                     "endOffset": 2940
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -486,7 +486,7 @@
                     "endOffset": 3075
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -505,7 +505,7 @@
                     "endOffset": 3284
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -524,7 +524,7 @@
                     "endOffset": 3515
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -543,7 +543,7 @@
                     "endOffset": 3625
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -562,7 +562,7 @@
                     "endOffset": 3815
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -581,7 +581,7 @@
                     "endOffset": 3949
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -600,7 +600,7 @@
                     "endOffset": 4162
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -619,7 +619,7 @@
                     "endOffset": 4354
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -638,7 +638,7 @@
                     "endOffset": 4450
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -657,7 +657,7 @@
                     "endOffset": 4541
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -676,7 +676,7 @@
                     "endOffset": 4650
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -695,7 +695,7 @@
                     "endOffset": 4756
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.2.2/res/values-uz/values.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.2.2/res/values-uz/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -710,11 +710,125 @@
                     "startLine": 39,
                     "startColumn": 4,
                     "startOffset": 4761,
-                    "endColumn": 83,
-                    "endOffset": 4840
+                    "endColumn": 74,
+                    "endOffset": 4831
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/res/values-uz/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 70,
+                        "endOffset": 307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4836,
+                    "endColumn": 118,
+                    "endOffset": 4950
+                },
+                "from": {
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/res/values-uz/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 308,
+                        "endColumn": 114,
+                        "endOffset": 422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4955,
+                    "endColumn": 73,
+                    "endOffset": 5024
+                },
+                "from": {
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/res/values-uz/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 423,
+                        "endColumn": 69,
+                        "endOffset": 492
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5029,
+                    "endColumn": 70,
+                    "endOffset": 5095
+                },
+                "from": {
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/res/values-uz/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 493,
+                        "endColumn": 66,
+                        "endOffset": 559
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5100,
+                    "endColumn": 85,
+                    "endOffset": 5181
+                },
+                "from": {
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/res/values-uz/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 560,
+                        "endColumn": 81,
+                        "endOffset": 641
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5186,
+                    "endColumn": 116,
+                    "endOffset": 5298
+                },
+                "from": {
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/res/values-uz/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 642,
+                        "endColumn": 112,
+                        "endOffset": 754
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5303,
+                    "endColumn": 83,
+                    "endOffset": 5382
+                },
+                "from": {
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -726,14 +840,14 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 4845,
+                    "startOffset": 5387,
                     "endColumn": 100,
-                    "endOffset": 4941
+                    "endOffset": 5483
                 },
                 "from": {
-                    "file": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
+                    "file": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/values-uz/values-uz.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

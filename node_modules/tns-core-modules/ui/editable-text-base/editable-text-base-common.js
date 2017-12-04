@@ -10,6 +10,7 @@ var EditableTextBase = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     EditableTextBase.blurEvent = "blur";
+    EditableTextBase.focusEvent = "focus";
     return EditableTextBase;
 }(text_base_1.TextBase));
 exports.EditableTextBase = EditableTextBase;

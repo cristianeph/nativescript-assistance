@@ -1,27 +1,27 @@
 {
-  "_from": "tns-core-modules-widgets@3.1.1",
-  "_id": "tns-core-modules-widgets@3.1.1",
+  "_from": "tns-core-modules-widgets@3.3.0",
+  "_id": "tns-core-modules-widgets@3.3.0",
   "_inBundle": false,
-  "_integrity": "sha1-M2691nlV6Im5GNsuzyRy/rVwh+A=",
+  "_integrity": "sha1-0qp7smrSEkjJ9cH3X+pRNxhmYiY=",
   "_location": "/tns-core-modules-widgets",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "tns-core-modules-widgets@3.1.1",
+    "raw": "tns-core-modules-widgets@3.3.0",
     "name": "tns-core-modules-widgets",
     "escapedName": "tns-core-modules-widgets",
-    "rawSpec": "3.1.1",
+    "rawSpec": "3.3.0",
     "saveSpec": null,
-    "fetchSpec": "3.1.1"
+    "fetchSpec": "3.3.0"
   },
   "_requiredBy": [
     "/tns-core-modules"
   ],
-  "_resolved": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-3.1.1.tgz",
-  "_shasum": "336ebdd67955e889b918db2ecf2472feb57087e0",
-  "_spec": "tns-core-modules-widgets@3.1.1",
-  "_where": "/home/cperalta/Documentos/workspace-tns/Assistance/node_modules/tns-core-modules",
+  "_resolved": "https://registry.npmjs.org/tns-core-modules-widgets/-/tns-core-modules-widgets-3.3.0.tgz",
+  "_shasum": "d2aa7bb26ad21248c9f5c1f75fea513718666226",
+  "_spec": "tns-core-modules-widgets@3.3.0",
+  "_where": "/Users/cristian/Documents/workspace-tns/Assistance/node_modules/tns-core-modules",
   "author": {
     "name": "NativeScript team"
   },
@@ -47,5 +47,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "3.1.1"
+  "version": "3.3.0"
 }

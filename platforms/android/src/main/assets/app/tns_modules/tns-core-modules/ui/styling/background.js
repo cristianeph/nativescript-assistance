@@ -5,7 +5,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var utils_1 = require("../../utils/utils");
 var css_value_1 = require("../../css-value");
 var file_system_1 = require("../../file-system");
-var application_1 = require("../../application");
+var application = require("../../application");
+var profiling_1 = require("../../profiling");
 __export(require("./background-common"));
 var ad;
 (function (ad) {
@@ -22,16 +23,16 @@ var ad;
                 && getSDK() >= 21));
     }
     function onBackgroundOrBorderPropertyChanged(view) {
-        var nativeView = view.nativeView;
+        var nativeView = view.nativeViewProtected;
         if (!nativeView) {
             return;
         }
         var background = view.style.backgroundInternal;
-        var cache = view.nativeView;
         var drawable = nativeView.getBackground();
         var androidView = view;
-        if (androidView._cachedDrawableConstState === undefined && drawable) {
-            androidView._cachedDrawableConstState = drawable.getConstantState();
+        if (androidView._cachedDrawable === undefined && drawable) {
+            var constantState = drawable.getConstantState();
+            androidView._cachedDrawable = constantState || drawable;
         }
         if (isSetColorFilterOnlyWidget(nativeView)
             && drawable
@@ -56,21 +57,21 @@ var ad;
             else {
                 refreshBorderDrawable(view, backgroundDrawable);
             }
-            if ((background.hasBorderWidth() || background.hasBorderRadius() || background.clipPath) && getSDK() < 18) {
-                if (cache.layerType === undefined) {
-                    cache.layerType = cache.getLayerType();
-                    cache.setLayerType(android.view.View.LAYER_TYPE_SOFTWARE, null);
-                }
-            }
         }
         else {
-            var defaultDrawable = androidView._cachedDrawableConstState ? androidView._cachedDrawableConstState.newDrawable(nativeView.getResources()) : null;
-            org.nativescript.widgets.ViewHelper.setBackground(nativeView, defaultDrawable);
-            androidView._cachedDrawableConstState = undefined;
-            if (cache.layerType !== undefined) {
-                cache.setLayerType(cache.layerType, null);
-                cache.layerType = undefined;
+            var cachedDrawable = androidView._cachedDrawable;
+            var defaultDrawable = void 0;
+            if (cachedDrawable instanceof android.graphics.drawable.Drawable.ConstantState) {
+                defaultDrawable = cachedDrawable.newDrawable(nativeView.getResources());
             }
+            else if (cachedDrawable instanceof android.graphics.drawable.Drawable) {
+                defaultDrawable = cachedDrawable;
+            }
+            else {
+                defaultDrawable = null;
+            }
+            org.nativescript.widgets.ViewHelper.setBackground(nativeView, defaultDrawable);
+            androidView._cachedDrawable = undefined;
         }
         var leftPadding = Math.ceil(view.effectiveBorderLeftWidth + view.effectivePaddingLeft);
         var topPadding = Math.ceil(view.effectiveBorderTopWidth + view.effectivePaddingTop);
@@ -86,7 +87,7 @@ function fromBase64(source) {
 }
 var pattern = /url\(('|")(.*?)\1\)/;
 function refreshBorderDrawable(view, borderDrawable) {
-    var nativeView = view.nativeView;
+    var nativeView = view.nativeViewProtected;
     var context = nativeView.getContext();
     var background = view.style.backgroundInternal;
     if (background) {
@@ -163,17 +164,23 @@ function initImageCache(context, mode, memoryCacheSize, diskCacheSize) {
     imageFetcher.initCache();
 }
 exports.initImageCache = initImageCache;
-application_1.android.on("activityStarted", function (args) {
+function onLivesync(args) {
+    if (imageFetcher) {
+        imageFetcher.clearCache();
+    }
+}
+application.on("livesync", onLivesync);
+application.android.on("activityStarted", profiling_1.profile("initImageCache", function (args) {
     if (!imageFetcher) {
         initImageCache(args.activity);
     }
     else {
         imageFetcher.initCache();
     }
-});
-application_1.android.on("activityStopped", function (args) {
+}));
+application.android.on("activityStopped", profiling_1.profile("closeImageCache", function (args) {
     if (imageFetcher) {
         imageFetcher.closeCache();
     }
-});
+}));
 //# sourceMappingURL=background.js.map

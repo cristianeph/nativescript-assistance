@@ -3,7 +3,6 @@ import {Router} from "@angular/router";
 import {LoginService} from "../../../shared/services/login.service";
 import {AssistanceService} from "../../../shared/services/assistance.service";
 import {Assistance} from "../../../shared/classes/assistance.class";
-import {WorkerService} from "../../../shared/services/worker.service";
 import {CustomerService} from "../../../shared/services/customer.service";
 import {User} from "../../../shared/classes/user.class";
 import {AssistanceType} from "../../../shared/classes/assistance-type.class";
@@ -46,6 +45,7 @@ export class ReportComponent implements OnInit {
 
     pageLoaded() {
         this.getCustomerInfo();
+        console.log("Login => Status => ", this.appSettingService.getLogged());
     }
 
     getCustomerInfo() {
@@ -55,7 +55,7 @@ export class ReportComponent implements OnInit {
             data => {
                 if (data) {
                     let customer = data;
-                    customer.fcm = getString("user-token");
+                    customer.fcm = this.appSettingService.getToken();
                     console.log('Customer info => ', JSON.stringify(customer));
                     this.customerService.setCustomer(customer);
                     this.customerService.updateToken(customer).subscribe(

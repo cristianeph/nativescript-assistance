@@ -1,39 +1,42 @@
 {
-  "_from": "@angular/forms@~4.4.5",
+  "_args": [
+    [
+      "@angular/forms@4.4.6",
+      "/Users/cristian/Documents/workspace-tns/Assistance"
+    ]
+  ],
+  "_from": "@angular/forms@4.4.6",
   "_id": "@angular/forms@4.4.6",
   "_inBundle": false,
   "_integrity": "sha1-/mSs5CQ1wbgPSQNLfEHOjK8UpEo=",
   "_location": "/@angular/forms",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "@angular/forms@~4.4.5",
+    "raw": "@angular/forms@4.4.6",
     "name": "@angular/forms",
     "escapedName": "@angular%2fforms",
     "scope": "@angular",
-    "rawSpec": "~4.4.5",
+    "rawSpec": "4.4.6",
     "saveSpec": null,
-    "fetchSpec": "~4.4.5"
+    "fetchSpec": "4.4.6"
   },
   "_requiredBy": [
-    "/nativescript-template-ng-tutorial"
+    "/"
   ],
   "_resolved": "https://registry.npmjs.org/@angular/forms/-/forms-4.4.6.tgz",
-  "_shasum": "fe64ace42435c1b80f49034b7c41ce8caf14a44a",
-  "_spec": "@angular/forms@~4.4.5",
-  "_where": "/home/cperalta/Documentos/workspace-tns/Assistance/node_modules/nativescript-template-ng-tutorial",
+  "_spec": "4.4.6",
+  "_where": "/Users/cristian/Documents/workspace-tns/Assistance",
   "author": {
     "name": "angular"
   },
   "bugs": {
     "url": "https://github.com/angular/angular/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "tslib": "^1.7.1"
   },
-  "deprecated": false,
   "description": "Angular - directives and services for creating forms",
   "es2015": "./@angular/forms.js",
   "homepage": "https://github.com/angular/angular#readme",

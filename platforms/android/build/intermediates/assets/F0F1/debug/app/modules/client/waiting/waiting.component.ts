@@ -1,5 +1,11 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {ActivatedRoute, Router} from "@angular/router";
+
+import {BusService} from "../../../shared/services/bus.service";
+import {on as applicationOn, resumeEvent, ApplicationEventData} from "application";
+import {ApplicationSettingsService} from "../../../shared/services/application-settings.service";
+import {RouterExtensions} from "nativescript-angular";
+
 
 @Component({
     moduleId: module.id,
@@ -7,22 +13,57 @@ import {ActivatedRoute, Router} from "@angular/router";
     templateUrl: './waiting.component.html',
     styleUrls: ['./waiting.component.css']
 })
-export class WaitingComponent implements OnInit {
+
+export class WaitingComponent {
     type: number;
     title: string;
+    recievedData: any;
+
     constructor(private route: ActivatedRoute,
-                private router: Router) {
+                private router: Router,
+                private busService: BusService,
+                private appSettingServices: ApplicationSettingsService) {
         this.title = 'Espere un momento...';
         this.route.params.subscribe(params => {
-            this.type = +params['id'];
-            console.log(this.type);
-            /*setTimeout(() => {
-                this.router.navigate(["/client/tracking", 1009]);
-            }, 4000)*/
+            if (params) {
+                this.type = +params['id'];
+                console.log("Param incoming => ", +params['id']);
+            }
+        });
+        this.getNotifications();
+    }
+
+    pageLoaded() {
+        this.appLifeEvents();
+    }
+
+    appLifeEvents() {
+        applicationOn(resumeEvent, (args: ApplicationEventData) => {
+            console.log("Resume => Event")
+            if (args.android) {
+                /*this.routerExtensions.navigate(['/pin'], { clearHistory: true, animated: false });*/
+                /*console.log("Push notification => ", JSON.stringify(this.appSettingServices.getPushNotification()));*/
+                /*this.router.navigate(["/client/tracking", this.appSettingServices.getPushNotification().data.assistance]);*/
+                /*this.router.navigate(["/client/waiting"]);*/
+                this.router.navigate(["/client/tracking", 122], );
+            } else if (args.ios) {
+            }
         });
     }
 
-    ngOnInit() {
+    getNotifications() {
+        this.busService.subscribe("central-notification", (data) => {
+            console.log("Notification recieved => Waiting view => ", JSON.stringify(data));
+            //this.router.navigate(["/client/tracking", this.appSettingServices.getPushNotification().data.assistance]);
+            /*const recievedData = data.data;
+            if (recievedData) {
+                if (recievedData.state === "ATENDIENDO") {
+                    console.log("Redirectioning result => Assistance => ", recievedData.assistance);
+                    this.recievedData = recievedData;
+
+                }
+            }*/
+        })
     }
 
 }

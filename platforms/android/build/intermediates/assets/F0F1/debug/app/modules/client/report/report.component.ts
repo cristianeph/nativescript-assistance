@@ -3,7 +3,6 @@ import {Router} from "@angular/router";
 import {LoginService} from "../../../shared/services/login.service";
 import {AssistanceService} from "../../../shared/services/assistance.service";
 import {Assistance} from "../../../shared/classes/assistance.class";
-import {WorkerService} from "../../../shared/services/worker.service";
 import {CustomerService} from "../../../shared/services/customer.service";
 import {User} from "../../../shared/classes/user.class";
 import {AssistanceType} from "../../../shared/classes/assistance-type.class";
@@ -15,6 +14,7 @@ import {
     remove,
     clear
 } from "application-settings";
+import {ApplicationSettingsService} from "../../../shared/services/application-settings.service";
 
 /*import {
     isEnabled,
@@ -34,9 +34,9 @@ export class ReportComponent implements OnInit {
 
     constructor(private router: Router,
                 private loginService: LoginService,
+                private customerService: CustomerService,
                 private assistanceService: AssistanceService,
-                private workerService: WorkerService,
-                private customerService: CustomerService) {
+                private appSettingService: ApplicationSettingsService) {
         this.title = 'Solicite asistencia';
     }
 
@@ -54,7 +54,7 @@ export class ReportComponent implements OnInit {
             data => {
                 if (data) {
                     let customer = data;
-                    customer.fcm = getString("user-token");
+                    customer.fcm = this.appSettingService.getToken();
                     console.log('Customer info => ', JSON.stringify(customer));
                     this.customerService.setCustomer(customer);
                     this.customerService.updateToken(customer).subscribe(
@@ -71,7 +71,7 @@ export class ReportComponent implements OnInit {
     }
 
     requestAssitance(type: number) {
-        let options = {
+        let dialogOptions = {
             message: "Esta seguro que desea hacer la solicitud?",
             title: "Necesita ayuda?",
             okButtonText: "Si",
@@ -85,12 +85,11 @@ export class ReportComponent implements OnInit {
             okButtonText: "OK",
             inputType: dialogs.inputType.text
         };
-        dialogs.confirm(options).then((result: boolean) => {
+        dialogs.confirm(dialogOptions).then((result: boolean) => {
             if (result === true) {
                 dialogs.prompt(promptOptions)
                     .then((promptResult) => {
                         if (promptResult.result) {
-                            console.log("Dialog result: ", promptResult.text);
                             this.registryAssistance(type, promptResult.text);
                         } else {
                             console.log("Se cancelo la operacion")
@@ -101,8 +100,6 @@ export class ReportComponent implements OnInit {
     }
 
     registryAssistance(type: number, reference: string) {
-        console.log('El tipo de asistencia es =>  ', type);
-        console.log('El cliente que registrara la incidencia es => ', JSON.stringify(this.customerService.getCustomer()));
         const assistance = new Assistance(
             null,
             null,
@@ -114,11 +111,14 @@ export class ReportComponent implements OnInit {
             null,
             ''
         );
+        console.log('El tipo de asistencia es =>  ', type);
+        console.log('El cliente que registrara la incidencia es => ', JSON.stringify(this.customerService.getCustomer()));
         console.log('Parsed data => ', JSON.stringify(assistance));
         this.assistanceService.register(assistance).subscribe(
             data => {
                 console.log('Assistance has been created => ', JSON.stringify(data));
                 this.assistanceService.setAssistance(data);
+                this.appSettingService.setAssistance(data);
                 this.router.navigate(['/client/waiting', type]);
             },
             errors => {
@@ -142,7 +142,6 @@ export class ReportComponent implements OnInit {
         }, function (e) {
             console.log("Error: " + e.message);
         });*/
-
     }
 
 }

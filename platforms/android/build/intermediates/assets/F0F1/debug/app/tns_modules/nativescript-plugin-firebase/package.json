@@ -1,28 +1,32 @@
 {
-  "_from": "nativescript-plugin-firebase",
+  "_args": [
+    [
+      "nativescript-plugin-firebase@4.2.1",
+      "/Users/cristian/Documents/workspace-tns/Assistance"
+    ]
+  ],
+  "_from": "nativescript-plugin-firebase@4.2.1",
   "_id": "nativescript-plugin-firebase@4.2.1",
   "_inBundle": false,
   "_integrity": "sha1-sa+JXcCMtW8LI/Axg/5aqc19i5I=",
   "_location": "/nativescript-plugin-firebase",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "version",
     "registry": true,
-    "raw": "nativescript-plugin-firebase",
+    "raw": "nativescript-plugin-firebase@4.2.1",
     "name": "nativescript-plugin-firebase",
     "escapedName": "nativescript-plugin-firebase",
-    "rawSpec": "",
+    "rawSpec": "4.2.1",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "4.2.1"
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-plugin-firebase/-/nativescript-plugin-firebase-4.2.1.tgz",
-  "_shasum": "b1af895dc08cb56f0b23f03183fe5aa9cd7d8b92",
-  "_spec": "nativescript-plugin-firebase",
-  "_where": "/home/cperalta/Documentos/workspace-tns/Assistance",
+  "_spec": "4.2.1",
+  "_where": "/Users/cristian/Documents/workspace-tns/Assistance",
   "author": {
     "name": "Eddy Verbruggen",
     "email": "eddyverbruggen@gmail.com"
@@ -30,12 +34,10 @@
   "bugs": {
     "url": "https://github.com/eddyverbruggen/nativescript-plugin-firebase/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "nativescript-hook": "~0.2.0",
     "prompt-lite": "~0.1.0"
   },
-  "deprecated": false,
   "description": "Fire. Base. Firebase!",
   "devDependencies": {
     "tns-core-modules": "^3.2.0",

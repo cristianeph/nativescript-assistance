@@ -17,11 +17,18 @@ export class AppComponent {
                 private busService: BusService,
                 private loginService: LoginService,
                 private appSettingsService: ApplicationSettingsService) {
-        this.firebaseInit();
+        this.checkSettings();
     }
 
-    setFirebaseToken(token: string) {
-        this.busService.broadcast("firebase-token", token);
+    checkSettings() {
+        this.appSettingsService.initSettings();
+        this.firebaseInit();
+        /*console.log("Settings => File => Exist => ", this.appSettingsService.check());
+        if (this.appSettingsService.check() === true) {
+            this.firebaseInit();
+        } else {
+            this.appSettingsService.initSettings();
+        }*/
     }
 
     firebaseInit() {
@@ -35,7 +42,7 @@ export class AppComponent {
                 },
                 onMessageReceivedCallback: function(message) {
                     console.log("FIREBASE => Message => ", JSON.stringify(message));
-                    /*that.validatePreviousLogin(message);*/
+                    that.appSettingsService.setPushNotification(message);
                     that.busService.broadcast("central-notification", message);
                 },
                 persist: false,
@@ -61,4 +68,29 @@ export class AppComponent {
             this.appSettingsService.setToken(token);
         });
     }
+
+    /*checkNotification() {
+        this.busService.subscribe("central-notification", (message) => {
+            console.log("Notification recieved => message => ", JSON.stringify(message));
+            //this.validatePreviousLogin(message);
+            this.appSettingsService.setPushNotification(message);
+        });
+    }*/
+
+    /*validatePreviousLogin(message: FirebasePost) {
+        if (this.appSettingsService.isLogged()) {
+            let user = this.appSettingsService.getUser();
+            let assistance = this.appSettingsService.getAssistance();
+            this.loginService.setUser(user);
+            if (assistance != null) {
+                if (message.data.state === "ATENDIENDO") {
+                    console.log("Redirecting to tracking with id => ", message.data.assistance);
+                    //this.router.navigate(["/client/tracking", message.data.assistance]);
+                } else {
+                    console.log("Nothing happens just simple notification");
+                    //this.router.navigate(["/client/report"]);
+                }
+            }
+        }
+    }*/
 }

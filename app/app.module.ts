@@ -18,6 +18,7 @@ import {RecoveryComponent} from "./shared/components/recovery/recovery.component
 import {FirebaseService} from "./shared/services/firebase.service";
 import {ApplicationSettingsService} from "./shared/services/application-settings.service";
 import {NativeScriptFormsModule} from "nativescript-angular/forms";
+import {AuthorizationGuardService} from "./shared/services/authorization-guard.service";
 
 @NgModule({
     bootstrap: [AppComponent],
@@ -44,7 +45,8 @@ import {NativeScriptFormsModule} from "nativescript-angular/forms";
         TrackingService,
         UserService,
         WorkerService,
-        ApplicationSettingsService
+        ApplicationSettingsService,
+        AuthorizationGuardService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
     },
     {
-        "merged": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/res/merged/F0F1/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/res/drawable-anydpi-v21/design_ic_visibility.xml"
     }
 ]

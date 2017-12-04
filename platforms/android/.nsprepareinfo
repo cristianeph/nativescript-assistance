@@ -1,9 +1,9 @@
 {
-	"time": "Wed Nov 29 2017 16:20:02 GMT-0500 (-05)",
+	"time": "Sun Dec 03 2017 21:14:57 GMT-0500 (-05)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
 	"changesRequireBuild": false,
-	"projectFileHash": "b88738a900ebe4a61ec8284fa42a8639dcb715d42c77f8710c8ece7813a72989",
-	"changesRequireBuildTime": "Tue Nov 28 2017 15:23:27 GMT-0500 (-05)"
+	"projectFileHash": "c6c5382d5ad33388f0feacf9e9a421754620ad124d8a1dce36c86fab1428141b",
+	"changesRequireBuildTime": "Fri Dec 01 2017 23:05:50 GMT-0500 (-05)"
 }

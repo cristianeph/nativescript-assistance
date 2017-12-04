@@ -8,15 +8,16 @@ import {NativeScriptHttpModule} from "nativescript-angular/http";
 import {LoginComponent} from "./shared/components/login/login.component";
 import {RegisterComponent} from "./shared/components/register/register.component";
 import {RecoveryComponent} from "./shared/components/recovery/recovery.component";
+import {AuthorizationGuardService} from "./shared/services/authorization-guard.service";
 
 const routes: Routes = [
     {path: "", redirectTo: 'login', pathMatch: 'full'},
     {path: "login", component: LoginComponent},
     {path: "register", component: RegisterComponent},
     {path: "forgot", component: RecoveryComponent},
-    {path: "client", loadChildren: () => require("./modules/client/client.module")["ClientModule"]},
-    {path: "admin", loadChildren: () => require("./modules/admin/admin.module")["AdminModule"]},
-    {path: "assistance", loadChildren: () => require("./modules/assistance/assistance.module")["AssistanceModule"]}
+    {path: "client", canActivate: [AuthorizationGuardService], loadChildren: () => require("./modules/client/client.module")["ClientModule"]},
+    {path: "admin", canActivate: [AuthorizationGuardService], loadChildren: () => require("./modules/admin/admin.module")["AdminModule"]},
+    {path: "assistance", canActivate: [AuthorizationGuardService], loadChildren: () => require("./modules/assistance/assistance.module")["AssistanceModule"]}
 
 ];
 

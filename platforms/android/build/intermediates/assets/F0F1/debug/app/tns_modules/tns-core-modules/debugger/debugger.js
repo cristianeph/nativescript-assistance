@@ -8,11 +8,29 @@ function setNetwork(newNetwork) {
     network = newNetwork;
 }
 exports.setNetwork = setNetwork;
+var dom;
+function getDOM() {
+    return dom;
+}
+exports.getDOM = getDOM;
+function setDOM(newDOM) {
+    dom = newDOM;
+}
+exports.setDOM = setDOM;
+var css;
+function getCSS() {
+    return css;
+}
+exports.getCSS = getCSS;
+function setCSS(newCSS) {
+    css = newCSS;
+}
+exports.setCSS = setCSS;
 var NetworkAgent;
 (function (NetworkAgent) {
     function responseReceived(requestId, result, headers) {
         var requestIdStr = requestId.toString();
-        var mimeType = headers["Content-Type"] || headers["content-type"];
+        var mimeType = headers["Content-Type"] || headers["content-type"] || "application/octet-stream";
         var response = {
             url: result.url || "",
             status: result.statusCode,

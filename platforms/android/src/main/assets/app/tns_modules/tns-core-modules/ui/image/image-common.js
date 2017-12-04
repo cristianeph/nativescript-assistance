@@ -4,6 +4,7 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var view_1 = require("../core/view");
 var image_asset_1 = require("../../image-asset");
+exports.ImageAsset = image_asset_1.ImageAsset;
 var image_source_1 = require("../../image-source");
 exports.ImageSource = image_source_1.ImageSource;
 exports.fromAsset = image_source_1.fromAsset;
@@ -110,7 +111,7 @@ var ImageBase = (function (_super) {
     return ImageBase;
 }(view_1.View));
 exports.ImageBase = ImageBase;
-ImageBase.prototype.recycleNativeView = true;
+ImageBase.prototype.recycleNativeView = "auto";
 exports.imageSourceProperty = new view_1.Property({ name: "imageSource" });
 exports.imageSourceProperty.register(ImageBase);
 exports.srcProperty = new view_1.Property({ name: "src" });

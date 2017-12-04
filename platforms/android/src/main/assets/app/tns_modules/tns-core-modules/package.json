@@ -1,30 +1,31 @@
 {
-  "_from": "tns-core-modules@~3.1.1",
-  "_id": "tns-core-modules@3.1.1",
+  "_from": "tns-core-modules@latest",
+  "_id": "tns-core-modules@3.3.0",
   "_inBundle": false,
-  "_integrity": "sha1-ezicQt1sENstGt+8bJEDFwPlDdU=",
+  "_integrity": "sha1-T+sfMRE8VU8LtHmErElvzNta8VY=",
   "_location": "/tns-core-modules",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "tag",
     "registry": true,
-    "raw": "tns-core-modules@~3.1.1",
+    "raw": "tns-core-modules@latest",
     "name": "tns-core-modules",
     "escapedName": "tns-core-modules",
-    "rawSpec": "~3.1.1",
+    "rawSpec": "latest",
     "saveSpec": null,
-    "fetchSpec": "~3.1.1"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
-    "/nativescript-template-ng-tutorial"
+    "#USER",
+    "/"
   ],
-  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-3.1.1.tgz",
-  "_shasum": "7b389c42dd6c10db2d1adfbc6c91031703e50dd5",
-  "_spec": "tns-core-modules@~3.1.1",
-  "_where": "/home/cperalta/Documentos/workspace-tns/Assistance/node_modules/nativescript-template-ng-tutorial",
+  "_resolved": "https://registry.npmjs.org/tns-core-modules/-/tns-core-modules-3.3.0.tgz",
+  "_shasum": "4feb1f31113c554f0bb47984ac496fccdb5af156",
+  "_spec": "tns-core-modules@latest",
+  "_where": "/Users/cristian/Documents/workspace-tns/Assistance",
   "bundleDependencies": false,
   "dependencies": {
-    "tns-core-modules-widgets": "3.1.1"
+    "tns-core-modules-widgets": "3.3.0"
   },
   "deprecated": false,
   "description": "Telerik NativeScript Core Modules",
@@ -35,6 +36,7 @@
   "files": [
     "**/*.d.ts",
     "**/*.js",
+    "**/package.json",
     "!android17.d.ts",
     "!ios.d.ts",
     "!bin/",
@@ -57,7 +59,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NativeScript/NativeScript/commit/99062383e0896ae68f4d1b1137f9aadeec76e133"
+    "url": "https://github.com/NativeScript/NativeScript/commit/5e0de0a8b84d81b52510fd979d920ae8d51956c4"
   },
   "snapshot": {
     "android": {
@@ -70,5 +72,5 @@
     }
   },
   "typings": "tns-core-modules.d.ts",
-  "version": "3.1.1"
+  "version": "3.3.0"
 }

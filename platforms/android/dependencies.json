@@ -4,6 +4,10 @@
         "directory": "../../node_modules/nativescript-angular"
     },
     {
+        "name": "nativescript-geolocation",
+        "directory": "../../node_modules/nativescript-geolocation"
+    },
+    {
         "name": "nativescript-plugin-firebase",
         "directory": "../../node_modules/nativescript-plugin-firebase"
     },
@@ -18,6 +22,10 @@
     {
         "name": "nativescript-intl",
         "directory": "../../node_modules/nativescript-intl"
+    },
+    {
+        "name": "nativescript-permissions",
+        "directory": "../../node_modules/nativescript-permissions"
     },
     {
         "name": "tns-core-modules-widgets",

@@ -23,12 +23,18 @@ export class AppComponent {
     checkSettings() {
         this.appSettingsService.initSettings();
         this.firebaseInit();
+        this.geolocationInit();
         /*console.log("Settings => File => Exist => ", this.appSettingsService.check());
         if (this.appSettingsService.check() === true) {
             this.firebaseInit();
         } else {
             this.appSettingsService.initSettings();
         }*/
+    }
+
+    geolocationInit() {
+        let geolocation = require("nativescript-geolocation");
+        geolocation.enableLocationRequest();
     }
 
     firebaseInit() {

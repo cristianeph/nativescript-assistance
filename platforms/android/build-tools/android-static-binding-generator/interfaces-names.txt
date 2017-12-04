@@ -1509,6 +1509,13 @@ com.google.android.gms.tasks.OnFailureListener
 com.google.android.gms.tasks.OnSuccessListener
 com.google.android.gms.tasks.zzk
 com.google.android.gms.tasks.Tasks.zzb
+com.google.android.gms.location.ActivityRecognitionApi
+com.google.android.gms.location.FusedLocationProviderApi
+com.google.android.gms.location.Geofence
+com.google.android.gms.location.GeofencingApi
+com.google.android.gms.location.LocationListener
+com.google.android.gms.location.SettingsApi
+com.google.android.gms.internal.zzcac
 com.google.android.gms.common.annotation.KeepForSdk
 com.google.android.gms.common.annotation.KeepForSdkWithFieldsAndMethods
 com.google.android.gms.common.annotation.KeepForSdkWithMembers

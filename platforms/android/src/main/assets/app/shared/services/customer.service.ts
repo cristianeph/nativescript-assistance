@@ -20,6 +20,10 @@ export class CustomerService {
         return this.http.post(`${this.urlResource}/fcm`, customer).map(res => res.json());
     }
 
+    updateLocation(customer: Customer) {
+        return this.http.post(`${this.urlResource}/geolocation`, customer).map(res => res.json());
+    }
+
     setCustomer(customer: Customer) {
         this.customer = customer;
     }

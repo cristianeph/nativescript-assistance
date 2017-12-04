@@ -4,6 +4,7 @@
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/app.module.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/utils.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/classes/customer.class.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/classes/app-settings.class.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/classes/tracking.class.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/classes/assistance.class.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/classes/firebase-notification.class.js
@@ -17,6 +18,7 @@
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/components/register/register.component.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/components/login/login.component.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/services/customer.service.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/services/authorization-guard.service.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/services/user.service.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/services/tracking.service.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/shared/services/login.service.js
@@ -111,6 +113,9 @@
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/router/router.module.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/router/page-router-outlet.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/router/private-imports/router-url-tree.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-permissions/permissions.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-geolocation/geolocation.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-geolocation/geolocation.common.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/bundle-entry-points.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/globals/globals.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/tns-core-modules/globals/decorators.js

@@ -20,4 +20,8 @@ export class WorkerService {
         return this.http.post(`${this.urlResource}/fcm`, worker).map(res => res.json());
     }
 
+    updateLocation(worker: Worker) {
+        return this.http.post(`${this.urlResource}/geolocation`, worker).map(res => res.json());
+    }
+
 }

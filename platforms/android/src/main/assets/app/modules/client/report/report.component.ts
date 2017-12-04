@@ -1,20 +1,15 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
-import {LoginService} from "../../../shared/services/login.service";
-import {AssistanceService} from "../../../shared/services/assistance.service";
-import {Assistance} from "../../../shared/classes/assistance.class";
-import {CustomerService} from "../../../shared/services/customer.service";
 import {User} from "../../../shared/classes/user.class";
+import {Assistance} from "../../../shared/classes/assistance.class";
+import {LoginService} from "../../../shared/services/login.service";
 import {AssistanceType} from "../../../shared/classes/assistance-type.class";
-import * as dialogs from "ui/dialogs";
-import {
-    getString,
-    setString,
-    hasKey,
-    remove,
-    clear
-} from "application-settings";
+import {CustomerService} from "../../../shared/services/customer.service";
+import {AssistanceService} from "../../../shared/services/assistance.service";
 import {ApplicationSettingsService} from "../../../shared/services/application-settings.service";
+import {Accuracy} from "ui/enums";
+import * as dialogs from "ui/dialogs";
+import * as geolocation from "nativescript-geolocation";
 
 /*import {
     isEnabled,
@@ -91,7 +86,28 @@ export class ReportComponent implements OnInit {
                 dialogs.prompt(promptOptions)
                     .then((promptResult) => {
                         if (promptResult.result) {
-                            this.registryAssistance(type, promptResult.text);
+                            //Requesting gelocation data
+                            this.getCurrentLocation().then(location => {
+                                //Geolocation Successfull
+                                console.log("Location => data => ", JSON.stringify(location));
+                                let customer = this.customerService.getCustomer();
+                                customer.latitude = location.latitude;
+                                customer.longitude = location.longitude;
+                                customer.altitude = location.altitude;
+                                console.log("Customer => before => data => ", JSON.stringify(customer));
+                                this.customerService.updateLocation(customer).subscribe(
+                                    data => {
+                                        console.log("Customer => data => updated => ", JSON.stringify(data));
+                                        this.registryAssistance(type, promptResult.text);
+                                    },
+                                    error => {
+
+                                    }
+                                );
+                            }).catch(error => {
+                                //Geolocation Error
+                                console.log("Location => error => ", JSON.stringify(error));
+                            });
                         } else {
                             console.log("Se cancelo la operacion")
                         }
@@ -131,18 +147,9 @@ export class ReportComponent implements OnInit {
     }
 
     getCurrentLocation() {
-        /*var location = getCurrentLocation({
-            desiredAccuracy: 3,
-            updateDistance: 10,
-            maximumAge: 20000,
-            timeout: 20000
-        }).then(function (loc) {
-            if (loc) {
-                console.log("Current location is: " + JSON.stringify(loc));
-            }
-        }, function (e) {
-            console.log("Error: " + e.message);
-        });*/
+        return geolocation.getCurrentLocation({
+                desiredAccuracy: Accuracy.high, maximumAge: 5000, timeout: 20000
+        });
     }
 
 }

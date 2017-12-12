@@ -7,6 +7,8 @@ import {Customer} from "../../../shared/classes/customer.class";
 import {AssistanceService} from "../../../shared/services/assistance.service";
 import {Assistance} from "../../../shared/classes/assistance.class";
 
+import {LocateAddress} from "nativescript-locate-address";
+
 @Component({
     moduleId: module.id,
     selector: 'app-assist',
@@ -51,6 +53,22 @@ export class AssistComponent {
                 );
             }
         );
+    }
+
+    getDirections() {
+        let customerPosition = this.customer;
+        /*Documentation: https://www.npmjs.com/package/nativescript-locate-address*/
+        console.log("lat => ", customerPosition.latitude);
+        console.log("lng => ", customerPosition.longitude);
+        let locator = new LocateAddress();
+        locator.locate({
+            lat : customerPosition.latitude,
+            lng : customerPosition.longitude
+        }).then(() => {
+            console.log("Maps app launched.");
+        }, (error) => {
+            console.log(error);
+        });
     }
 
 }

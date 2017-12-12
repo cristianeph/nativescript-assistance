@@ -1,0 +1,76 @@
+{
+  "_from": "nativescript-locate-address",
+  "_id": "nativescript-locate-address@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-x03ckVx7AG0796/uwRYSs+EWKzI=",
+  "_location": "/nativescript-locate-address",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-locate-address",
+    "name": "nativescript-locate-address",
+    "escapedName": "nativescript-locate-address",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-locate-address/-/nativescript-locate-address-1.0.2.tgz",
+  "_shasum": "c74ddc915c7b006d3bf7afeec11612b3e1162b32",
+  "_spec": "nativescript-locate-address",
+  "_where": "/home/cperalta/Documentos/workspace-tns/Assistance",
+  "author": {
+    "name": "Issam GUISSOUMA",
+    "email": "issam.guissouma@laposte.net"
+  },
+  "bugs": {
+    "url": "https://github.com/iguissouma/nativescript-locate-address/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Opening Native Mapping App from your Mobile {N} App to locate address.",
+  "devDependencies": {
+    "nativescript-dev-typescript": "^0.3.2",
+    "tns-core-modules": "^2.3.0",
+    "tns-platform-declarations": "^2.3.0",
+    "typescript": "^1.8.10"
+  },
+  "homepage": "https://github.com/iguissouma/nativescript-locate-address",
+  "keywords": [
+    "NativeScript",
+    "ecosystem:nativescript",
+    "iOS",
+    "locations",
+    "address"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/iguissouma/nativescript-locate-address/blob/master/LICENSE"
+  },
+  "main": "locate-address",
+  "name": "nativescript-locate-address",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iguissouma/nativescript-locate-address.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns run ios",
+    "demo.ios.device": "npm run preparedemo && cd demo && tns emulate ios --device \"iPhone 7\"",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-locate-address && tns plugin add .. && tns install",
+    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.2"
+}

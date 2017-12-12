@@ -9,6 +9,7 @@
     "@angular/router": true,
     "nativescript-angular": true,
     "nativescript-geolocation": true,
+    "nativescript-locate-address": true,
     "nativescript-plugin-firebase": true,
     "nativescript-theme-core": true,
     "reflect-metadata": true,

@@ -10,7 +10,7 @@ public final class BuildConfig {
   public static final String FLAVOR = "F0F1F2";
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0";
-  public static final String FLAVOR_nativescriptgeolocation = "F0";
-  public static final String FLAVOR_nativescriptpluginfirebase = "F1";
-  public static final String FLAVOR_tnscoremoduleswidgets = "F2";
+  public static final String FLAVOR_tnscoremoduleswidgets = "F0";
+  public static final String FLAVOR_nativescriptgeolocation = "F1";
+  public static final String FLAVOR_nativescriptpluginfirebase = "F2";
 }

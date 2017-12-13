@@ -6,6 +6,8 @@ import {UserService} from "../../../shared/services/user.service";
 import {Customer} from "../../../shared/classes/customer.class";
 import {AssistanceService} from "../../../shared/services/assistance.service";
 import {Assistance} from "../../../shared/classes/assistance.class";
+import {LocateAddress} from "nativescript-locate-address";
+import * as TNSPhone from 'nativescript-phone';
 
 @Component({
     moduleId: module.id,
@@ -51,6 +53,29 @@ export class AssistComponent {
                 );
             }
         );
+    }
+
+    getPhonecall() {
+        let selectedCustomerUser = this.customerUser;
+        /*Documentation: https://www.npmjs.com/package/nativescript-phone*/
+        console.log("cellphone => ", selectedCustomerUser.cellphone);
+        TNSPhone.dial(selectedCustomerUser.cellphone, true);
+    }
+
+    getDirections() {
+        let selectedCustomer = this.customer;
+        /*Documentation: https://www.npmjs.com/package/nativescript-locate-address*/
+        console.log("lat => ", selectedCustomer.latitude);
+        console.log("lng => ", selectedCustomer.longitude);
+        let locator = new LocateAddress();
+        locator.locate({
+            lat : selectedCustomer.latitude,
+            lng : selectedCustomer.longitude
+        }).then(() => {
+            console.log("Maps app launched.");
+        }, (error) => {
+            console.log(error);
+        });
     }
 
 }

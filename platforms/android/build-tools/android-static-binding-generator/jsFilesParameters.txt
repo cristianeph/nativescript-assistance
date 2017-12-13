@@ -43,6 +43,7 @@
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/modules/client/waiting/waiting.component.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/modules/client/tracking/tracking.component.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/modules/client/report/report.component.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-phone/index.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/renderer.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/postinstall.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/trace.js
@@ -113,6 +114,10 @@
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/router/router.module.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/router/page-router-outlet.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/router/private-imports/router-url-tree.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-locate-address/locate-address.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-locate-address/locate-address.common.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-locate-address/hooks/before-watch/nativescript-dev-typescript.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-locate-address/hooks/before-prepare/nativescript-dev-typescript.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-permissions/permissions.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-geolocation/geolocation.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/src/main/assets/app/tns_modules/nativescript-geolocation/geolocation.common.js

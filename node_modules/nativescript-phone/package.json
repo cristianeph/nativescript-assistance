@@ -1,0 +1,74 @@
+{
+  "_from": "nativescript-phone",
+  "_id": "nativescript-phone@1.3.1",
+  "_inBundle": false,
+  "_integrity": "sha1-0XGMUaBsX4NORFYmTjHoYs2EX6I=",
+  "_location": "/nativescript-phone",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-phone",
+    "name": "nativescript-phone",
+    "escapedName": "nativescript-phone",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-phone/-/nativescript-phone-1.3.1.tgz",
+  "_shasum": "d1718c51a06c5f834e4456264e31e862cd845fa2",
+  "_spec": "nativescript-phone",
+  "_where": "/Users/cristian/Documents/workspace-tns/Assistance",
+  "author": {
+    "name": "Mike Sywensky",
+    "email": "michael.sywensky@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/msywensky/nativescript-phone/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Brad Martin",
+      "email": " bradwaynemartin@gmail.com",
+      "url": "https://github.com/bradmartin"
+    },
+    {
+      "name": "Witold Czaplewski",
+      "url": "https://github.com/witi83"
+    }
+  ],
+  "dependencies": {
+    "nativescript-permissions": "1.2.3"
+  },
+  "deprecated": false,
+  "description": "NativeScript plugin to use the device phone and SMS features for Android and iOS",
+  "homepage": "https://github.com/msywensky/nativescript-phone",
+  "keywords": [
+    "NativeScript",
+    "Phone",
+    "SMS"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/msywensky/nativescript-phone/blob/master/LICENSE"
+  },
+  "main": "index",
+  "name": "nativescript-phone",
+  "nativescript": {
+    "platforms": {
+      "android": "1.0.0",
+      "ios": "1.0.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msywensky/nativescript-phone.git"
+  },
+  "typings": "index.d.ts",
+  "version": "1.3.1"
+}

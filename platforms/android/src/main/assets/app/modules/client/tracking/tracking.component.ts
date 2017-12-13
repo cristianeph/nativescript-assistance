@@ -40,7 +40,7 @@ export class TrackingComponent {
             app.android.on(app.AndroidApplication.activityBackPressedEvent, this.refuseBack);
         }
         this.list = this.trackingService.getItems()
-        this.userWorker = new User(0, '', '', '', '', '', '', null);
+        this.userWorker = new User(0, '', '', '', '', '', '', '', null);
         this.userWorker.firstnames = '';
         this.userWorker.lastnames = '';
     }

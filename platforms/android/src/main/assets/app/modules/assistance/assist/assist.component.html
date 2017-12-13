@@ -2,11 +2,11 @@
     <app-header [title]="title"></app-header>
     <StackLayout>
         <GridLayout class="list-group" rows="auto" columns="*, *" justifyContent="space-between">
-            <StackLayout class="list-group-item-btn btn-forestgreen" (tap)="getAssist(item.customer.id)" row="0" col="0">
+            <StackLayout class="list-group-item-btn btn-forestgreen" (tap)="getPhonecall()" row="0" col="0">
                 <Label text="Llamar cliente"></Label>
                 <Label text="&#xe942;" class="btn-icon"></Label>
             </StackLayout>
-            <StackLayout class="list-group-item-btn btn-forestgreen" (tap)="getAssist(item.customer.id)" row="0" col="1">
+            <StackLayout class="list-group-item-btn btn-forestgreen" (tap)="getDirections()" row="0" col="1">
                 <Label text="Ver dirección"></Label>
                 <Label text="&#xe947;" class="btn-icon"></Label>
             </StackLayout>

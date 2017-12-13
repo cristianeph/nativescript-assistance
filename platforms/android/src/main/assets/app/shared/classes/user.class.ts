@@ -3,6 +3,7 @@ import {UserType} from "./user-type.class";
 export class User {
     public id: number;
     public email: string;
+    public cellphone: string;
     public password: string;
     public from: string;
     public until: string;
@@ -12,6 +13,7 @@ export class User {
     constructor(
         id: number,
         email: string,
+        cellphone: string,
         password: string,
         from: string,
         until: string,
@@ -20,6 +22,7 @@ export class User {
         userType: UserType) {
         this.id = id;
         this.email = email;
+        this.cellphone = cellphone;
         this.password = password;
         this.from = from;
         this.until = until;

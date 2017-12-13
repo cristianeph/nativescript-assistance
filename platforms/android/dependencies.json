@@ -8,6 +8,14 @@
         "directory": "../../node_modules/nativescript-geolocation"
     },
     {
+        "name": "nativescript-locate-address",
+        "directory": "../../node_modules/nativescript-locate-address"
+    },
+    {
+        "name": "nativescript-phone",
+        "directory": "../../node_modules/nativescript-phone"
+    },
+    {
         "name": "nativescript-plugin-firebase",
         "directory": "../../node_modules/nativescript-plugin-firebase"
     },

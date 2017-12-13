@@ -10,6 +10,7 @@ export class CustomerService {
 
     constructor(private http: Http) {
         this.urlResource = 'https://app.fastlinkperu.com:8443/services/api/v1/customer';
+        /*this.urlResource = 'http://192.168.31.120:8080/api/v1/customer';*/
     }
 
     find(id: number) {

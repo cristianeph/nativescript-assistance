@@ -30,7 +30,7 @@ export class LoginComponent {
                 private loginService: LoginService,
                 private appSettingsService: ApplicationSettingsService) {
         this.loginErrors = false;
-        this.user = new User(null, '', '', null, null, '', '', null);
+        this.user = new User(null, '', '', '', null, null, '', '', null);
         this.title = 'Bienvenido';
     }
 

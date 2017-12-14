@@ -39,18 +39,18 @@ export class WaitingComponent {
     }
 
     appLifeEvents() {
-        applicationOn(resumeEvent, (args: ApplicationEventData) => {
+        /*applicationOn(resumeEvent, (args: ApplicationEventData) => {
             console.log("Resume => Event")
-            if (args.android) {
+            if (args.android) {*/
                 /*this.routerExtensions.navigate(['/pin'], { clearHistory: true, animated: false });*/
                 /*console.log("Push notification => ", JSON.stringify(this.appSettingServices.getPushNotification()));*/
                 /*this.router.navigate(["/client/tracking", this.appSettingServices.getPushNotification().data.assistance]);*/
                 /*this.router.navigate(["/client/waiting"]);*/
                 /*this.router.navigate(["/client/tracking", 122]);*/
                 /*this.routerExtension.navigate(["/client/tracking", 122], {clearHistory: true, animated: false});*/
-            } else if (args.ios) {
+            /*} else if (args.ios) {
             }
-        });
+        });*/
     }
 
     getNotifications() {

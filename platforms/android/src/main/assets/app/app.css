@@ -11,11 +11,15 @@ refer to http://docs.nativescript.org/ui/theme.
 */
 /*@import 'nativescript-theme-core/css/core.light.css';*/
 .normal-wrapper {
-    margin: 20;
+    margin: 10;
 }
 
 .input-lucid {
     background-color: white;
+}
+
+.text-errors {
+    font-size: 10;
 }
 
 .text-danger {
@@ -36,7 +40,8 @@ refer to http://docs.nativescript.org/ui/theme.
 }
 
 .btn-forestgreen {
-    background-color: forestgreen;
+    /*background-color: forestgreen;*/
+    background-color: #50b322;
     color: white;
 }
 
@@ -60,6 +65,14 @@ refer to http://docs.nativescript.org/ui/theme.
     margin: 10 0;
     padding: 10;
     background-color: lightgreen;
+}
+
+.footer-link {
+    padding: 10;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
 }
 
 .text-primary {

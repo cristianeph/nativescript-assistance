@@ -3,309 +3,318 @@
 
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/intermediates-exploded-aar-widgets-release_4b3f93b6437e306c5949846810e5b2d4f0faf99c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="30553c734f57621f31d6d56ad7b263123c7a014f">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-database-connection-11.2.2_b67be7cefaf7a22213d53830b9d978666a3fa714.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-v4-26.0.0-alpha1_47be27d3708f78e66884b225859cfa0b805eab8b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="1d2ee92c55b107ec366ddb534edae4548201e25b">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-base-11.2.2_532fb10255b5df75c9f86d77dda7f147b693bde7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cf47665b22d68f560d1b8fa2e51b8c23a34574f2">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-tasks-11.2.2_f29edd75e5b63cf312ac8673a9b6b2f20b8e91f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="3352405f829252e602a47d252f11edd7c89d86ff">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-database-11.2.2_c5572060ab900490f91776531cb1a5cc4a11445a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="b4677f6f310d5327f76c7ace262d776b7bf5eb58">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-gass-11.2.2_5be023df09ab04be0828d9825ba79ba8b4bc8f3e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-animated-vector-drawable-26.0.0-alpha1_b59f6dcd8e84934f6b677c3c2492835d6549612b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-analytics-11.2.2_aac45657d44ed2c4e144d4078009e4e1ebd12fbe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="27942406f17e8b8e54175fdac0274805b4edcb2f">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-auth-11.2.2_af526d9220a6354767fdc6b66e4fe15308a0d163.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-transition-26.0.0-alpha1_3b943cb388f5f73e1a9d9e26e03bfbc7380bcf98.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/gson-2.8.2_8aa0f38756d6d0ce2dd7d5710f337df16e50fd24.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-vector-drawable-26.0.0-alpha1_ef799cb22610c0e55c229c87517200935388bd03.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-recyclerview-v7-26.0.0-alpha1_e6d2335937a550e7014abc357ce8afd3a025b866.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-fragment-26.0.0-alpha1_bef83c168a036e1422683edaa5f4064e9773ef2a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-iid-11.2.2_b7beeeab367926db955058e8413cba7bb5779c88.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-cardview-v7-26.0.0-alpha1_787d49db7d108ac45afe3a762dccf9ab86623eeb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-design-26.0.0-alpha1_2a470734d421a61ee234bac571ae73cd8f6f3ddb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="73d3d4e86f3d6da0dd1987f7cff9fb07d5a36132">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-location-11.2.2_2f89dddc44d74a34f0cbfe1242bf546f071516bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="4a43035a1c810fd10a647f54fc1166288cf29572">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-ads-lite-11.2.2_9bd6b5836e6cc355675472e4ac18681cacceee6e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-appcompat-v7-26.0.0-alpha1_7db9ddb09d78aa10662a44b8bf7edb5c1b3e9a6d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="227bbf04b4eae5247addf6569dc42af539a45f37">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-messaging-11.2.2_5b7f52d8b4abb047acf6a4b6a20ede868892650c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-common-11.2.2_16a7755004c8a990c5a3496f8e06ba5a9aa6ec2b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-core-ui-26.0.0-alpha1_b6eab9ad156ac559764a84d10aa59ea7253b83c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/nativescript-optimized/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/intermediates-exploded-aar-nativescript-optimized_0c8ca61a7cbd15f17b5036690a47b2f33ead6210.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/customtabs/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="aebd345a61f563da0989cbd014479c8bf7bd77ab">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-customtabs-26.0.0-alpha1_5d0e8d1a6e277f31989851aecbd026f0cc6591ac.jar" />
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-customtabs-26.0.0-alpha1_275aafb405370dd536036f51b6d2f71c1fc38b92.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Assistance/runtime/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-core-utils-26.0.0-alpha1_f6d7e7dff5e35330de89f474cf44763c634b4c25.jar" />
+        sha1="eb6078500d1af5e7b663871706674405c57292a3">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/Assistance-runtime-unspecified_9e5ea4501c3fde06eafb659ce238274f7d5d0582.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="bceea9ecae6127fe2677fffebf1a1a20f19ca52e">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/intermediates-exploded-aar-firebase-release_3c7c37ef58aa2cea1695b58d92d7a8defc0d5d7c.jar" />
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-animated-vector-drawable-26.0.0-alpha1_33a12aca5eeee7920614b78521fef7b1881407c5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-media-compat-26.0.0-alpha1_0fac2f63bd5bb6a777634594faf749c38236e709.jar" />
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-appcompat-v7-26.0.0-alpha1_6d88e6e4448f920617ddf032c4117807e58ad124.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.2.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="bac97150719e3dfae3ab1d38d6ccb187935bfac8">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-ads-11.2.2_e24325bc2c9b9dc6278492b20487a75151eb6802.jar" />
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-ads-11.2.2_65e462c74529786c7f1bc692f69ea43b519cbc35.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.0-alpha1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-compat-26.0.0-alpha1_836501b177e5e6f144c739d775ec4180b223a932.jar" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-v4-26.0.0-alpha1_786be3b8051ed8d65aef9e7a5fbf5141f941392c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/firebase-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bceea9ecae6127fe2677fffebf1a1a20f19ca52e">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/intermediates-exploded-aar-firebase-release_a338cb026919650e0b3b5fde22582e41bfc52193.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-vector-drawable-26.0.0-alpha1_e222075abeb22f5625e25de6f8e6eceb2faa64ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.2.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="722f4e3d1abfa535e19043c813c62bb144a7d02f">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-analytics-impl-11.2.2_be8b3bae0a17fba81a886895c87fe1e6c7f4ce6a.jar" />
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-analytics-impl-11.2.2_4abf128e9c415fd8c07002984c84ae99e0c8f598.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/jars/classes.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="227bbf04b4eae5247addf6569dc42af539a45f37">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-messaging-11.2.2_7d75063c1d0ded9563841d12e7000d120c7f6915.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/cardview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-cardview-v7-26.0.0-alpha1_d373da26b2d2d1653acc914a91aa992d9a91c823.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="787102860a3ae9ed31c934b03ce15ba584a43005">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-iid-11.2.2_91b05b8f5514a599df1be675cedb2edeffcdee34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.2.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="7ed36108b22a98a311676b5ad153d1e3587fcd16">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-basement-11.2.2_63a8de8cbed862ccdca8f95b6aa2fc7aeeb7e4ff.jar" />
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-basement-11.2.2_05e4a3df8faf0f696fa3e4b41f0bc97e9742ddd2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/cristian/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1d2ee92c55b107ec366ddb534edae4548201e25b">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-base-11.2.2_d3e0e38dc0a1437817bf62be66c764be0e21aeaa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cf47665b22d68f560d1b8fa2e51b8c23a34574f2">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-tasks-11.2.2_8e757aba29377f08a19902f8311346ffe2b348eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fc3479eb36ae71cbe2a3a589ceda3b8b3b56f08f">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-analytics-11.2.2_1d4ea66364747174e0f71ac3060923dc6d0a002a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/sdks/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/support-annotations-26.0.0-alpha1_a2e1c101135ea557e04fe41d9357742dd652b7e5.jar" />
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/support-annotations-26.0.0-alpha1_848b3866e0586a341c56efc81197f1cd0f673a59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-fragment-26.0.0-alpha1_d9700bea4072822c242222e5054c8e51fec06967.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-recyclerview-v7-26.0.0-alpha1_5c2fe046234ecc13af7a8721315b5af5d9be798a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a43035a1c810fd10a647f54fc1166288cf29572">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-ads-lite-11.2.2_19deb4b038a32d39a5e1a3e986528337cd76f14a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/Assistance/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/binding-generator_7b9cb4ae851d1cb8dac0581a5e1e5e53ef994157.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf/gson-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/gson-2.8.2_aaa2c97ecacf97d6924560340f31e969998a353c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="27942406f17e8b8e54175fdac0274805b4edcb2f">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-auth-11.2.2_fd529991ecca6631fdd6b99d42b8c0a44013de8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="73d3d4e86f3d6da0dd1987f7cff9fb07d5a36132">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-location-11.2.2_6c0e73a4f162e5ea08459db748658d271e0549db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-media-compat-26.0.0-alpha1_340e1243f6fc40ab1329daf09afdd8ca53741fda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-core-ui-26.0.0-alpha1_4f2e417e59e503497f0f7aeef83ee9eaee93db3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-core-utils-26.0.0-alpha1_939acda06aa9df212d8cf6f12def6409ed8dce1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-transition-26.0.0-alpha1_b39830c3b8d4558f371841ce1f610bd4ed0fd4f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/design/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-design-26.0.0-alpha1_87fb6cad39216d59c2174b712bc01c01e5c98f0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.android.support-support-compat-26.0.0-alpha1_ad8e161e36dacd13ec36c533e7401c0a537d3485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/intermediates-exploded-aar-widgets-release_eee8f3760399cedd1b0eb5538b840a3c35103e7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="30553c734f57621f31d6d56ad7b263123c7a014f">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-database-connection-11.2.2_697d3b6ec8801aaaf47336419c470f4830dc3909.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b4677f6f310d5327f76c7ace262d776b7bf5eb58">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.android.gms-play-services-gass-11.2.2_39a4fa593ce3d65e0177693f0624de24b9da1737.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6de60b559084bc9f17f4d8916aaa35e058831696">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-common-11.2.2_d620e459736b130d245933ec978f8f222be02780.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-database/11.2.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3352405f829252e602a47d252f11edd7c89d86ff">
+        <dex dex="/home/cperalta/Documentos/workspace-tns/Assistance/platforms/android/build/intermediates/pre-dexed/F0F1F2F3/release/com.google.firebase-firebase-database-11.2.2_c2517ced2e3554efc66fa1c35d3567dec7734337.jar" />
     </item>
 
 </items>

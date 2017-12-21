@@ -38,9 +38,9 @@ export class LoginComponent {
     pageLoaded() {
         this.page.actionBarHidden = true;
         this.appSettingsService.initSettings();
-        this.router.navigate(["/client/tracking", 1]).then(() => {
+        /*this.router.navigate(["/client/tracking", 1]).then(() => {
             this.page.actionBarHidden = false;
-        });
+        });*/
         /*this.checkPreviousLogin();*/
     }
 

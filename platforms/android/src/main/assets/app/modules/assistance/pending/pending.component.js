@@ -31,10 +31,15 @@ var PendingComponent = (function () {
             _this.getAssistances();
         });
     };
+    PendingComponent.prototype.updateAssistances = function () {
+        this.getAssistances();
+    };
     PendingComponent.prototype.getAssistances = function () {
         var _this = this;
         this.assistanceService.all(1, 20).subscribe(function (data) {
             if (data.content) {
+                console.log(JSON.stringify(data.content));
+                console.log(data.content.length);
                 _this.list = data.content;
             }
         }, function (errors) {
@@ -45,9 +50,25 @@ var PendingComponent = (function () {
     };
     PendingComponent.prototype.clearSearchBar = function () {
         this.setSearchBarOff();
+        this.getAssistances();
     };
     PendingComponent.prototype.loadSearchBar = function () {
         this.setSearchBarOff();
+    };
+    PendingComponent.prototype.onSubmit = function (args) {
+        this.setSearchBarOff();
+        var resultList;
+        var searchBar = args.object;
+        console.log('Search', searchBar.text);
+        resultList = this.list.filter(function (item) {
+            return ((item.address.indexOf(searchBar.text) !== -1) ||
+                (item.addressreference.indexOf(searchBar.text) !== -1));
+        });
+        this.list = resultList;
+    };
+    PendingComponent.prototype.onTextChanged = function (args) {
+        var searchBar = args.object;
+        console.log('Changed');
     };
     PendingComponent.prototype.setSearchBarOff = function () {
         this.searchBar = this.page.getViewById("main-search-bar");

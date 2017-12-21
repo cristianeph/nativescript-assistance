@@ -1,12 +1,7 @@
-<!--<ActionBar title="Solicitar Ayuda">
-    &lt;!&ndash;<NavigationButton text="Salir" position="right" android.systemIcon="ic_menu_close_clear_cancel"></NavigationButton>&ndash;&gt;
-    <ActionItem android.systemIcon="ic_menu_close_clear_cancel" text="Salir" position="right"></ActionItem>
-</ActionBar>-->
 <Page (loaded)="pageLoaded()">
     <app-header [title]="title"></app-header>
     <TabView>
         <StackLayout *tabItem="{title: 'Grúa'}">
-            <!--<Image class="preview-action-image" src="~/images/crane-truck.png" stretch="aspectFit"></Image>-->
             <Image class="preview-action-image" src="~/assets/images/crane-truck.png" width="150"></Image>
             <Button class="btn-forestgreen" text="Solicitar Grúa" (tap)="requestAssitance(1)"></Button>
         </StackLayout>
@@ -19,4 +14,5 @@
             <Button class="btn-forestgreen" text="Llama a nuestra Central" (tap)="requestAssitance(3)"></Button>
         </StackLayout>
     </TabView>
+    <!--<Label text="test"></Label>-->
 </Page>

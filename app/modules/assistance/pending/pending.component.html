@@ -2,33 +2,41 @@
     <app-header [title]="title"></app-header>
     <GridLayout row="*">
         <StackLayout>
-            <SearchBar row="0"
-                       id="main-search-bar"
-                       hint="Buscar clientes"
-                       (clear)="clearSearchBar($event)"
-                       (loaded)="loadSearchBar($event)"></SearchBar>
-            <ListView row="1" [items]="list">
-                <ng-template let-item="item">
-                    <GridLayout class="list-group" rows="auto" columns="auto, *, auto">
-                        <StackLayout class="list-group-item-btn-icon btn-whitesmoke" row="0" col="0">
-                            <Label text="&#xe903;" class="btn-icon"></Label>
-                        </StackLayout>
-                        <!--<Image class="list-item-image" row="0" col="0"
-                               src="https://pbs.twimg.com/profile_images/839721704163155970/LI_TRk1z_400x400.jpg"
-                               stretch="aspectFit" width="85"></Image>-->
-                        <StackLayout class="list-group-item" row="0" col="1" orientation="vertical">
-                            <Label class="list-group-item-heading" [text]="item.date"></Label>
-                            <Label [text]="item.address"></Label>
-                            <Label [text]="item.addressreference"></Label>
-                        </StackLayout>
-                        <StackLayout class="list-group-item-btn btn-lightgreen" (tap)="getAssist(item)" row="0" col="2">
-                            <Label text="Elegir"></Label>
-                            <Label text="&#xe998;" class="btn-icon"></Label>
-                        </StackLayout>
-                    </GridLayout>
-                </ng-template>
-            </ListView>
+            <StackLayout>
+                <Button text="Actualizar" (tap)="updateAssistances()"></Button>
+            </StackLayout>
+            <StackLayout>
+                <SearchBar row="0"
+                           id="main-search-bar"
+                           hint="Buscar"
+                           (clear)="clearSearchBar($event)"
+                           (loaded)="loadSearchBar($event)"
+                           (textChanged)="onTextChanged($event)"
+                           (submit)="onSubmit($event)"></SearchBar>
+                <ListView row="1" [items]="list">
+                    <ng-template let-item="item">
+                        <GridLayout class="list-group" rows="auto" columns="auto, *, auto">
+                            <StackLayout class="list-group-item-btn-icon btn-whitesmoke" row="0" col="0">
+                                <Label text="&#xe903;" class="btn-icon"></Label>
+                            </StackLayout>
+                            <!--<Image class="list-item-image" row="0" col="0"
+                                   src="https://pbs.twimg.com/profile_images/839721704163155970/LI_TRk1z_400x400.jpg"
+                                   stretch="aspectFit" width="85"></Image>-->
+                            <StackLayout class="list-group-item" row="0" col="1" orientation="vertical">
+                                <Label class="list-group-item-heading" [text]="item.date"></Label>
+                                <!--<Label [text]="item.address"></Label>-->
+                                <Label text="Dirección"></Label>
+                                <Label [text]="item.addressreference"></Label>
+                            </StackLayout>
+                            <StackLayout class="list-group-item-btn btn-lightgreen" (tap)="getAssist(item)" row="0" col="2">
+                                <Label text="Elegir"></Label>
+                                <Label text="&#xe998;" class="btn-icon"></Label>
+                            </StackLayout>
+                        </GridLayout>
+                    </ng-template>
+                </ListView>
 
+            </StackLayout>
         </StackLayout>
     </GridLayout>
 </Page>

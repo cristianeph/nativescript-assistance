@@ -49,10 +49,16 @@ export class PendingComponent {
         );
     }
 
+    updateAssistances() {
+        this.getAssistances();
+    }
+
     getAssistances() {
         this.assistanceService.all(1, 20).subscribe(
             data => {
                 if (data.content) {
+                    console.log(JSON.stringify(data.content));
+                    console.log(data.content.length);
                     this.list = data.content;
                 }
             },
@@ -66,10 +72,30 @@ export class PendingComponent {
 
     clearSearchBar() {
         this.setSearchBarOff();
+        this.getAssistances();
     }
 
     loadSearchBar() {
         this.setSearchBarOff();
+    }
+
+    onSubmit(args) {
+        this.setSearchBarOff();
+        let resultList: Array<Assistance>;
+        let searchBar = <SearchBar>args.object;
+        console.log('Search', searchBar.text);
+        resultList = this.list.filter(item =>
+            (
+                (item.address.indexOf(searchBar.text) !== -1) ||
+                (item.addressreference.indexOf(searchBar.text) !== -1)
+            )
+        )
+        this.list = resultList;
+    }
+
+    onTextChanged(args) {
+        let searchBar = <SearchBar>args.object;
+        console.log('Changed')
     }
 
     setSearchBarOff() {

@@ -27,31 +27,33 @@ export class PendingComponent {
     list: Array<Assistance>;
     searchBar: SearchBar;
     user: User;
-    userWorker: Worker;
+    /*userWorker: Worker;*/
 
     constructor(private router: Router,
                 private page: Page,
                 private loginService: LoginService,
                 private firebaseService: FirebaseService,
-                private workerService: WorkerService,
+                /*private workerService: WorkerService,*/
                 private assistanceService: AssistanceService) {
         this.title = 'Trabajos pendientes de aceptar'
     }
 
     pageLoaded() {
         this.user = this.loginService.getUser();
-        this.workerService.find(this.user.id).subscribe(
+        /*this.workerService.find(this.user.id).subscribe(
             data => {
                 console.log('Worker object by user => ', JSON.stringify(data));
                 this.userWorker = data;
                 this.getAssistances();
             }
-        );
+        );*/
+        this.getAssistances();
     }
 
     getAssistances() {
         this.assistanceService.all(1, 20).subscribe(
             data => {
+                console.log('Assistance => Response => ', JSON.stringify(data));
                 if (data.content) {
                     this.list = data.content;
                 }
@@ -117,7 +119,7 @@ export class PendingComponent {
 
     updateAssist(assistance: Assistance) {
         console.log('Assistance passed as parameter (2 time) => ', JSON.stringify(assistance));
-        assistance.worker = this.userWorker;
+        /*assistance.worker = this.userWorker;*/
         this.assistanceService.register(assistance).subscribe(
             data => {
                 console.log('Assistance updated object => ', JSON.stringify(data));

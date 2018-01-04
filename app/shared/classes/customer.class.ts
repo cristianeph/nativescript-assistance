@@ -6,6 +6,7 @@ export class Customer {
     active: boolean;
     user: User;
     spend: number;
+    plate: string;
     fcm: string;
     latitude: number;
     longitude: number;
@@ -15,6 +16,7 @@ export class Customer {
                 active: boolean,
                 user: User,
                 spend: number,
+                plate: string,
                 latitude: number,
                 longitude: number,
                 altitude: number) {
@@ -23,6 +25,7 @@ export class Customer {
         this.active = active;
         this.user = user;
         this.spend = spend;
+        this.plate = plate;
         this.latitude = latitude;
         this.longitude = longitude;
         this.altitude = altitude;

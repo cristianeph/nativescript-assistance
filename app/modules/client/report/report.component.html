@@ -1,5 +1,21 @@
 <Page (loaded)="pageLoaded()">
     <app-header [title]="title"></app-header>
+    <StackLayout class="app-page">
+        <StackLayout>
+            <Image class="preview-action-image"
+                   src="~/assets/images/assistance-request.png"
+                   width="250"
+                   (tap)="requestAssitance(2)"></Image>
+        </StackLayout>
+        <StackLayout class="segmented-error-bar normal-wrapper">
+            <Label class="text-errors"
+                   style.whiteSpace="normal"
+                   text="PULSE EL BOTÓN PARA SOLICITAR ASISTENCIA Y EN BREVE UNA OPERADORA DE FOUR CLAN SE COMUNICARÁ CON USTED."></Label>
+        </StackLayout>
+        <StackLayout>
+            <Image class="preview-action-image" src="~/assets/images/pet-main2.png" width="210"></Image>
+        </StackLayout>
+    </StackLayout>
     <!--<TabView>
         <StackLayout *tabItem="{title: 'Grúa'}">
             <Image class="preview-action-image" src="~/assets/images/crane-truck.png" width="150"></Image>
@@ -14,5 +30,5 @@
             <Button class="btn-forestgreen" text="Llama a nuestra Central" (tap)="requestAssitance(3)"></Button>
         </StackLayout>
     </TabView>-->
-    <Label text="test"></Label>
+    <!--<Label text="test"></Label>-->
 </Page>

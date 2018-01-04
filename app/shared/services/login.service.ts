@@ -1,15 +1,19 @@
 import {Injectable} from '@angular/core';
-import {User} from "../classes/user.class";
+import {User, UserEasy} from "../classes/user.class";
 import {Http} from "@angular/http";
 import "rxjs/add/operator/map";
+import {Customer} from "../classes/customer.class";
+import {SERVER_PATH} from "../utils";
 
 @Injectable()
 export class LoginService {
     private user: User;
     private urlResource: string;
+    private urlResourceAlternate: string;
 
     constructor(private http: Http) {
-        this.urlResource = 'https://app.fastlinkperu.com:8443/services/api/v1/user';
+        this.urlResource = `${SERVER_PATH}/services/api/v1/user`;
+        this.urlResourceAlternate = `${SERVER_PATH}/services/api/v1/customer`;
     }
 
     setUser(user: User) {
@@ -20,7 +24,12 @@ export class LoginService {
         return this.user;
     }
 
-    login(user: User) {
+    customerLogin(customer: UserEasy) {
+        console.log('recieved user => ', JSON.stringify(customer));
+        return this.http.post(`${this.urlResourceAlternate}/valid`, customer).map(res => res.json());
+    }
+
+    adminLogin(user: User) {
         console.log('recieved user => ', JSON.stringify(user));
         return this.http.post(`${this.urlResource}/valid`, user).map(res => res.json());
     }

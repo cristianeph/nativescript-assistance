@@ -10,6 +10,7 @@ import {ApplicationSettingsService} from "../../../shared/services/application-s
 import {Accuracy} from "ui/enums";
 import * as dialogs from "ui/dialogs";
 import * as geolocation from "nativescript-geolocation";
+import {Page} from "tns-core-modules/ui/page";
 
 /*import {
     isEnabled,
@@ -28,6 +29,7 @@ export class ReportComponent implements OnInit {
     title: string;
 
     constructor(private router: Router,
+                private page: Page,
                 private loginService: LoginService,
                 private customerService: CustomerService,
                 private assistanceService: AssistanceService,
@@ -39,6 +41,7 @@ export class ReportComponent implements OnInit {
     }
 
     pageLoaded() {
+        this.page.actionBarHidden = true;
         this.getCustomerInfo();
         console.log("Login => Status => ", this.appSettingService.getLogged());
     }
@@ -46,6 +49,7 @@ export class ReportComponent implements OnInit {
     getCustomerInfo() {
         console.log('You are already loged => ', JSON.stringify(this.loginService.getUser()));
         this.user = this.loginService.getUser();
+        console.log('User previously received => ', JSON.stringify(this.user));
         this.customerService.find(this.user.id).subscribe(
             data => {
                 if (data) {
@@ -61,7 +65,7 @@ export class ReportComponent implements OnInit {
                 }
             },
             errors => {
-                console.log('Error', errors, errors.status);
+                console.log('Customer info error => ', errors, errors.status);
             }
         );
     }
@@ -89,11 +93,12 @@ export class ReportComponent implements OnInit {
                             //Requesting gelocation data
                             this.getCurrentLocation().then(location => {
                                 //Geolocation Successfull
-                                console.log("Location => data => ", JSON.stringify(location));
+                                let requestedLocation = location;
+                                console.log("Location => data => ", JSON.stringify(requestedLocation));
                                 let customer = this.customerService.getCustomer();
-                                customer.latitude = location.latitude;
-                                customer.longitude = location.longitude;
-                                customer.altitude = location.altitude;
+                                customer.latitude = requestedLocation.latitude;
+                                customer.longitude = requestedLocation.longitude;
+                                customer.altitude = requestedLocation.altitude;
                                 console.log("Customer => before => data => ", JSON.stringify(customer));
                                 this.customerService.updateLocation(customer).subscribe(
                                     data => {

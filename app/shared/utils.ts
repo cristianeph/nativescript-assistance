@@ -1,3 +1,5 @@
+export const SERVER_PATH = 'https://app.fastlinkperu.com:8443';
+/*export const SERVER_PATH = 'https://127.0.0.1:8443';*/
 /*
 import {Observable} from "rxjs/Observable";
 

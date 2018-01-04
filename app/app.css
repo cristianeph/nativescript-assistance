@@ -10,6 +10,14 @@ of writing your own CSS rules. For a full list of class names in the theme
 refer to http://docs.nativescript.org/ui/theme.
 */
 /*@import 'nativescript-theme-core/css/core.light.css';*/
+TextField {
+    padding: 5 10;
+}
+
+Label {
+    padding: 5 10;
+}
+
 .normal-wrapper {
     margin: 10;
 }
@@ -19,7 +27,8 @@ refer to http://docs.nativescript.org/ui/theme.
 }
 
 .text-errors {
-    font-size: 10;
+    /*font-size: 10;*/
+    font-weight: bold;
 }
 
 .text-danger {
@@ -28,7 +37,7 @@ refer to http://docs.nativescript.org/ui/theme.
 
 .btn-icon {
     font-family: 'icomoon';
-    margin: 10;
+    /*margin: 10;*/
 }
 
 .btn-whitesmoke {
@@ -61,6 +70,17 @@ refer to http://docs.nativescript.org/ui/theme.
     /*box-shadow: none;*/
 }
 
+.app-page {
+    background-color: black;
+}
+
+.segmented-error-bar {
+    margin: 10 10;
+    padding: 10;
+    background-color: lightgreen;
+    border-radius: 10;
+}
+
 .segmented-bar {
     margin: 10 0;
     padding: 10;
@@ -68,17 +88,23 @@ refer to http://docs.nativescript.org/ui/theme.
 }
 
 .footer-link {
-    padding: 10;
+    padding: 5;
     background-color: black;
     color: white;
     text-align: center;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .text-primary {
     width: 100%;
     margin: 10;
     text-align: center;
+}
+
+.text-mainly {
+    width: 70%;
+    font-weight: bold;
+    color: black;
 }
 
 .list-group-item {

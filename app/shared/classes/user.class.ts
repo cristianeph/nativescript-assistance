@@ -1,5 +1,14 @@
 import {UserType} from "./user-type.class";
 
+export class UserEasy {
+    public plate: string;
+    public cellphone: string;
+    constructor(plate: string, cellphone: string) {
+        this.plate = plate;
+        this.cellphone = cellphone;
+    }
+}
+
 export class User {
     public id: number;
     public email: string;

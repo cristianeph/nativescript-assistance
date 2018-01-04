@@ -1,0 +1,8 @@
+<ActionBar [title]="title">
+  <ActionItem *ngIf="cancel === true"
+              (tap)="exit()"
+              [text]="cancelText"
+              [position]="cancelPosition"
+              [android.systemIcon]="cancelIcon"></ActionItem>
+</ActionBar>
+<!--<Label text="test"></Label>-->

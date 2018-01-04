@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/cristian/.android/build-cache/fc6168f3027384cd9c78d1ebe58e5a2d04d5cf58/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/build/intermediates/pre-dexed/F0F1F2/debug/classes_8ce4136d3d0f140483a0d75f605eee9dc8221799.jar" />
+    </item>
+
+</items>

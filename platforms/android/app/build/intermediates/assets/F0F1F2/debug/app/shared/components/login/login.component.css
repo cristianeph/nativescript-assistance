@@ -1,0 +1,35 @@
+.preview-action-image {
+    margin-top: 110;
+    /*margin-bottom: 60;*/
+}
+
+.login-container {
+    background-image: url("~/assets/images/main-photo.jpg");
+    background-size: cover;
+}
+
+.login-page {
+    /*background-color: #d4d5d7;*/
+    padding: 0 25;
+}
+
+Label {
+    text-align: center;
+}
+
+.options-zone {
+    /*font-size: ;*/
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.input-lucid {
+    margin-bottom: 10;
+}
+
+/*
+[visibility] {
+    display: none;
+}
+*/

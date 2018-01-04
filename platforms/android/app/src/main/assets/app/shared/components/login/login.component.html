@@ -1,0 +1,78 @@
+<Page (loaded)="pageLoaded()">
+    <GridLayout rows="*, auto">
+        <StackLayout row="0" class="login-container">
+            <StackLayout class="login-page">
+                <StackLayout>
+                    <Image class="preview-action-image" src="~/assets/images/logueo-logo.png" width="140"></Image>
+                </StackLayout>
+                <StackLayout>
+                    <Label class="text-mainly"
+                           style.whiteSpace="normal"
+                           text="APLICATIVO PARA LA ASISTENCIA MECÁNICA DE MOTOS"></Label>
+                </StackLayout>
+                <!--<StackLayout class="segmented-bar normal-wrapper" [visibility]="loginErrors ? 'visible' : 'hidden'">
+                    <Label class="text-errors" text="Los datos ingresados son inválidos, intente nuevamente"></Label>
+                </StackLayout>-->
+                <StackLayout *ngIf="adminMode" class="normal-wrapper">
+                    <TextField class="input-lucid" hint="Ingrese su correo"
+                               keyboardType="email"
+                               autocorrect="false"
+                               autocapitalizationType="none"
+                               [(ngModel)]="user.email">
+                    </TextField>
+                    <TextField class="input-lucid" hint="Ingrese su contraseña"
+                               secure="true"
+                               [(ngModel)]="user.password">
+                    </TextField>
+                </StackLayout>
+                <StackLayout *ngIf="!adminMode" class="normal-wrapper">
+                    <TextField class="input-lucid" hint="PLACA de su moto"
+                               keyboardType="email"
+                               autocorrect="false"
+                               autocapitalizationType="none"
+                               [(ngModel)]="userCustomer.plate">
+                    </TextField>
+                    <TextField class="input-lucid" hint="Número de celular"
+                               keyboardType="phone"
+                               [(ngModel)]="userCustomer.cellphone">
+                    </TextField>
+                </StackLayout>
+                <StackLayout class="normal-wrapper">
+                    <Button class="btn-forestgreen" text="Ingresar" (tap)="login()"></Button>
+                    <!--<Button class="btn-lightgreen" text="Registrase" (tap)="register()"></Button>-->
+                </StackLayout>
+            </StackLayout>
+            <StackLayout class="options-zone">
+                <GridLayout rows="auto" columns="*, *, *">
+                    <StackLayout row="0" col="0" orientation="horizontal">
+                        <Label>
+                            <FormattedString>
+                                <Span text="&#xe942;" fontFamily="icomoon"></Span>
+                                <Span text="  604 2030"></Span>
+                            </FormattedString>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout row="0" col="1" orientation="horizontal">
+                        <Label>
+                            <FormattedString>
+                                <Span text="&#xea93;" fontFamily="icomoon"></Span>
+                                <Span text="  3 135209992"></Span>
+                            </FormattedString>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout row="0" col="2" orientation="horizontal">
+                        <Label (tap)="setAdminMode()">
+                            <FormattedString>
+                                <Span text="&#xe971;" fontFamily="icomoon"></Span>
+                                <Span text="  Admin zone"></Span>
+                            </FormattedString>
+                        </Label>
+                    </StackLayout>
+                </GridLayout>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout row="1" class="footer-link">
+            <Label text="www.MECANICAFOURCLAN.com"></Label>
+        </StackLayout>
+    </GridLayout>
+</Page>

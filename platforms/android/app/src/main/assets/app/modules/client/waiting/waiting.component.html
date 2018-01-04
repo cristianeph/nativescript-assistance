@@ -1,0 +1,36 @@
+<!--<ActionBar [title]="titleMessage">
+    <ActionItem android.systemIcon="ic_menu_close_clear_cancel" text="Salir" position="right"></ActionItem>
+</ActionBar>-->
+<Page (loaded)="pageLoaded()">
+    <app-header [title]="title"></app-header>
+    <StackLayout>
+        <StackLayout class="segmented-bar">
+            <Label>
+                <FormattedString>
+                    <Span text="En breve lo atenderemos"></Span>
+                    <Span text="&#xe947;" fontFamily="icomoon"></Span>
+                </FormattedString>
+            </Label>
+        </StackLayout>
+        <StackLayout>
+            <Label class="text-primary" style.whiteSpace="normal" text="Siéntase seguro y mantenga la calma, en un momento confirmaremos su solicitud."></Label>
+            <Image *ngIf="type === 1" class="preview-action-image" src="~/assets/images/crane-truck.png"
+                   width="150"></Image>
+            <Image *ngIf="type === 2" class="preview-action-image" src="~/assets/images/automobile-with-wrench.png"
+                   width="150"></Image>
+            <Image *ngIf="type === 3" class="preview-action-image" src="~/assets/images/woman-with-headset.png"
+                   width="150"></Image>
+        </StackLayout>
+        <StackLayout class="segmented-bar">
+            <Label>
+                <FormattedString>
+                    <Span text="Buscando asistencia"></Span>
+                    <Span text="&#xe947;" fontFamily="icomoon"></Span>
+                </FormattedString>
+            </Label>
+        </StackLayout>
+        <StackLayout>
+            <Label class="text-primary" style.whiteSpace="normal" text="Recuerde que una vez que confirmemos su solicitud, el asistente mecánico se pondrá en contacto con usted."></Label>
+        </StackLayout>
+    </StackLayout>
+</Page>

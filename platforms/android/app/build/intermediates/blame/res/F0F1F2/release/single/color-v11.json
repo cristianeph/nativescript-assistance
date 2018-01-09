@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/build/intermediates/res/merged/F0F1F2/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/cristian/.android/build-cache/984e8bcdd8cf69d3970692c203b4c9c73aa4cae2/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/build/intermediates/res/merged/F0F1F2/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/cristian/.android/build-cache/984e8bcdd8cf69d3970692c203b4c9c73aa4cae2/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

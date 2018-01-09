@@ -1,0 +1,351 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:3:2-39
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/F0/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/F0/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/F0/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.google.android.gms:play-services-location:11.2.2] /Users/cristian/.android/build-cache/9fed8d8ccc2929ec7d287e4e75a467f199c68ad2/output/AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/3e05ee968e54a60a361f788a86205150ffc8e6a5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /Users/cristian/.android/build-cache/844527e3ed1bd2bf9420f6bdfedb911d5c029248/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/cristian/.android/build-cache/6ded693d4eb9501b9b5afe7d8c8bf0ce4c1b89c6/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/984e8bcdd8cf69d3970692c203b4c9c73aa4cae2/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/cristian/.android/build-cache/67333b5e3ac1a7899d6b7bab1c8e3e990b0eb89e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/cristian/.android/build-cache/4695ab354d3f08050be95b219569adb4fe25489d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/d67450bc29f068a6e47b8ce63fdc5013501a14d4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/cristian/.android/build-cache/9d4479db3bc3055aa5d03629f71ecf00b406d5c4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:11.2.2] /Users/cristian/.android/build-cache/5a8bd90ea74d263008eb4f422b77b73a76e1c4a8/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.2.2] /Users/cristian/.android/build-cache/a1fed8fd2904c580a89f5862dab2f8a2352eae48/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-auth:11.2.2] /Users/cristian/.android/build-cache/94a1f13409ed6c2265d43ff5f12e536e0fd00be2/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/cristian/.android/build-cache/6c0c0b463e6049546d45fc64cbdb9b0028c4b933/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-ads:11.2.2] /Users/cristian/.android/build-cache/175782e8350c49db6ff905e8e3bc661356d0fc03/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.2.2] /Users/cristian/.android/build-cache/e5598e7c10b481a0853afcd51e4d7e065c7f44c2/output/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.2.2] /Users/cristian/.android/build-cache/a97bd3a5efe29f5cf3f562014025bb233339f942/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:11.2.2] /Users/cristian/.android/build-cache/90cd608c401c9304c90d429f4189dc18620ccb6b/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/cristian/.android/build-cache/f105bba26d027bea35aef3f69e06d622aba14f96/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.2.2] /Users/cristian/.android/build-cache/436ceb4b65a8a056ac085c3d5419aee055327e94/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/cristian/.android/build-cache/20f3a2e2afa756f970bf58f9fbf2c7dbed458e21/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/cristian/.android/build-cache/87b69ccdd0d43368d3289d76c15ed6dfcc21f468/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/cristian/.android/build-cache/f9ea38e85a50459efb383211646b9b1755f39e21/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/cristian/.android/build-cache/cb68cac90fe7b7439255568b8980b49a7c66eda2/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/cristian/.android/build-cache/33637e7b99bb83ebd0b3c73147fb20a9045ff398/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/cristian/.android/build-cache/b308bad1188f9ca781e44ab0dd5b0b0481fa1742/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/cristian/.android/build-cache/0225dabd6f85319a5a06668480d48d6ee5ee0dbf/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/cristian/.android/build-cache/75cd0cac167b8021f8b894ca1f9ae5f74fd7cf26/output/AndroidManifest.xml:21:5-23:58
+MERGED from [:nativescript-optimized:] /Users/cristian/.android/build-cache/0a5120d09cc8f114a8c3d6339cc502c4664efa9f/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:firebase-release:] /Users/cristian/.android/build-cache/bd57d37d80bf598766ab4c9b27b32690fb3fe609/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/cristian/.android/build-cache/a2f6659bfbb4f14c844820a6d05c908cf433a1d7/output/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /Users/cristian/.android/build-cache/6ded693d4eb9501b9b5afe7d8c8bf0ce4c1b89c6/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/F0/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/F0/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/cristian/.android/build-cache/f105bba26d027bea35aef3f69e06d622aba14f96/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:20:2-65
+MERGED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:20:2-65
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:20:19-63
+application
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:22:2-43:16
+MERGED from [com.google.android.gms:play-services-location:11.2.2] /Users/cristian/.android/build-cache/9fed8d8ccc2929ec7d287e4e75a467f199c68ad2/output/AndroidManifest.xml:4:5-19
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/3e05ee968e54a60a361f788a86205150ffc8e6a5/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /Users/cristian/.android/build-cache/844527e3ed1bd2bf9420f6bdfedb911d5c029248/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/cristian/.android/build-cache/6ded693d4eb9501b9b5afe7d8c8bf0ce4c1b89c6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/984e8bcdd8cf69d3970692c203b4c9c73aa4cae2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/cristian/.android/build-cache/67333b5e3ac1a7899d6b7bab1c8e3e990b0eb89e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/cristian/.android/build-cache/4695ab354d3f08050be95b219569adb4fe25489d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/cristian/.android/build-cache/9d4479db3bc3055aa5d03629f71ecf00b406d5c4/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth:11.2.2] /Users/cristian/.android/build-cache/94a1f13409ed6c2265d43ff5f12e536e0fd00be2/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.2.2] /Users/cristian/.android/build-cache/6c0c0b463e6049546d45fc64cbdb9b0028c4b933/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-ads:11.2.2] /Users/cristian/.android/build-cache/175782e8350c49db6ff905e8e3bc661356d0fc03/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-gass:11.2.2] /Users/cristian/.android/build-cache/a97bd3a5efe29f5cf3f562014025bb233339f942/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.firebase:firebase-core:11.2.2] /Users/cristian/.android/build-cache/90cd608c401c9304c90d429f4189dc18620ccb6b/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/cristian/.android/build-cache/f105bba26d027bea35aef3f69e06d622aba14f96/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.2.2] /Users/cristian/.android/build-cache/436ceb4b65a8a056ac085c3d5419aee055327e94/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.2] /Users/cristian/.android/build-cache/20f3a2e2afa756f970bf58f9fbf2c7dbed458e21/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.2.2] /Users/cristian/.android/build-cache/87b69ccdd0d43368d3289d76c15ed6dfcc21f468/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/cristian/.android/build-cache/f9ea38e85a50459efb383211646b9b1755f39e21/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/cristian/.android/build-cache/cb68cac90fe7b7439255568b8980b49a7c66eda2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/cristian/.android/build-cache/33637e7b99bb83ebd0b3c73147fb20a9045ff398/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/cristian/.android/build-cache/b308bad1188f9ca781e44ab0dd5b0b0481fa1742/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/cristian/.android/build-cache/0225dabd6f85319a5a06668480d48d6ee5ee0dbf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/cristian/.android/build-cache/75cd0cac167b8021f8b894ca1f9ae5f74fd7cf26/output/AndroidManifest.xml:29:5-20
+MERGED from [:firebase-release:] /Users/cristian/.android/build-cache/bd57d37d80bf598766ab4c9b27b32690fb3fe609/output/AndroidManifest.xml:11:5-22:19
+MERGED from [:widgets-release:] /Users/cristian/.android/build-cache/a2f6659bfbb4f14c844820a6d05c908cf433a1d7/output/AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:26:3-35
+	android:allowBackup
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:24:3-29
+	android:icon
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:25:3-32
+	android:theme
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:27:3-34
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:23:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:29:3-41:14
+	android:label
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:31:4-49
+	android:configChanges
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:32:4-65
+	android:theme
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:33:4-44
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:30:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:35:4-87
+	android:resource
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:35:50-84
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:35:15-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:37:4-40:20
+action#android.intent.action.MAIN
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:38:5-57
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:38:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:39:5-65
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:39:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:42:3-57
+	android:name
+		ADDED from /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/AndroidManifest.xml:42:13-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/3e05ee968e54a60a361f788a86205150ffc8e6a5/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:customtabs:26.0.0-alpha1] /Users/cristian/.android/build-cache/844527e3ed1bd2bf9420f6bdfedb911d5c029248/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /Users/cristian/.android/build-cache/6ded693d4eb9501b9b5afe7d8c8bf0ce4c1b89c6/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/984e8bcdd8cf69d3970692c203b4c9c73aa4cae2/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/cristian/.android/build-cache/67333b5e3ac1a7899d6b7bab1c8e3e990b0eb89e/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/cristian/.android/build-cache/4695ab354d3f08050be95b219569adb4fe25489d/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/d67450bc29f068a6e47b8ce63fdc5013501a14d4/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /Users/cristian/.android/build-cache/9d4479db3bc3055aa5d03629f71ecf00b406d5c4/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/cristian/.android/build-cache/f9ea38e85a50459efb383211646b9b1755f39e21/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/cristian/.android/build-cache/cb68cac90fe7b7439255568b8980b49a7c66eda2/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/cristian/.android/build-cache/33637e7b99bb83ebd0b3c73147fb20a9045ff398/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/cristian/.android/build-cache/b308bad1188f9ca781e44ab0dd5b0b0481fa1742/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/cristian/.android/build-cache/0225dabd6f85319a5a06668480d48d6ee5ee0dbf/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/cristian/.android/build-cache/75cd0cac167b8021f8b894ca1f9ae5f74fd7cf26/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/3e05ee968e54a60a361f788a86205150ffc8e6a5/output/AndroidManifest.xml:24:9-38
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] /Users/cristian/.android/build-cache/3e05ee968e54a60a361f788a86205150ffc8e6a5/output/AndroidManifest.xml:23:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/cristian/.android/build-cache/6c0c0b463e6049546d45fc64cbdb9b0028c4b933/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/cristian/.android/build-cache/6c0c0b463e6049546d45fc64cbdb9b0028c4b933/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/cristian/.android/build-cache/6c0c0b463e6049546d45fc64cbdb9b0028c4b933/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.2.2] /Users/cristian/.android/build-cache/6c0c0b463e6049546d45fc64cbdb9b0028c4b933/output/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.2.2] /Users/cristian/.android/build-cache/2b2f0587c7210b1ce07c00361f14c549a52c83b4/output/AndroidManifest.xml:25:25-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/cristian/.android/build-cache/f105bba26d027bea35aef3f69e06d622aba14f96/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:20:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.2] /Users/cristian/.android/build-cache/26c7b7f7ce97b1714b713fe985411a2c66b7b218/output/AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/cristian/.android/build-cache/f105bba26d027bea35aef3f69e06d622aba14f96/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/cristian/.android/build-cache/f105bba26d027bea35aef3f69e06d622aba14f96/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.2] /Users/cristian/.android/build-cache/f105bba26d027bea35aef3f69e06d622aba14f96/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.2.2] /Users/cristian/.android/build-cache/b6a85846b1a8b44e896b98687c093dbe42269621/output/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.2] /Users/cristian/.android/build-cache/c1ca9a3f7ad63e21e0630469cf40ac50c4bc90a2/output/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/cristian/.android/build-cache/436ceb4b65a8a056ac085c3d5419aee055327e94/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/cristian/.android/build-cache/436ceb4b65a8a056ac085c3d5419aee055327e94/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/cristian/.android/build-cache/436ceb4b65a8a056ac085c3d5419aee055327e94/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/cristian/.android/build-cache/436ceb4b65a8a056ac085c3d5419aee055327e94/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.2.2] /Users/cristian/.android/build-cache/436ceb4b65a8a056ac085c3d5419aee055327e94/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/cristian/.android/build-cache/87b69ccdd0d43368d3289d76c15ed6dfcc21f468/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/cristian/.android/build-cache/87b69ccdd0d43368d3289d76c15ed6dfcc21f468/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.2.2] /Users/cristian/.android/build-cache/87b69ccdd0d43368d3289d76c15ed6dfcc21f468/output/AndroidManifest.xml:20:20-65
+service#org.nativescript.plugins.firebase.MyFirebaseMessagingService
+ADDED from [:firebase-release:] /Users/cristian/.android/build-cache/bd57d37d80bf598766ab4c9b27b32690fb3fe609/output/AndroidManifest.xml:12:9-16:19
+	android:name
+		ADDED from [:firebase-release:] /Users/cristian/.android/build-cache/bd57d37d80bf598766ab4c9b27b32690fb3fe609/output/AndroidManifest.xml:12:18-93
+service#org.nativescript.plugins.firebase.MyFirebaseInstanceIDService
+ADDED from [:firebase-release:] /Users/cristian/.android/build-cache/bd57d37d80bf598766ab4c9b27b32690fb3fe609/output/AndroidManifest.xml:17:9-21:19
+	android:name
+		ADDED from [:firebase-release:] /Users/cristian/.android/build-cache/bd57d37d80bf598766ab4c9b27b32690fb3fe609/output/AndroidManifest.xml:17:18-94

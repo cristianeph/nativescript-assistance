@@ -5,6 +5,7 @@ import {BusService} from "../../../shared/services/bus.service";
 import {on as applicationOn, resumeEvent, ApplicationEventData} from "application";
 import {ApplicationSettingsService} from "../../../shared/services/application-settings.service";
 import {RouterExtensions} from "nativescript-angular";
+import {Page} from "tns-core-modules/ui/page";
 
 
 @Component({
@@ -21,6 +22,7 @@ export class WaitingComponent {
 
     constructor(private route: ActivatedRoute,
                 private router: Router,
+                private page: Page,
                 private busService: BusService,
                 private appSettingServices: ApplicationSettingsService,
                 private routerExtension: RouterExtensions) {
@@ -35,6 +37,7 @@ export class WaitingComponent {
     }
 
     pageLoaded() {
+        this.page.actionBarHidden = true;
         this.appLifeEvents();
     }
 

@@ -140,6 +140,7 @@ export class PendingComponent {
     }
 
     sendConfirmation(assistance: Assistance) {
+        console.log('Assistance => Confirming => ', JSON.stringify(assistance));
         const firebaseConfirmation = new FirebasePost(
             assistance.customer.fcm,
             new FirebaseNotification(
@@ -151,20 +152,21 @@ export class PendingComponent {
         this.firebaseService.sendNotification(firebaseConfirmation).subscribe(
             data => {
                 if (data.success === 1) {
-                    console.log("Assistance send notification => SUCCESS => ", JSON.stringify(data));
+                    console.log("Assistance => notification => SUCCESS => ", JSON.stringify(data));
                 } else {
-                    console.log("Assistance send notification => ERROR => ", JSON.stringify(data));
+                    console.log("Assistance => notification => ERROR => ", JSON.stringify(data));
                 }
             }
         )
     }
 
     updateAssist(assistance: Assistance) {
-        console.log('Assistance passed as parameter (2 time) => ', JSON.stringify(assistance));
+        console.log('Assistance => Preparing => ', JSON.stringify(assistance));
         /*assistance.worker = this.userWorker;*/
         this.assistanceService.register(assistance).subscribe(
             data => {
-                console.log('Assistance updated object => ', JSON.stringify(data));
+                console.log('Assistance => Recieved', JSON.stringify(data));
+                this.sendConfirmation(data);
                 this.router.navigate(["/assistance/assist", assistance.id]).then(() => {
                     this.page.actionBarHidden = false;
                 });

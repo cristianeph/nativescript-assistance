@@ -29,7 +29,6 @@ import {NativeScriptRouterModule} from "nativescript-angular";
         NativeScriptModule,
         NativeScriptFormsModule,
         NativeScriptRouterModule,
-        /*NativeScriptUISideDrawerModule,*/,
         NativeScriptHttpModule,
         SharedModule
     ],

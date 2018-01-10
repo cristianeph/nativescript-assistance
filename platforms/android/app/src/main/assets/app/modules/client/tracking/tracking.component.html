@@ -1,13 +1,16 @@
 <Page (loaded)="pageLoaded()" (unloaded)="pageUnloaded()">
     <app-header [title]="title"></app-header>
-    <StackLayout>
-        <GridLayout class="list-group" rows="auto" columns="80 , *">
+    <StackLayout class="app-page">
+        <StackLayout class="segmented-alert-bar normal-wrapper">
+            <Label class="text-primary" style.whiteSpace="normal" text="ESTAMOS ATENDIÉNDOLO, ESPERE UN MOMENTO UNA DE NUESTRAS REPRESENTANTE SE COMUNICARÁ CON USTED."></Label>
+        </StackLayout>
+        <!--<GridLayout class="list-group" rows="auto" columns="80 , *">
             <Image class="list-item-image" row="0" col="0"
                    src="https://pbs.twimg.com/profile_images/839721704163155970/LI_TRk1z_400x400.jpg"
                    stretch="aspectFit" width="50"></Image>
             <StackLayout class="list-group-item" row="0" col="1" orientation="vertical">
                 <Label class="list-group-item-heading" text="{{userWorker.lastnames}}, {{userWorker.firstnames}}"></Label>
-                <!--<Label class="list-group-item-heading" [text]="userWorker.lastnames" (tap)="testTap()"></Label>-->
+                &lt;!&ndash;<Label class="list-group-item-heading" [text]="userWorker.lastnames" (tap)="testTap()"></Label>&ndash;&gt;
                 <Label text="10 de 10"></Label>
                 <Label>
                     <FormattedString>
@@ -19,20 +22,28 @@
                     </FormattedString>
                 </Label>
             </StackLayout>
-        </GridLayout>
-        <StackLayout>
-            <Label class="text-primary" text="Su asistencia ya llegó?"></Label>
-            <Button class="btn-forestgreen" text="Si ya llegó!"></Button>
-        </StackLayout>
+        </GridLayout>-->
         <StackLayout class="segmented-bar">
+            <Label>
+                <FormattedString>
+                    <Span text="Su asistencia ya llegó?"></Span>
+                    <Span text="&#xe947;" fontFamily="icomoon"></Span>
+                </FormattedString>
+            </Label>
+        </StackLayout>
+        <StackLayout>
+            <!--<Label class="text-primary" text="Su asistencia ya llegó?"></Label>-->
+            <Button class="btn-forestgreen" text="Si ya llegó!" (tap)="updateAssistance()"></Button>
+        </StackLayout>
+        <!--<StackLayout class="segmented-bar">
             <Label>
                 <FormattedString>
                     <Span text="Recorrido del conductor "></Span>
                     <Span text="&#xe947;" fontFamily="icomoon"></Span>
                 </FormattedString>
             </Label>
-        </StackLayout>
-        <GridLayout row="*">
+        </StackLayout>-->
+        <!--<GridLayout row="*">
             <ListView [items]="list">
                 <ng-template let-item="item">
                     <StackLayout class="list-group-item" row="0" col="1" orientation="vertical">
@@ -41,6 +52,9 @@
                     </StackLayout>
                 </ng-template>
             </ListView>
-        </GridLayout>
+        </GridLayout>-->
+        <StackLayout>
+            <Image class="preview-action-image" src="~/assets/images/pet-main2.png" width="210"></Image>
+        </StackLayout>
     </StackLayout>
 </Page>

@@ -12,6 +12,7 @@ export class Assistance {
     customer: Customer;
     stars: number;
     comments: string;
+    state: string
     constructor(id: number,
                 date: string,
                 address: string,
@@ -20,7 +21,8 @@ export class Assistance {
                 worker: Worker,
                 customer: Customer,
                 stars: number,
-                comments: string) {
+                comments: string,
+                state: string) {
         this.id = id;
         this.date = date;
         this.address = address;
@@ -30,5 +32,6 @@ export class Assistance {
         this.customer = customer;
         this.stars = stars;
         this.comments = comments;
+        this.state = state;
     }
 }

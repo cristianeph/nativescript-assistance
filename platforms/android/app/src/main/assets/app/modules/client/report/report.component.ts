@@ -133,6 +133,7 @@ export class ReportComponent implements OnInit {
             null,
             this.customerService.getCustomer(),
             null,
+            '',
             ''
         );
         console.log('El tipo de asistencia es =>  ', type);

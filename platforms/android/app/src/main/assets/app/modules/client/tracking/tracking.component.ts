@@ -7,6 +7,7 @@ import {Assistance} from '../../../shared/classes/assistance.class';
 import {User} from '../../../shared/classes/user.class';
 import {AssistanceService} from '../../../shared/services/assistance.service';
 import {UserService} from '../../../shared/services/user.service';
+import {Page} from "tns-core-modules/ui/page";
 
 @Component({
     moduleId: module.id,
@@ -23,6 +24,7 @@ export class TrackingComponent {
 
     constructor(private route: ActivatedRoute,
                 private router: Router,
+                private page: Page,
                 private trackingService: TrackingService,
                 private assistanceService: AssistanceService,
                 private userService: UserService,
@@ -36,10 +38,11 @@ export class TrackingComponent {
     }
 
     pageLoaded() {
+        this.page.actionBarHidden = true;
         if (app.android) {
             app.android.on(app.AndroidApplication.activityBackPressedEvent, this.refuseBack);
         }
-        this.list = this.trackingService.getItems()
+        /*this.list = this.trackingService.getItems()*/
         this.userWorker = new User(0, '', '', '', '', '', '', '', null);
         this.userWorker.firstnames = '';
         this.userWorker.lastnames = '';
@@ -64,6 +67,11 @@ export class TrackingComponent {
                 )
             }
         )
+    }
+
+    updateAssistance() {
+        this.assistance.state = "ATENDIENDO";
+        /*this.assistanceService.update()*/
     }
 
     setUserData(userWorker: User) {

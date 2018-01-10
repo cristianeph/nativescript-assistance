@@ -87,7 +87,7 @@ export class LoginComponent {
                 },
                 errors => {
                     console.log('Error', errors.status);
-                    if (errors.status === 404) {
+                    if (errors.status === 404 || errors.status === 500) {
                         this.loginErrors = true;
                         console.log('Errores => ', this.loginErrors)
                     }

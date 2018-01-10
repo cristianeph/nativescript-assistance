@@ -52,6 +52,7 @@ Label {
     /*background-color: forestgreen;*/
     background-color: #50b322;
     color: white;
+    margin: 10 10;
 }
 
 .btn-blue {
@@ -75,6 +76,10 @@ Label {
 }
 
 .segmented-error-bar {
+
+}
+
+.segmented-alert-bar {
     margin: 10 10;
     padding: 10;
     background-color: lightgreen;
@@ -85,6 +90,12 @@ Label {
     margin: 10 0;
     padding: 10;
     background-color: lightgreen;
+    color: black;
+}
+
+.segmented-bar-image {
+    background-color: lightgreen;
+    margin: 10 10;
 }
 
 .footer-link {

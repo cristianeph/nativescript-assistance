@@ -19,6 +19,8 @@ import {FirebaseService} from "./shared/services/firebase.service";
 import {ApplicationSettingsService} from "./shared/services/application-settings.service";
 import {NativeScriptFormsModule} from "nativescript-angular/forms";
 import {AuthorizationGuardService} from "./shared/services/authorization-guard.service";
+import {GoogleMapsService} from "./shared/services/google-maps.service";
+import {NativeScriptRouterModule} from "nativescript-angular";
 
 @NgModule({
     bootstrap: [AppComponent],
@@ -26,7 +28,8 @@ import {AuthorizationGuardService} from "./shared/services/authorization-guard.s
         AppRoutingModule,
         NativeScriptModule,
         NativeScriptFormsModule,
-        /*NativeScriptUISideDrawerModule,*/
+        NativeScriptRouterModule,
+        /*NativeScriptUISideDrawerModule,*/,
         NativeScriptHttpModule,
         SharedModule
     ],
@@ -46,7 +49,8 @@ import {AuthorizationGuardService} from "./shared/services/authorization-guard.s
         UserService,
         WorkerService,
         ApplicationSettingsService,
-        AuthorizationGuardService
+        AuthorizationGuardService,
+        GoogleMapsService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

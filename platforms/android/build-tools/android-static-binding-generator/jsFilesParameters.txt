@@ -27,6 +27,7 @@
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/assets/app/shared/services/assistance.service.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/assets/app/shared/services/bus.service.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/assets/app/shared/services/worker.service.js
+/Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/assets/app/shared/services/google-maps.service.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/assets/app/shared/interfaces/message.interface.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/assets/app/modules/assistance/assistance.routes.js
 /Users/cristian/Documents/workspace-tns/Assistance/platforms/android/app/src/main/assets/app/modules/assistance/assistance.module.js

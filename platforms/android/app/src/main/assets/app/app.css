@@ -114,13 +114,17 @@ Label {
     padding: 10;
 }
 
+.list-group-item Label{
+    padding: 2 5;
+}
+
 .list-item-image {
     margin-left: 10;
 }
 
 .list-group-item-btn {
     text-align: center;
-    padding: 10;
+    padding: 5;
     margin: 10;
     border-radius: 5 5;
 }
@@ -128,9 +132,9 @@ Label {
 .list-group-item-btn-icon {
     text-align: center;
     border-radius: 150;
-    height: 40;
+    height: 35;
     margin: 0 5 0 10;
-    font-size: 23;
+    font-size: 20;
 }
 
 .list-group-item-heading {

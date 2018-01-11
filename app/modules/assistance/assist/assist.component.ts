@@ -55,6 +55,19 @@ export class AssistComponent {
         );
     }
 
+    cancelAssistance() {
+        this.assistance.state = "ANULADO";
+        this.assistanceService.update(this.assistance).subscribe(
+            (data) => {
+                console.log("Assistance => State => Success", JSON.stringify(data));
+                this.router.navigate(["/assistance/pending"]);
+            },
+            (error) => {
+                console.log("Assistance => State => Error", JSON.stringify(error));
+            }
+        )
+    }
+
     getPhonecall() {
         let selectedCustomerUser = this.customerUser;
         /*Documentation: https://www.npmjs.com/package/nativescript-phone*/

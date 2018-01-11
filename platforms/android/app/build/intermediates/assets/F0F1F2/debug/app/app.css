@@ -22,6 +22,10 @@ Label {
     margin: 10;
 }
 
+.medium-wrapper {
+    margin: 5 10;
+}
+
 .input-lucid {
     background-color: white;
 }
@@ -50,8 +54,9 @@ Label {
 
 .btn-forestgreen {
     /*background-color: forestgreen;*/
-    background-color: #50b322;
+    background-color: #008e3a;
     color: white;
+    margin: 10 10;
 }
 
 .btn-blue {
@@ -75,6 +80,10 @@ Label {
 }
 
 .segmented-error-bar {
+
+}
+
+.segmented-alert-bar {
     margin: 10 10;
     padding: 10;
     background-color: lightgreen;
@@ -85,6 +94,12 @@ Label {
     margin: 10 0;
     padding: 10;
     background-color: lightgreen;
+    color: black;
+}
+
+.segmented-bar-image {
+    background-color: lightgreen;
+    margin: 10 10;
 }
 
 .footer-link {
@@ -111,7 +126,7 @@ Label {
     /*vertical-align: top;*/
     /*orientation: vertical;*/
     /*height: 100%;*/
-    padding: 10;
+    padding: 10 0;
 }
 
 .list-group-item Label{

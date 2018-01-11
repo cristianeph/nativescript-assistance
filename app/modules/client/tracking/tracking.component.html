@@ -1,9 +1,6 @@
 <Page (loaded)="pageLoaded()" (unloaded)="pageUnloaded()">
     <app-header [title]="title"></app-header>
     <StackLayout class="app-page">
-        <StackLayout class="segmented-alert-bar normal-wrapper">
-            <Label class="text-primary" style.whiteSpace="normal" text="ESTAMOS ATENDIÉNDOLO, ESPERE UN MOMENTO UNA DE NUESTRAS REPRESENTANTE SE COMUNICARÁ CON USTED."></Label>
-        </StackLayout>
         <!--<GridLayout class="list-group" rows="auto" columns="80 , *">
             <Image class="list-item-image" row="0" col="0"
                    src="https://pbs.twimg.com/profile_images/839721704163155970/LI_TRk1z_400x400.jpg"
@@ -34,6 +31,9 @@
         <StackLayout>
             <!--<Label class="text-primary" text="Su asistencia ya llegó?"></Label>-->
             <Button class="btn-forestgreen" text="Si ya llegó!" (tap)="updateAssistance()"></Button>
+        </StackLayout>
+        <StackLayout class="segmented-alert-bar normal-wrapper">
+            <Label class="text-primary" style.whiteSpace="normal" text="ESTAMOS ATENDIÉNDOLO, ESPERE UN MOMENTO UNA DE NUESTRAS REPRESENTANTE SE COMUNICARÁ CON USTED."></Label>
         </StackLayout>
         <!--<StackLayout class="segmented-bar">
             <Label>

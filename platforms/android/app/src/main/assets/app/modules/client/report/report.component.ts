@@ -134,7 +134,7 @@ export class ReportComponent implements OnInit {
             this.customerService.getCustomer(),
             null,
             '',
-            ''
+            'PENDIENTE'
         );
         console.log('El tipo de asistencia es =>  ', type);
         console.log('El cliente que registrara la incidencia es => ', JSON.stringify(this.customerService.getCustomer()));
@@ -161,8 +161,13 @@ export class ReportComponent implements OnInit {
             0
         ).subscribe(
             (data) => {
-                console.log("Google Maps => Reverse => ", JSON.stringify(data.results[0].address_components[0].long_name));
-                assistance.address = data.results[0].address_components[0].long_name;
+                let addressName = "";
+                data.results[0].address_components.forEach(item => {
+                    addressName = (addressName === "") ? item.long_name : addressName + " " + item.long_name;
+                });
+                assistance.address = addressName.substr(0, 49);
+                console.log("Google Maps => Reverse => ", assistance.address, assistance.address.length);
+                console.log("Google Maps => Assistance => ", JSON.stringify(assistance));
                 this.assistanceService.updateLocation(assistance).subscribe(
                     (data) => {
                         console.log("Update Location => Success => ", JSON.stringify(data));

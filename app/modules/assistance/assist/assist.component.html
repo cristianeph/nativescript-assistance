@@ -8,13 +8,13 @@
             </StackLayout>
             <StackLayout class="list-group-item-btn btn-forestgreen" (tap)="getDirections()" row="0" col="1">
                 <Label text="Ver dirección"></Label>
-                <Label text="&#xe947;" class="btn-icon"></Label>
+                <Label text="&#xe948;" class="btn-icon"></Label>
             </StackLayout>
         </GridLayout>
         <StackLayout class="segmented-bar">
             <Label>
                 <FormattedString>
-                    <Span text="Ubicación "></Span>
+                    <Span text="Dirección "></Span>
                     <Span text="&#xea0c;" fontFamily="icomoon"></Span>
                 </FormattedString>
             </Label>
@@ -32,6 +32,17 @@
         </StackLayout>
         <StackLayout>
             <Label class="text-primary" [text]="assistance.addressreference"></Label>
+        </StackLayout>
+        <StackLayout class="segmented-bar">
+            <Label>
+                <FormattedString>
+                    <Span text="Desea anular la asistencia? "></Span>
+                    <Span text="&#xea08;" fontFamily="icomoon"></Span>
+                </FormattedString>
+            </Label>
+        </StackLayout>
+        <StackLayout>
+            <Button class="btn-forestgreen" text="Si quiero anular la asistencia!" (tap)="cancelAssistance()"></Button>
         </StackLayout>
     </StackLayout>
 </Page>

@@ -33,6 +33,10 @@ export class AssistanceService {
         return this.http.get(`${this.urlResource}?page=${page}&size=${size}`).map(res => res.json());
     }
 
+    allPending(page: number, size: number, state: string) {
+        return this.http.get(`${this.urlResource}?page=${page}&size=${size}&state=${state}`).map(res => res.json());
+    }
+
     setAssistance(assistance: Assistance) {
         this.assistance = this.assistance;
     }

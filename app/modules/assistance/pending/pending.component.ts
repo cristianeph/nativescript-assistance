@@ -63,7 +63,7 @@ export class PendingComponent {
     }
 
     getAssistances() {
-        this.assistanceService.all(1, 20).subscribe(
+        this.assistanceService.allPending(1, 20, "PENDING").subscribe(
             data => {
                 /*console.log('Assistance => Response => ', JSON.stringify(data));*/
                 console.log('Assistance => Response => ', data);
@@ -73,7 +73,6 @@ export class PendingComponent {
                     this.list.forEach(item => {
                         this.listedItems.push(item.id);
                     });
-                    /*this.clearNewbies();*/
                 }
             },
             errors => {
@@ -161,11 +160,12 @@ export class PendingComponent {
     }
 
     updateAssist(assistance: Assistance) {
+        assistance.state = "ATENDIENDO";
         console.log('Assistance => Preparing => ', JSON.stringify(assistance));
         /*assistance.worker = this.userWorker;*/
-        this.assistanceService.register(assistance).subscribe(
+        this.assistanceService.update(assistance).subscribe(
             data => {
-                console.log('Assistance => Recieved', JSON.stringify(data));
+                console.log('Assistance => Received', JSON.stringify(data));
                 this.sendConfirmation(data);
                 this.router.navigate(["/assistance/assist", assistance.id]).then(() => {
                     this.page.actionBarHidden = false;

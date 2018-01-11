@@ -8,6 +8,7 @@ import {User} from '../../../shared/classes/user.class';
 import {AssistanceService} from '../../../shared/services/assistance.service';
 import {UserService} from '../../../shared/services/user.service';
 import {Page} from "tns-core-modules/ui/page";
+import {RouterExtensions} from "nativescript-angular";
 
 @Component({
     moduleId: module.id,
@@ -28,6 +29,7 @@ export class TrackingComponent {
                 private trackingService: TrackingService,
                 private assistanceService: AssistanceService,
                 private userService: UserService,
+                private routerExtension: RouterExtensions,
                 private ngZone: NgZone) {
         this.title = 'Listo, espere un momento...';
         this.route.params.subscribe(params => {
@@ -70,8 +72,16 @@ export class TrackingComponent {
     }
 
     updateAssistance() {
-        this.assistance.state = "ATENDIENDO";
-        /*this.assistanceService.update()*/
+        this.assistance.state = "ATENDIDO";
+        this.assistanceService.update(this.assistance).subscribe(
+            (data) => {
+                console.log("Assistance => Finished => Success =>", JSON.stringify(data));
+                this.routerExtension.navigate(["/client/report"]);
+            },
+            (error) => {
+                console.log("Assistance => Finished => Error =>", JSON.stringify(error));
+            }
+        )
     }
 
     setUserData(userWorker: User) {

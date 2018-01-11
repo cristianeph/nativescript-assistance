@@ -7,6 +7,8 @@ import {Assistance} from '../../../shared/classes/assistance.class';
 import {User} from '../../../shared/classes/user.class';
 import {AssistanceService} from '../../../shared/services/assistance.service';
 import {UserService} from '../../../shared/services/user.service';
+import {Page} from "tns-core-modules/ui/page";
+import {RouterExtensions} from "nativescript-angular";
 
 @Component({
     moduleId: module.id,
@@ -23,9 +25,11 @@ export class TrackingComponent {
 
     constructor(private route: ActivatedRoute,
                 private router: Router,
+                private page: Page,
                 private trackingService: TrackingService,
                 private assistanceService: AssistanceService,
                 private userService: UserService,
+                private routerExtension: RouterExtensions,
                 private ngZone: NgZone) {
         this.title = 'Listo, espere un momento...';
         this.route.params.subscribe(params => {
@@ -36,10 +40,11 @@ export class TrackingComponent {
     }
 
     pageLoaded() {
+        this.page.actionBarHidden = true;
         if (app.android) {
             app.android.on(app.AndroidApplication.activityBackPressedEvent, this.refuseBack);
         }
-        this.list = this.trackingService.getItems()
+        /*this.list = this.trackingService.getItems()*/
         this.userWorker = new User(0, '', '', '', '', '', '', '', null);
         this.userWorker.firstnames = '';
         this.userWorker.lastnames = '';
@@ -62,6 +67,19 @@ export class TrackingComponent {
                         this.setUserData(data);
                     }
                 )
+            }
+        )
+    }
+
+    updateAssistance() {
+        this.assistance.state = "ATENDIDO";
+        this.assistanceService.update(this.assistance).subscribe(
+            (data) => {
+                console.log("Assistance => Finished => Success =>", JSON.stringify(data));
+                this.routerExtension.navigate(["/client/report"]);
+            },
+            (error) => {
+                console.log("Assistance => Finished => Error =>", JSON.stringify(error));
             }
         )
     }

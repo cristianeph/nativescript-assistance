@@ -20,6 +20,7 @@ import {ApplicationSettingsService} from "./shared/services/application-settings
 import {NativeScriptFormsModule} from "nativescript-angular/forms";
 import {AuthorizationGuardService} from "./shared/services/authorization-guard.service";
 import {GoogleMapsService} from "./shared/services/google-maps.service";
+import {NativeScriptRouterModule} from "nativescript-angular";
 
 @NgModule({
     bootstrap: [AppComponent],
@@ -27,7 +28,7 @@ import {GoogleMapsService} from "./shared/services/google-maps.service";
         AppRoutingModule,
         NativeScriptModule,
         NativeScriptFormsModule,
-        /*NativeScriptUISideDrawerModule,*/
+        NativeScriptRouterModule,
         NativeScriptHttpModule,
         SharedModule
     ],

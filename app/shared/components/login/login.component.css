@@ -1,6 +1,5 @@
 .preview-action-image {
     margin-top: 110;
-    /*margin-bottom: 60;*/
 }
 
 .login-container {
@@ -18,7 +17,6 @@ Label {
 }
 
 .options-zone {
-    /*font-size: ;*/
     font-weight: bold;
     color: black;
     text-align: center;
